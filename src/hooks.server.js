@@ -24,5 +24,9 @@ export async function handle({ event, resolve }) {
     const { sessionSecret } = authConfig()
     if (!verifySession(sessionSecret, event.cookies.get('session'))) redirect(303, '/login')
   }
-  return resolve(event)
+  const response = await resolve(event)
+  response.headers.set('x-content-type-options', 'nosniff')
+  response.headers.set('referrer-policy', 'same-origin')
+  response.headers.set('permissions-policy', 'camera=(), microphone=(), geolocation=()')
+  return response
 }

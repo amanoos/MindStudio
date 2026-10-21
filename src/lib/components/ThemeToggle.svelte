@@ -4,9 +4,20 @@
 
   let dark = $state(false)
 
-  onMount(() => {
+  function sync() {
     const t = document.documentElement.dataset.theme
     dark = t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+  }
+
+  // Stay correct when the Settings page (or anything else) changes the theme.
+  onMount(() => {
+    sync()
+    const observer = new MutationObserver(sync)
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme']
+    })
+    return () => observer.disconnect()
   })
 
   function toggle() {

@@ -1,6 +1,6 @@
 import { fail } from '@sveltejs/kit'
 import { getDb } from '#lib/server/db.js'
-import { timezone } from '#lib/server/config.js'
+import { getSettings } from '#lib/server/settings.js'
 import { localDate } from '#lib/server/daily/select.js'
 import { getFeaturedWords } from '#lib/server/words.js'
 import { getReviewWords, recordRating } from '#lib/server/review.js'
@@ -15,13 +15,14 @@ const clampInt = (v, fallback, max) => {
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ url }) {
   const db = getDb()
-  const tz = timezone()
+  const settings = await getSettings(db)
+  const tz = settings.timezone
   const now = new Date()
   const scope = url.searchParams.get('scope') === 'today' ? 'today' : 'due'
   const topic = url.searchParams.get('topic') || undefined
   const pos = url.searchParams.get('pos') || undefined
   const favorites = url.searchParams.get('favorites') === '1'
-  const limit = clampInt(url.searchParams.get('limit'), 10, 20)
+  const limit = clampInt(url.searchParams.get('limit'), settings.sessionLength, 20)
 
   const pool = await getFeaturedWords(db)
   const words = await getReviewWords(db, {

@@ -1,5 +1,5 @@
 import { getDb } from '#lib/server/db.js'
-import { timezone } from '#lib/server/config.js'
+import { getSettings } from '#lib/server/settings.js'
 import { findSet, getOrCreateDailySet } from '#lib/server/daily/publish.js'
 import { localDate } from '#lib/server/daily/select.js'
 import { dayBefore } from '#lib/server/streak.js'
@@ -20,7 +20,7 @@ const card = (w) => ({
 export async function load() {
   const db = getDb()
   const now = new Date()
-  const tz = timezone()
+  const tz = (await getSettings(db)).timezone
   const set = await getOrCreateDailySet(db, { now, timezone: tz })
   const today = localDate(now, tz)
   const yesterday = dayBefore(today)
@@ -65,7 +65,7 @@ export async function load() {
 export const actions = {
   catchUp: async () => {
     const db = getDb()
-    const tz = timezone()
+    const tz = (await getSettings(db)).timezone
     const yesterday = dayBefore(localDate(new Date(), tz))
     await getOrCreateDailySet(db, { timezone: tz, date: yesterday })
     return { ok: true }

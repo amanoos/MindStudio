@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script>
       try {
+        var root = document.documentElement
         var t = localStorage.getItem('theme')
-        if (t) document.documentElement.dataset.theme = t
+        if (t === 'light' || t === 'dark') root.dataset.theme = t
+        var m = localStorage.getItem('motion')
+        if (m === 'reduce' || m === 'full') root.dataset.motion = m
+        var sizes = { small: 0.9, large: 1.15, xlarge: 1.3 }
+        var z = localStorage.getItem('textSize')
+        if (z && sizes[z]) root.style.setProperty('--text-scale', sizes[z])
       } catch (e) {}
     </script>
     <link rel="icon" href="%sveltekit.assets%/favicon.svg" />

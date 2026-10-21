@@ -1,6 +1,6 @@
 import { error, fail } from '@sveltejs/kit'
 import { getDb } from '#lib/server/db.js'
-import { timezone } from '#lib/server/config.js'
+import { getSettings } from '#lib/server/settings.js'
 import { getFeaturedWord } from '#lib/server/words.js'
 import { saveNote, setFavorite } from '#lib/server/notes.js'
 import { markRevisit, recordView } from '#lib/server/review.js'
@@ -17,7 +17,7 @@ async function requireWord(slug) {
 export async function load({ params }) {
   const word = await requireWord(params.slug)
   // Opening a card counts as engagement for today's progress, never as mastery.
-  await recordView(getDb(), word.id, timezone())
+  await recordView(getDb(), word.id, (await getSettings(getDb())).timezone)
   return { word }
 }
 

@@ -49,9 +49,16 @@ Render deploys from a Git repository.
 
 ### Your timezone
 
-"Today" follows `DEFAULT_TIMEZONE` (default `UTC`). In Render, open the service → **Environment**, set
-`DEFAULT_TIMEZONE` to your IANA zone (for example `Asia/Manila` or `America/New_York`), and save. A
-Settings page will replace this in a later task.
+Open **Settings → Your day** in the app and pick your timezone (for example `Asia/Manila` or
+`America/New_York`). It is stored in the database, so it survives redeploys, and it only changes which
+date counts as today from then on; your history is never rewritten. `DEFAULT_TIMEZONE` (default
+`UTC`) is just the starting value used until you choose one.
+
+### Backups
+
+**Settings → Your data → Download backup** saves your progress, notes and settings as one file. Do it
+now and then, because the free Turso database is the only copy. To restore, use the same page; see
+`docs/EXPORT-FORMAT.md` for what is included.
 
 ### Checking it works
 

@@ -87,24 +87,24 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
 
 ## Phase 3: Wordbook and data safety
 
-- [ ] **T15 Wordbook search and filters** (M) — deps: T11, T13
+- [x] **T15 Wordbook search and filters** (M) — deps: T11, T13
   - Acceptance: search by headword/definition; filters topic, state, favorites, date; sort; empty state with mascot.
   - Verify: integration tests for query building; e2e search.
   - Files: `src/lib/server/wordbook.js`, `src/routes/wordbook/+page.server.js`, `+page.svelte`, `tests/wordbook.test.js`
 
-- [ ] **T16 Export and import backup** (M) — deps: T13, T11
+- [x] **T16 Export and import backup** (M) — deps: T13, T11
   - Acceptance: JSON full backup + CSV wordbook; documented format in `docs/EXPORT-FORMAT.md`; import restores into an empty DB; Settings buttons; CLI `export`/`import`.
   - Verify: round-trip test (export → fresh DB → import → equal).
   - Files: `src/lib/server/export.js`, `scripts/export.js`, `scripts/import.js`, `docs/EXPORT-FORMAT.md`, `tests/export.test.js`
 
-- [ ] **T17 Settings** (S) — deps: T2, T7
+- [x] **T17 Settings** (S) — deps: T2, T7
   - Acceptance: timezone, theme, text size, motion toggle (overrides system), daily-session length preference; changing timezone keeps history.
   - Verify: tests for timezone change; e2e toggle motion.
   - Files: `src/routes/settings/+page.svelte`, `+page.server.js`, `src/lib/server/settings.js`
 
 ### Checkpoint C: Data safety
-- [ ] Export, wipe, restore on fresh DB reproduces everything; settings persist
-- [ ] Redeployed live site still works
+- [x] Export, wipe, restore on fresh DB reproduces everything; settings persist
+- [ ] Redeployed live site still works (verify after the Phase 3 deploy)
 
 ## Phase 4: Content and Mind Studio
 

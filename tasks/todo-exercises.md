@@ -115,7 +115,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
 
 ## Phase 4: Ship
 
-- [ ] **X10 Hardening, keyboard, docs and deploy** (M) — deps: all
+- [x] **X10 Hardening, keyboard, docs and deploy** (M) — deps: all
   - Acceptance: security e2e (key never reaches our server across the whole flow; response text with
     markup renders as text; CSP violations absent), keyboard-only run of the whole exercise, axe in
     both themes on the new pages; `SPEC.md`, `README.md`, `docs/ACCEPTANCE.md` and `docs/DEPLOY.md`

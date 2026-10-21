@@ -79,6 +79,17 @@ async function withKey(page) {
   await page.evaluate((k) => localStorage.setItem('mind-studio.claude-key', k), KEY)
 }
 
+/**
+ * The tally shown under "Recent tries" (zero when nothing has been tried). Other spec files share
+ * the database, so tests compare against the tally they started with.
+ * @param {import('@playwright/test').Page} page
+ */
+async function tally(page) {
+  const text = await page.locator('.history').innerText()
+  const m = /(\d+) right out of (\d+) so far/.exec(text)
+  return { right: Number(m?.[1] ?? 0), total: Number(m?.[2] ?? 0) }
+}
+
 test('play a word from my library: blank, answer hidden, right answer, saved to history', async ({
   page
 }) => {
@@ -95,6 +106,7 @@ test('play a word from my library: blank, answer hidden, right answer, saved to 
   await withKey(page)
   await page.goto('/exercise/word-nuance')
 
+  const start = await tally(page)
   const firstWord = page.getByRole('list', { name: 'Your words' }).getByRole('button').first()
   const headword = (await firstWord.innerText()).trim()
   await firstWord.click()
@@ -125,10 +137,15 @@ test('play a word from my library: blank, answer hidden, right answer, saved to 
 
   await page.getByRole('button', { name: 'Choose a different word' }).click()
   await expect(page.getByRole('heading', { name: 'Recent tries' })).toBeVisible()
-  await expect(page.getByText('1 right out of 1 so far.')).toBeVisible()
-  await expect(page.getByText('Marked unclear')).toBeVisible()
-  await page.locator('summary', { hasText: headword }).click()
-  await expect(page.getByText(REASON)).toBeVisible()
+  await expect(
+    page.getByText(`${start.right + 1} right out of ${start.total + 1} so far.`)
+  ).toBeVisible()
+  // The newest attempt is listed first.
+  const newest = page.locator('.attempts li').first()
+  await expect(newest).toContainText(headword)
+  await expect(newest).toContainText('Marked unclear')
+  await newest.locator('summary').click()
+  await expect(newest.getByText(REASON)).toBeVisible()
 
   expect(toOurServer.some((r) => r.includes(KEY))).toBe(false)
 })
@@ -139,6 +156,7 @@ test('a wrong answer is gentle and still teaches', async ({ page }) => {
   await page.goto('/')
   await withKey(page)
   await page.goto('/exercise/word-nuance')
+  const start = await tally(page)
   await page.getByRole('list', { name: 'Your words' }).getByRole('button').nth(1).click()
   await page.getByLabel('Number of choices').selectOption('4')
   await page.getByRole('radio', { name: 'Tricky' }).check()
@@ -152,7 +170,9 @@ test('a wrong answer is gentle and still teaches', async ({ page }) => {
   await expect(page.getByText(REASON)).toBeVisible()
   await expect(page.getByText('(your pick)')).toBeVisible()
   await page.getByRole('button', { name: 'Choose a different word' }).click()
-  await expect(page.getByText('1 right out of 2 so far.')).toBeVisible()
+  await expect(
+    page.getByText(`${start.right} right out of ${start.total + 1} so far.`)
+  ).toBeVisible()
 })
 
 test('a typed word works, and a broken answer shows a friendly retry', async ({ page }) => {

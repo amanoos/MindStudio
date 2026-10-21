@@ -16,6 +16,7 @@ const routes = [
   '/studio/critical/ice-cream-and-drowning',
   '/studio/capsule/rosetta-stone',
   '/studio/history',
+  '/exercise',
   '/progress',
   '/settings',
   '/admin'

@@ -51,7 +51,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
 
 ## Phase 2: Exercise hub
 
-- [ ] **X5 Exercise hub, navigation and Claude connection panel** (M) — deps: X3
+- [x] **X5 Exercise hub, navigation and Claude connection panel** (M) — deps: X3
   - Acceptance: an **Exercise** page listing Word Nuance, with connection status; a nav item (checked
     at phone width with seven items); `ClaudeKeyPanel` with password field, Save, Test (mocked in
     tests), Remove, last-four mask, and the plain warnings (stays in this browser, use a spend limit,
@@ -64,7 +64,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
 
 ### Checkpoint G: Hub
 
-- [ ] Key saved, tested and removed with mocks; no-key state fine; mobile nav fine; axe clean
+- [x] Key saved, tested and removed with mocks; no-key state fine; mobile nav fine; axe clean
 - [ ] Review with user
 
 ## Phase 3: Word Nuance

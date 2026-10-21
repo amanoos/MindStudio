@@ -14,6 +14,7 @@
     Repeat2,
     Library,
     Sparkles,
+    PenLine,
     ChartNoAxesColumn,
     Settings
   } from 'lucide-svelte'
@@ -27,6 +28,7 @@
     { href: '/review', label: 'Review', icon: Repeat2 },
     { href: '/wordbook', label: 'Wordbook', icon: Library },
     { href: '/studio', label: 'Studio', icon: Sparkles },
+    { href: '/exercise', label: 'Exercise', icon: PenLine },
     { href: '/progress', label: 'Progress', icon: ChartNoAxesColumn },
     { href: '/settings', label: 'Settings', icon: Settings }
   ])
@@ -186,14 +188,20 @@
       padding: var(--space-1) var(--space-2) calc(var(--space-1) + env(safe-area-inset-bottom));
     }
     ul {
-      justify-content: space-around;
+      justify-content: space-between;
       flex-wrap: nowrap;
+      gap: 0;
+    }
+    li {
+      flex: 1 1 0;
+      min-width: 0;
     }
     nav a {
       flex-direction: column;
+      align-items: center;
       gap: 0;
-      padding: var(--space-1) var(--space-2);
-      font-size: 0.7rem;
+      padding: var(--space-1) 2px;
+      font-size: 0.66rem;
       border-radius: var(--radius-1);
     }
   }

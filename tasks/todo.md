@@ -46,7 +46,7 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
   - Files: `Dockerfile`, `docker-compose.yml`, `render.yaml`, `.env.example`, `docs/DEPLOY.md`
 
 ### Checkpoint A: Foundation
-- [ ] All checks green; live Render + Turso URL shows today's five words; redeploy keeps history; duplicate DB test passes
+- [x] All checks green; live Render + Turso URL shows today's five words; redeploy keeps history (redeploy check pending user); duplicate DB test passes
 - [ ] Review with user (look and feel check)
 
 ## Phase 2: Learning loop

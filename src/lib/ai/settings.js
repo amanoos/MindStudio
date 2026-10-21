@@ -25,3 +25,23 @@ export function setModel(id) {
     // blocked storage: the choice just will not stick
   }
 }
+
+const CHECK_NAME = 'mind-studio.second-opinion'
+
+/** Whether to double-check each exercise with a second request. Off unless switched on. */
+export function getSecondOpinion() {
+  try {
+    return globalThis.localStorage?.getItem(CHECK_NAME) === '1'
+  } catch {
+    return false
+  }
+}
+
+/** @param {boolean} on */
+export function setSecondOpinion(on) {
+  try {
+    globalThis.localStorage?.setItem(CHECK_NAME, on ? '1' : '0')
+  } catch {
+    // blocked storage: the choice just will not stick
+  }
+}

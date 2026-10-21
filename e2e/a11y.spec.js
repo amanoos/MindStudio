@@ -17,6 +17,7 @@ const routes = [
   '/studio/capsule/rosetta-stone',
   '/studio/history',
   '/exercise',
+  '/exercise/word-nuance',
   '/progress',
   '/settings',
   '/admin'

@@ -78,7 +78,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
   - Files: `db/migrations/002_exercises.sql`, `src/lib/server/exercises.js`,
     `src/lib/server/export.js`, `tests/exercises.test.js`, `docs/EXPORT-FORMAT.md`
 
-- [ ] **X7 Word picker** (S) — deps: none
+- [x] **X7 Word picker** (S) — deps: none
   - Acceptance: a server loader lists words you have met (search by headword) with their stored
     related words and distinctions; typed words are trimmed and checked (letters, spaces, hyphens,
     sensible length). Library words use 3 to 5 stored related words as options.
@@ -86,7 +86,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
   - Files: `src/routes/exercise/word-nuance/+page.server.js`, `src/lib/server/nuance-words.js`,
     `tests/nuance-words.test.js`
 
-- [ ] **X8 Word Nuance play screen** (M) — deps: X4, X5, X6, X7
+- [x] **X8 Word Nuance play screen** (M) — deps: X4, X5, X6, X7
   - Acceptance: tabs for My words and Type a word; options for length, number of choices and
     difficulty; Generate shows the owl loading state, then the passage with one blank and the
     choices; answering reveals correct or not, the best word in the full passage, the reason and why
@@ -97,7 +97,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
   - Files: `src/routes/exercise/word-nuance/+page.svelte`, `+page.server.js` (save action),
     `src/lib/components/NuanceItem.svelte`, `e2e/word-nuance.spec.js`
 
-- [ ] **X9 History, model setting, flag and second opinion** (M) — deps: X8
+- [x] **X9 History, model setting, flag and second opinion** (M) — deps: X8
   - Acceptance: history of recent attempts with the passage and your choice; "This item seems
     unclear" flag stored with the attempt; model picker (Sonnet 5.5 default, Haiku 5.5, Opus 5.5,
     Fable 5.1) saved in `localStorage`; optional second-opinion check, off by default, that asks
@@ -109,7 +109,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
 
 ### Checkpoint H: Word Nuance
 
-- [ ] End to end with mocked Claude: choose word, generate, answer, reasoning, history; backup
+- [x] End to end with mocked Claude: choose word, generate, answer, reasoning, history; backup
       round trip includes attempts
 - [ ] Review with user
 

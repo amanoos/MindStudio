@@ -4,11 +4,12 @@
 import { callClaude, ClaudeError } from './claude.js'
 import { buildNuancePrompt } from './nuance-prompt.js'
 import { validateNuanceItem } from './nuance-item.js'
+import { verifyItem } from './verify.js'
 import { readKey } from './key-store.js'
 
 /**
  * @param {{ word: string, options?: string[], length?: string, difficulty?: string, choices?: number }} input
- * @param {{ apiKey?: string | null, model?: string, fetchImpl?: typeof fetch, rng?: () => number, sleep?: (ms: number) => Promise<void> }} [deps]
+ * @param {{ apiKey?: string | null, model?: string, fetchImpl?: typeof fetch, rng?: () => number, secondOpinion?: boolean, sleep?: (ms: number) => Promise<void> }} [deps]
  * @returns {Promise<{ ok: true, item: import('./nuance-item.js').NuanceItem } | { ok: false, problem: string, kind: string }>}
  */
 export async function generateNuanceItem(input, deps = {}) {
@@ -30,8 +31,19 @@ export async function generateNuanceItem(input, deps = {}) {
         sleep: deps.sleep
       })
       const checked = validateNuanceItem(raw, { word: input.word, rng: deps.rng })
-      if (checked.ok) return checked
-      problem = checked.problem
+      if (!checked.ok) {
+        problem = checked.problem
+        continue
+      }
+      if (!deps.secondOpinion) return checked
+      const second = await verifyItem(checked.item, {
+        apiKey,
+        model: deps.model,
+        fetchImpl: deps.fetchImpl,
+        sleep: deps.sleep
+      })
+      if (second.ok) return checked
+      problem = `a second check disagreed: ${second.reason}.`
     } catch (e) {
       if (e instanceof ClaudeError && e.kind !== 'malformed') {
         return { ok: false, problem: e.message, kind: e.kind }

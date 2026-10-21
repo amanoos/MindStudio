@@ -39,8 +39,8 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
   - Verify: integration tests: idempotency, 10 parallel requests, timezone change, DST boundary, <5 eligible words; manual view of Today.
   - Files: `src/lib/server/daily/select.js`, `daily/publish.js`, `src/routes/+page.server.js`, `+page.svelte`, `tests/daily.test.js`
 
-- [ ] **T8 Containerize and first deploy** (M) — deps: T7  
-  - Status: image, Compose, `render.yaml`, `DEPLOY.md` done and verified locally in Docker. Remaining: the live Render + Turso deploy, which needs the user account steps in `docs/DEPLOY.md`.
+- [x] **T8 Containerize and first deploy** (M) — deps: T7  
+  - Status: live at https://mind-studio.onrender.com (Render free + Turso). Verified /healthz, login guard, CSRF check and the five words. Redeploy-persistence check pending the user.
   - Acceptance: multi-stage Dockerfile, `docker-compose.yml` with volume, `render.yaml`, `.env.example`, boot runs migrate then seed; `DEPLOY.md` with click-by-click Render + Turso steps and the exact values to paste. User completes account steps; Claude verifies the live URL.
   - Verify: `docker compose up` shows Today and survives down/up; live URL passes `/healthz`, redeploy keeps history.
   - Files: `Dockerfile`, `docker-compose.yml`, `render.yaml`, `.env.example`, `docs/DEPLOY.md`

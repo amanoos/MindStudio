@@ -59,7 +59,7 @@ export function buildNuancePrompt(input) {
   const lines = [
     `Target word: ${word}`,
     given.length
-      ? `Synonyms to offer as options: ${given.join(', ')}`
+      ? `Synonyms to offer as options: ${given.join(', ')}. If that is fewer than needed, add near-synonyms yourself.`
       : `No synonyms were supplied: choose near-synonyms yourself.`,
     `Total number of options: ${choices} (the target word plus ${choices - 1} near-synonyms).`,
     `Length: one ${length}.`,

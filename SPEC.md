@@ -8,7 +8,7 @@ Source: `docs/Vocabulary_Mind_Studio_PRD.md` (v1.0). This spec **overrides PRD �
 2. **One SvelteKit app, one process, one repo** (modular monolith by feature folder). The request does not split into independently shippable capabilities, so I skipped the Phase 0 capability map. Features (daily words, reviews, wordbook, Mind Studio, admin) share one data model.
 3. **No background scheduler.** Free hosts sleep, so the daily set is generated lazily and idempotently on the first request of the user's local date.
 4. **MVP content is a seed pool of ~100 words** (JSON files in the repo), per PRD Appendix A. **Claude drafts it end to end; the learner does no verification or editorial work.** No live dictionary API calls at read time. Dictionary-API import is a later phase, as PRD Phase 3 describes.
-5. **No LLM at runtime** (PRD §14). Content is drafted at build time, mixing literary, professional and "surprise me" words (PRD §8 balanced mix, with a deliberate share of delightful, unexpected words).
+5. **No LLM on the server** (PRD §14). Words and activities are drafted at build time, and the server never calls a model. **Amendment (Exercise feature, see `SPEC-exercises.md`):** the optional Exercise page may call the Claude API **from the learner's own browser** with a key they enter and that stays in that browser; nothing else in the app uses an LLM. Content is drafted at build time, mixing literary, professional and "surprise me" words (PRD §8 balanced mix, with a deliberate share of delightful, unexpected words).
 6. **English-only**, no reminders, no sensitive-word handling beyond avoiding offensive terms in the pool, no Filipino glosses in MVP.
 7. **Modern evergreen browsers only.** Desktop-first, excellent on mobile.
 
@@ -218,8 +218,8 @@ The PRD §16 acceptance criteria each map to at least one automated test. Covera
 ## Boundaries
 
 - **Always:** run `npm run lint && npm run check && npm test && npm run content:lint` before committing; enforce uniqueness in the DB, not only in code; use parameterized SQL; keep content reads DB-only; honor `prefers-reduced-motion`; attribute sources and licenses wherever third-party data is shown; label invented examples as app-written.
-- **Ask first:** adding any production dependency; schema changes after the first migration ships; adding a live dictionary API call; adding an LLM; changing deploy targets or the CI config; adding a service worker/PWA.
-- **Never:** commit secrets or `.env`; invent etymologies, dates, or quotations; publish content that fails the content linter or hides an `Uncertain` label; call external APIs at word-display time; copy dictionary text wholesale; remove or weaken a failing test without approval; ship animation that cannot be turned off; use guilt-based streak messaging.
+- **Ask first:** adding any production dependency; schema changes after the first migration ships; adding a live dictionary API call; adding an LLM on the server; changing deploy targets or the CI config; adding a service worker/PWA.
+- **Never:** commit secrets or `.env`; invent etymologies, dates, or quotations; publish content that fails the content linter or hides an `Uncertain` label; call external APIs at word-display time (the Exercise page's browser-side Claude call is the one approved exception, and the key never reaches the server); copy dictionary text wholesale; remove or weaken a failing test without approval; ship animation that cannot be turned off; use guilt-based streak messaging.
 
 ## Success Criteria
 

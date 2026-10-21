@@ -21,12 +21,21 @@ Built from the product requirements in
 - **Wordbook:** search and filter every word you have met, and export it as CSV or JSON.
 - **Mind Studio:** 20 brain teasers, 15 curiosity capsules, 15 critical-thinking prompts, a history
   of what you tried, and a daily suggestion.
+- **Exercise:** Word Nuance. Pick a word you have met (or type one) and Claude writes a sentence with a gap; choose the word that fits best among near-synonyms, then see the answer and why. You bring your own Claude API key: it is stored only in your browser and sent only to Anthropic. See [Using Word Nuance](#using-word-nuance).
 - **Progress:** recall over four weeks, consistency, your own ratings, and a word garden that grows
   as you learn. Never a medical claim.
 - **Settings:** timezone, review length, theme, text size, animation (full or calm), backup and
   restore.
 - **Content admin:** the reserve of unused words, reader reports, and an integrity audit of the
   no-repeat rules.
+
+## Using Word Nuance
+
+1. Create a Claude API key in the Anthropic console. Make it a separate key and set a small monthly spend limit on it.
+2. Open **Exercise**, paste the key, press **Save key**, then **Test connection**.
+3. Open **Word Nuance**, pick a word, and press **Write one for me**.
+
+The key lives only in this browser's local storage. It goes straight to `api.anthropic.com`; this app's server, database and backups never see it. Remove it any time with **Remove key**, and always on a shared computer. Default model is Sonnet 5.5; Haiku 5.5, Opus 5.5 and Fable 5.1 can be chosen. Your answers (not the key) are saved and included in backups. Notes on the API: [`docs/CLAUDE-API-NOTES.md`](docs/CLAUDE-API-NOTES.md).
 
 ## Tech
 
@@ -83,7 +92,8 @@ All words and activities are written for this app, not copied from dictionaries.
 ## Layout
 
 ```
-src/routes/          Pages: Today, word, review, wordbook, studio, progress, settings, admin
+src/routes/          Pages: Today, word, review, wordbook, studio, exercise, progress, settings, admin
+src/lib/ai/          Browser-only Claude client, key store and Word Nuance logic (no server imports)
 src/lib/server/      Database, scheduling, daily set, review, export, stats (no UI)
 src/lib/components/  Mascot, flip card, timeline, garden and other building blocks
 content/             words/ and activities/ as JSON, plus the blocklist

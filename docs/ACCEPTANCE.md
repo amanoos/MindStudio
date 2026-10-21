@@ -52,6 +52,22 @@ npm run check:bundle
 | 9   | Animation catalog implemented; usable with reduced motion               | Implemented. Reduced motion is honored from the device or a setting, and the accessibility and keyboard suites run with it on.                                              |
 | 10  | Initial JavaScript at most 120 KB gzipped; Lighthouse performance 90+   | JavaScript: about 51 KB gzipped (`npm run check:bundle`). **Lighthouse performance was not measured here**; run it in Chrome DevTools on the live site (mobile profile). |
 
+## Exercise page and Word Nuance (SPEC-exercises.md)
+
+| Requirement                                                              | Proven by                                                                                                                                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Key is stored only in the browser, and removing it clears storage        | `tests/ai-client.test.js` (key store); `e2e/exercise-hub.spec.js` (save, test, remove, reload)                                               |
+| The key never reaches our server, database or backups                    | `e2e/exercise-hub.spec.js`, `e2e/word-nuance.spec.js`, `e2e/exercise-security.spec.js` (no request to our server contains it); `tests/ai-isolation.test.js` (AI code imports nothing server-side) |
+| Claude is called with the documented request shape and friendly errors   | `tests/ai-client.test.js` (headers, structured output, 401/402/403/404/429/529/500/504, timeout, network, refusal, cut-off, malformed)      |
+| Every generated item is validated before use                             | `tests/ai-nuance.test.js` (one blank, 4 to 6 distinct choices, valid answer, notes, no give-away); a broken reply shows a retry (`e2e/word-nuance.spec.js`) |
+| Pick a met word or type one; typed words are checked                     | `tests/nuance-words.test.js`; `e2e/word-nuance.spec.js`                                                                                      |
+| The answer and reasoning are hidden until the learner answers            | `e2e/word-nuance.spec.js` (reason and notes absent from the page before answering)                                                        |
+| Attempts are saved, listed, flaggable and backed up; old backups restore | `tests/exercises.test.js`; `e2e/word-nuance.spec.js` (history, flag)                                                                         |
+| Model setting and optional second opinion                                | `tests/ai-verify.test.js`; `e2e/word-nuance.spec.js` (model in request, one vs two requests, rejected items replaced)                       |
+| Strict content policy and security headers                               | `e2e/security.spec.js` (headers, no violations on core pages); `e2e/exercise-security.spec.js` (hostile model text stays text, no violations) |
+| Keyboard-only and accessible, both themes; seven-item mobile nav fits     | `e2e/exercise-security.spec.js` (keyboard-only play, axe light and dark); `e2e/a11y.spec.js`; `e2e/exercise-hub.spec.js` (375px nav)         |
+| A real Claude answer works end to end                                    | **Owner step, not automated:** one real exercise with your own key (no test spends money).                                                   |
+
 ## Known limits
 
 - Word and activity content was drafted by an AI assistant from published references. Source links
@@ -61,3 +77,5 @@ npm run check:bundle
 - Render's free service sleeps when idle, so the first visit after a while is slow. Free-tier limits
   of Render and Turso change; verify them (see `docs/DEPLOY.md`).
 - The Lighthouse performance score has not been measured (see criterion 10).
+- The Exercise page is checked only against mocked Claude replies. Whether `output_config` structured output combines with each model's default thinking was not confirmable from the documentation, so the first real try-out is the final check (a 400 error is shown plainly in the connection panel).
+- Criterion 4 above (no external requests) is about word display. The Exercise page deliberately calls `api.anthropic.com` from your browser, and only after you press a button.

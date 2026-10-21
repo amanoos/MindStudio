@@ -54,6 +54,14 @@ Open **Settings → Your day** in the app and pick your timezone (for example `A
 date counts as today from then on; your history is never rewritten. `DEFAULT_TIMEZONE` (default
 `UTC`) is just the starting value used until you choose one.
 
+### The Exercise page and your Claude key
+
+Nothing to configure on the server: the key is entered in the browser and never sent to the app. Create
+a separate key in the Anthropic console, set a small monthly spend limit on it, and paste it on the
+**Exercise** page. The app sends a strict Content-Security-Policy whose only outside address is
+`https://api.anthropic.com`. If you put the app behind a proxy that adds its own policy, keep that
+address allowed under `connect-src`, or Word Nuance cannot reach Claude.
+
 ### Backups
 
 **Settings → Your data → Download backup** saves your progress, notes and settings as one file. Do it

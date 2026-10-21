@@ -22,7 +22,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
     word page and a Mind Studio answer with confetti, console shows no CSP violations.
   - Files: `vite.config.js`, `src/hooks.server.js`, `src/app.html`, `e2e/security.spec.js`
 
-- [ ] **X3 Key store and Claude client** (M) — deps: X1
+- [x] **X3 Key store and Claude client** (M) — deps: X1
   - Acceptance: `key-store.js` saves, reads (masked and raw), validates (`sk-ant-`, no spaces) and
     removes the key in `localStorage`, surviving blocked storage. `claude.js` does the `fetch`:
     headers, forced tool call, `max_tokens`, timeout, one retry on 429 and 529, and friendly typed
@@ -33,7 +33,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
   - Files: `src/lib/ai/key-store.js`, `src/lib/ai/claude.js`, `tests/ai-client.test.js`,
     `tests/ai-isolation.test.js`
 
-- [ ] **X4 Nuance prompt and validator** (M) — deps: X1
+- [x] **X4 Nuance prompt and validator** (M) — deps: X1
   - Acceptance: `nuance-prompt.js` builds the system and user prompt and the tool schema from
     `{ word, options, length, difficulty }` and contains only those fields. `nuance-item.js`
     validates: exactly one blank, 4 to 6 distinct options, the answer index in range, a reason, one
@@ -46,7 +46,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
 
 ### Checkpoint F: Foundations
 
-- [ ] Lint, types, all unit tests and all existing browser tests pass; CSP active; build clean
+- [x] Lint, types, all unit tests and all existing browser tests pass; CSP active; build clean
 - [ ] Review with user
 
 ## Phase 2: Exercise hub

@@ -87,3 +87,11 @@ Body: `{ "type": "error", "error": { "type", "message" }, "request_id" }`; heade
 - https://platform.claude.com/docs/en/api/errors
 - Direct browser access header: Anthropic's CORS announcement and community reports (for example
   Simon Willison's write-up).
+
+## What the client actually sends
+
+`model`, `max_tokens` (3000 for exercises, doubled once if the reply is cut off), `system`,
+`messages`, and `output_config` with `effort: "low"` plus the JSON schema. It does **not** send a
+`thinking` parameter, so each model uses its default handling and there is no per-model branching to
+get wrong. Costs stay small because effort is low. If a real try-out shows a 400 about
+`output_config`, the message is shown in the Test result and this is the place to adjust.

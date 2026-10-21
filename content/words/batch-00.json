@@ -1,0 +1,316 @@
+[
+  {
+    "headword": "perspicacious",
+    "pos": ["adjective"],
+    "pronunciation": "per-spuh-KAY-shus",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Quick to notice and understand things that others miss, especially subtle or hidden details.",
+    "register": "Formal and literary; always a compliment.",
+    "nuance": "Stronger than observant and more specific than intelligent. A perspicacious person does not just see the detail; they see through it to what it means.",
+    "synonyms": [
+      {
+        "word": "astute",
+        "distinction": "Sharp and practical, often about judging people or business situations."
+      },
+      {
+        "word": "discerning",
+        "distinction": "Good at telling fine differences, as in taste or quality."
+      },
+      { "word": "shrewd", "distinction": "Clever with a hint of calculation or self-interest." },
+      {
+        "word": "insightful",
+        "distinction": "Plainer and warmer; focuses on depth of understanding."
+      },
+      {
+        "word": "observant",
+        "distinction": "Notices a lot, but does not necessarily grasp the meaning."
+      }
+    ],
+    "antonyms": ["obtuse", "oblivious"],
+    "examples": [
+      {
+        "text": "Her perspicacious question about the budget exposed a gap nobody else had spotted.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A perspicacious reader will notice that the narrator never once describes his own face.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin perspicax (stem perspicac-), meaning sharp-sighted, from perspicere, to look through or see clearly, which is built from per- (through) and specere (to look). The meaning moved from sharp eyesight to sharp mental insight.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/perspicacious",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/perspicacious",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in formal writing, reviews and praise of analysts, editors and critics. It collocates with observer, reader, remark and mind. Avoid it for plain cleverness; it is about seeing clearly.",
+    "memoryHook": "Word family: it shares its Latin looking root with perspective and spectacle, so a perspicacious person looks right through a problem.",
+    "practice": {
+      "prompt": "Describe a moment when someone noticed a subtle implication that everyone else missed."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/perspicacious",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "equivocal",
+    "pos": ["adjective"],
+    "pronunciation": "ih-KWIV-uh-kul",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "Open to more than one interpretation, often in a way that leaves the real meaning or position unclear.",
+    "register": "Formal; common in law, journalism, science and politics.",
+    "nuance": "Different from vague. A vague statement is fuzzy; an equivocal one can be read in two or more ways, sometimes on purpose to avoid committing. It can also describe evidence or results that do not point clearly either way.",
+    "synonyms": [
+      { "word": "ambiguous", "distinction": "Neutral; simply has more than one meaning." },
+      { "word": "evasive", "distinction": "Implies deliberately avoiding a direct answer." },
+      {
+        "word": "noncommittal",
+        "distinction": "Declines to take a side, without necessarily being unclear."
+      },
+      {
+        "word": "inconclusive",
+        "distinction": "Usually about evidence or results that settle nothing."
+      },
+      { "word": "vague", "distinction": "Lacks detail; not necessarily two readings." }
+    ],
+    "antonyms": ["unequivocal", "explicit"],
+    "examples": [
+      {
+        "text": "His equivocal reply left the team unsure whether the project was cancelled or only delayed.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The scan results were equivocal, so the doctors ordered a second test before deciding anything.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Late Latin aequivocus, built from Latin aequus (equal) and a root connected with voice or calling, so roughly of equal voice: a word that can speak for two meanings at once.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/equivocal",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/equivocal",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "You will mostly meet its opposite, unequivocal, as in an unequivocal yes. Equivocal itself appears with answers, evidence, results and statements. The related verb is equivocate: to speak ambiguously to avoid commitment.",
+    "memoryHook": "Equi- means equal and voc- means voice: two voices speaking at once, each saying something different.",
+    "practice": {
+      "prompt": "Rewrite an equivocal workplace statement so its meaning is explicit."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/equivocal",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "sanguine",
+    "pos": ["adjective"],
+    "pronunciation": "SANG-gwin",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Optimistic and confident, especially when the situation is difficult or uncertain.",
+    "register": "Formal to neutral; slightly literary; approving, though it can hint at too much optimism.",
+    "nuance": "It is not blind cheer. Sanguine usually implies you have seen the risks and still expect a good outcome. It is most often followed by about, as in sanguine about the future.",
+    "synonyms": [
+      { "word": "optimistic", "distinction": "The general word; no hint of difficulty." },
+      {
+        "word": "hopeful",
+        "distinction": "Wishes for a good outcome without necessarily expecting it."
+      },
+      { "word": "confident", "distinction": "Certain of success; less about temperament." },
+      { "word": "upbeat", "distinction": "Informal and cheerful in tone." },
+      {
+        "word": "buoyant",
+        "distinction": "Lively, resilient mood that stays afloat under pressure."
+      }
+    ],
+    "antonyms": ["pessimistic", "despondent"],
+    "examples": [
+      {
+        "text": "Despite the delays, the manager stayed sanguine about hitting the launch date.",
+        "kind": "everyday"
+      },
+      {
+        "text": "She was sanguine about the surgery, having read every study and asked every question.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Old French sanguin, from Latin sanguineus (of blood), from sanguis (blood). In old medical theory, a body dominated by blood was thought to produce a cheerful, hopeful temperament, which is where the optimistic meaning comes from.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/sanguine",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/sanguine",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Very common in business and news writing: sanguine about prospects, outlook, chances. Do not confuse it with sanguinary, which means bloody or bloodthirsty.",
+    "memoryHook": "Think of a rosy complexion: blood in the face, hope in the mind. That is also the real medical-theory origin.",
+    "practice": { "prompt": "Write one sanguine sentence that is realistic rather than naive." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/sanguine",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "intransigent",
+    "pos": ["adjective", "noun"],
+    "pronunciation": "in-TRAN-sih-jent",
+    "topic": "work and communication",
+    "difficulty": 3,
+    "definition": "Refusing to change your position or compromise, even when pressed or given good reasons.",
+    "register": "Formal; usually disapproving.",
+    "nuance": "Firmness can be a virtue; intransigence is firmness that has stopped listening. The word is almost always critical and is common in talk of negotiations and politics.",
+    "synonyms": [
+      { "word": "uncompromising", "distinction": "Can be neutral or even admiring." },
+      {
+        "word": "obstinate",
+        "distinction": "Stubborn, with a personal, sometimes irrational tone."
+      },
+      { "word": "inflexible", "distinction": "Will not bend, but more neutral than intransigent." },
+      {
+        "word": "adamant",
+        "distinction": "Firm and certain; often a single stance, not a temperament."
+      },
+      { "word": "recalcitrant", "distinction": "Resists authority or control." }
+    ],
+    "antonyms": ["flexible", "conciliatory"],
+    "examples": [
+      {
+        "text": "The vendor's intransigent stance on price meant talks ended after one meeting.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Both delegations were intransigent, each treating any concession as a defeat.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed via French intransigeant from Spanish intransigente, a label used for uncompromising political radicals. It is built from Latin in- (not) and transigere (to come to an agreement, to settle).",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/intransigent",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/intransigent",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical partners are stance, position, attitude, opposition and negotiator. The noun intransigence is also common. Choose it when refusal to compromise is the problem.",
+    "memoryHook": "In- means not, and transact comes from the same Latin root: an intransigent person will not transact, will not make a deal.",
+    "practice": {
+      "prompt": "Explain a situation where intransigence helped, or harmed, a negotiation."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/intransigent",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "palimpsest",
+    "pos": ["noun"],
+    "pronunciation": "PAL-imp-sest",
+    "topic": "history and arts",
+    "difficulty": 3,
+    "definition": "A manuscript page that was scraped or washed and written on again, so traces of the earlier writing can still be seen; by extension, anything layered over an earlier version that still shows through.",
+    "register": "Literary and scholarly; widely used as a metaphor in criticism and cultural writing.",
+    "nuance": "The key idea is that the old layer was erased but not fully lost. That makes it more specific than layered or overwritten: it implies traces that can be read.",
+    "synonyms": [
+      {
+        "word": "layered record",
+        "distinction": "A plain-English description rather than a single word."
+      },
+      { "word": "overwriting", "distinction": "Describes the act, but not the surviving traces." },
+      {
+        "word": "composite",
+        "distinction": "Made of parts, with no sense of earlier versions showing through."
+      },
+      {
+        "word": "patchwork",
+        "distinction": "Pieces joined together rather than written over one another."
+      }
+    ],
+    "antonyms": ["blank slate"],
+    "examples": [
+      {
+        "text": "The old harbor district is a palimpsest: new cafes sit inside the shells of warehouses.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Medieval scribes often scraped vellum clean and reused it, leaving a palimpsest in which the first text still ghosts through the second.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Via Latin palimpsestus from Ancient Greek palimpsestos, meaning scraped again, from palin (again) and psestos (scraped or rubbed), related to the verb psen (to rub).",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/palimpsest",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/palimpsest",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used literally by manuscript scholars and figuratively for cities, buildings, cultures, memories and even software. If you describe something as a palimpsest, you are praising its depth of history.",
+    "memoryHook": "Palin means again, like in palindrome, and a palindrome reads again backwards. A palimpsest is a page scraped and written again.",
+    "practice": { "prompt": "Describe a city, building or tradition you know as a palimpsest." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/palimpsest",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  }
+]

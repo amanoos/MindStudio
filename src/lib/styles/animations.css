@@ -1,0 +1,84 @@
+/* Shared keyframes. Decorative loops are switched off under reduced motion. */
+@keyframes blink {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.1);
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes shimmer {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+.pop-in {
+  animation: pop-in var(--dur-med) var(--ease-bounce) both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--surface-2) 25%,
+    var(--surface) 50%,
+    var(--surface-2) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+  border-radius: var(--radius-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion='full']) .skeleton {
+    animation: none;
+  }
+}
+:root[data-motion='reduce'] .skeleton {
+  animation: none;
+}
+
+/* Page transitions via the View Transitions API (progressive enhancement). */
+@keyframes vt-out {
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+@keyframes vt-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+::view-transition-old(root) {
+  animation: vt-out var(--dur-fast) ease both;
+}
+::view-transition-new(root) {
+  animation: vt-in var(--dur-med) var(--ease-out) both;
+}

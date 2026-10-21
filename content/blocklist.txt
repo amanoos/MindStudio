@@ -1,0 +1,8 @@
+# Terms that must never appear in published content (one per line, case-insensitive).
+# Extend as needed. The content linter fails if any appear as whole words.
+retard
+faggot
+nigger
+spic
+kike
+chink

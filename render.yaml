@@ -1,0 +1,26 @@
+# Render Blueprint: builds the Dockerfile and runs it on the free web service plan.
+# History lives in Turso (free libSQL database) because Render's free disk is ephemeral.
+services:
+  - type: web
+    name: mind-studio
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      # You type these in the Render dashboard when the Blueprint is created.
+      - key: APP_PASSCODE
+        sync: false
+      - key: DATABASE_URL # libsql://<your-db>.turso.io
+        sync: false
+      - key: DATABASE_AUTH_TOKEN
+        sync: false
+      # Render generates a random value for you.
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DEFAULT_TIMEZONE
+        value: UTC
+      # Behind Render's HTTPS proxy, SvelteKit must trust these headers to know its own address.
+      - key: PROTOCOL_HEADER
+        value: x-forwarded-proto
+      - key: HOST_HEADER
+        value: x-forwarded-host

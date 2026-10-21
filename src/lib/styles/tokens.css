@@ -1,0 +1,91 @@
+/* Design tokens: the only place colors, spacing, radii and durations are defined. */
+:root {
+  /* Accent families (bright fills; always pair with --ink for text) */
+  --grape: #8b5cf6;
+  --sun: #fbbf24;
+  --coral: #fb7185;
+  --mint: #34d399;
+  --sky: #38bdf8;
+
+  /* Surfaces and text (light) */
+  --bg: #fff8ec;
+  --surface: #ffffff;
+  --surface-2: #fdf0d8;
+  --ink: #2a1f4d;
+  --ink-soft: #5b4d86;
+  --line: #eadfc8;
+  --focus: #6d28d9;
+  --link: #6d28d9;
+
+  --shadow-1: 0 2px 0 rgb(42 31 77 / 0.08), 0 6px 14px rgb(42 31 77 / 0.08);
+  --shadow-2: 0 3px 0 rgb(42 31 77 / 0.1), 0 14px 30px rgb(42 31 77 / 0.14);
+
+  /* Type */
+  --font-ui: 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+  --font-word: 'Fraunces', Georgia, serif;
+  --font-hand: 'Caveat', cursive;
+  --text-scale: 1;
+
+  /* Space and shape */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2.25rem;
+  --space-7: 3.5rem;
+  --radius-1: 0.75rem;
+  --radius-2: 1.25rem;
+  --radius-3: 2rem;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --dur-fast: 150ms;
+  --dur-med: 320ms;
+  --dur-slow: 700ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+:root[data-theme='dark'] {
+  --bg: #17123a;
+  --surface: #241c57;
+  --surface-2: #2f2570;
+  --ink: #fdf6e3;
+  --ink-soft: #c9bff0;
+  --line: #3d3290;
+  --focus: #fde68a;
+  --link: #fcd34d;
+  --shadow-1: 0 2px 0 rgb(0 0 0 / 0.25), 0 6px 14px rgb(0 0 0 / 0.3);
+  --shadow-2: 0 3px 0 rgb(0 0 0 / 0.3), 0 14px 30px rgb(0 0 0 / 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #17123a;
+    --surface: #241c57;
+    --surface-2: #2f2570;
+    --ink: #fdf6e3;
+    --ink-soft: #c9bff0;
+    --line: #3d3290;
+    --focus: #fde68a;
+    --link: #fcd34d;
+    --shadow-1: 0 2px 0 rgb(0 0 0 / 0.25), 0 6px 14px rgb(0 0 0 / 0.3);
+    --shadow-2: 0 3px 0 rgb(0 0 0 / 0.3), 0 14px 30px rgb(0 0 0 / 0.4);
+  }
+}
+
+/* Reduced motion: honored from the OS, or forced by the Settings toggle. */
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion='full']) {
+    --dur-fast: 0.01ms;
+    --dur-med: 0.01ms;
+    --dur-slow: 0.01ms;
+  }
+}
+:root[data-motion='reduce'] {
+  --dur-fast: 0.01ms;
+  --dur-med: 0.01ms;
+  --dur-slow: 0.01ms;
+}

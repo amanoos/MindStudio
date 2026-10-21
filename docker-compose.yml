@@ -1,0 +1,21 @@
+# Local run: docker compose up -d   (then open http://localhost:3000)
+# Put APP_PASSCODE and SESSION_SECRET in a .env file next to this one (see .env.example).
+services:
+  app:
+    build: .
+    ports:
+      - '${HOST_PORT:-3000}:3000'
+    environment:
+      # Plain http on localhost (see server.js). Not needed behind an HTTPS proxy.
+      ASSUME_HTTP: '1'
+      PROTOCOL_HEADER: x-forwarded-proto
+      APP_PASSCODE: ${APP_PASSCODE:?Set APP_PASSCODE in .env}
+      SESSION_SECRET: ${SESSION_SECRET:?Set SESSION_SECRET in .env}
+      DATABASE_URL: file:/data/app.db
+      DEFAULT_TIMEZONE: ${DEFAULT_TIMEZONE:-UTC}
+    volumes:
+      - mindstudio-data:/data
+    restart: unless-stopped
+
+volumes:
+  mindstudio-data:

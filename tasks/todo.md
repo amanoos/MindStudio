@@ -51,39 +51,39 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
 
 ## Phase 2: Learning loop
 
-- [ ] **T9 Word detail page** (M) — deps: T7
+- [x] **T9 Word detail page** (M) — deps: T7
   - Acceptance: all PRD §6.2 fields rendered; source links with license/attribution; Sourced/Uncertain badge; "About our sources" note; Report-an-issue stub.
   - Verify: component and e2e test opening a word from Today; a11y headings.
   - Files: `src/routes/word/[slug]/+page.server.js`, `+page.svelte`, `src/lib/components/SourceList.svelte`, `ConfidenceBadge.svelte`
 
-- [ ] **T10 Flip card and animated etymology timeline** (M) — deps: T9, T2
+- [x] **T10 Flip card and animated etymology timeline** (M) — deps: T9, T2
   - Acceptance: 3D flip (keyboard accessible, button + Enter/Space); etymology timeline draws on scroll; both degrade to static under reduced motion.
   - Verify: component tests (flip state, aria-pressed); Playwright reduced-motion emulation.
   - Files: `FlipCard.svelte`, `EtymologyTimeline.svelte`, `animations.css`, `tests/e2e/flip.spec.js`
 
-- [ ] **T11 Notes, favorites, tags** (S) — deps: T9
+- [x] **T11 Notes, favorites, tags** (S) — deps: T9
   - Acceptance: save note/favorite/tags per word via form actions; persists across reload; handwriting font for notes.
   - Verify: integration test for actions; e2e persist after reload.
   - Files: `src/lib/server/notes.js`, `src/routes/word/[slug]/+page.server.js`, `NoteEditor.svelte`
 
-- [ ] **T12 Spaced-repetition scheduler (TDD)** (S) — deps: T1
+- [x] **T12 Spaced-repetition scheduler (TDD)** (S) — deps: T1
   - Acceptance: pure `schedule()` with 1/3/7/14/30 ladder; Again resets and pulls due date earlier; Hard/Good/Easy move the step; state transitions New→Learning→Familiar→Mastered/Revisit.
   - Verify: `npm test -- srs` table-driven.
   - Files: `src/lib/server/srs.js`, `tests/srs.test.js`
 
-- [ ] **T13 Review session** (M) — deps: T12, T9
+- [x] **T13 Review session** (M) — deps: T12, T9
   - Acceptance: queue of due words; question types flashcard, multiple choice, fill-in-blank, synonym discrimination (generated from word content); immediate explanation; Again/Hard/Good/Easy; attempts stored; filters (topic, pos, favorites, due).
   - Verify: unit tests for question generation; e2e review of 3 words updates due dates.
   - Files: `src/lib/server/review/questions.js`, `review/queue.js`, `src/routes/review/+page.server.js`, `+page.svelte`, `RatingButtons.svelte`
 
-- [ ] **T14 Completion effects, streak and catch-up** (S) — deps: T13, T7
+- [x] **T14 Completion effects, streak and catch-up** (S) — deps: T13, T7
   - Acceptance: progress ring animates; confetti on 5/5 and perfect review; gentle streak (no guilt copy); "Catch up on yesterday?" opt-in card; optional 5-question recall check, skippable.
   - Verify: unit test for streak and missed-day logic; manual check of effects, off under reduced motion.
   - Files: `ProgressRing.svelte`, `ConfettiBurst.svelte`, `src/lib/server/streak.js`, `+page.svelte`
 
 ### Checkpoint B: Learning loop
-- [ ] Learn five words, review, rate Again/Good; due dates and states change correctly
-- [ ] Review with user
+- [x] Learn five words, review, rate Again/Good; due dates and states change correctly
+- [x] Review with user
 
 ## Phase 3: Wordbook and data safety
 

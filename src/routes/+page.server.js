@@ -1,15 +1,44 @@
 import { getDb } from '#lib/server/db.js'
-import { getOrCreateDailySet } from '#lib/server/daily/publish.js'
+import { timezone } from '#lib/server/config.js'
+import { findSet, getOrCreateDailySet } from '#lib/server/daily/publish.js'
+import { localDate } from '#lib/server/daily/select.js'
+import { dayBefore } from '#lib/server/streak.js'
+import { countDue } from '#lib/server/review.js'
+import { getSeenWordIds, getStreak, getTodayProgress, hasEarlierSet } from '#lib/server/progress.js'
 
-/** Placeholder until Settings (T17) stores the learner's timezone. */
-const timezone = () => process.env.DEFAULT_TIMEZONE || 'UTC'
+/** @param {import('#lib/server/daily/publish.js').SetWord} w */
+const card = (w) => ({
+  slug: w.slug,
+  headword: w.headword,
+  pos: w.pos,
+  topic: w.topic,
+  confidence: w.confidence,
+  pronunciation: String(w.content.pronunciation ?? ''),
+  definition: String(w.content.definition ?? '')
+})
 
 export async function load() {
+  const db = getDb()
   const now = new Date()
   const tz = timezone()
-  const set = await getOrCreateDailySet(getDb(), { now, timezone: tz })
+  const set = await getOrCreateDailySet(db, { now, timezone: tz })
+  const today = localDate(now, tz)
+  const yesterday = dayBefore(today)
+
+  // A missed day is never dumped on the learner. It is offered, and only if it was skipped.
+  const earlier = await findSet(db, yesterday)
+  const canCatchUp = !earlier && (await hasEarlierSet(db, yesterday))
+  let catchUpWords = /** @type {ReturnType<typeof card>[]} */ ([])
+  if (earlier) {
+    const seen = await getSeenWordIds(
+      db,
+      earlier.words.map((w) => w.id)
+    )
+    catchUpWords = earlier.words.filter((w) => !seen.has(w.id)).map(card)
+  }
 
   return {
+    today,
     dateLabel: new Intl.DateTimeFormat('en-US', {
       weekday: 'long',
       month: 'long',
@@ -18,15 +47,27 @@ export async function load() {
     }).format(now),
     status: set.status,
     remaining: set.remaining ?? 0,
-    words: set.words.map((w) => ({
-      slug: w.slug,
-      headword: w.headword,
-      pos: w.pos,
-      topic: w.topic,
-      confidence: w.confidence,
-      pronunciation: String(w.content.pronunciation ?? ''),
-      definition: String(w.content.definition ?? ''),
-      practice: String(w.content.practice?.prompt ?? '')
-    }))
+    words: set.words.map(card),
+    progress: await getTodayProgress(
+      db,
+      set.words.map((w) => w.id),
+      tz,
+      now
+    ),
+    streak: await getStreak(db, tz, now),
+    due: await countDue(db, now),
+    canCatchUp,
+    catchUpWords
+  }
+}
+
+/** @type {import('./$types').Actions} */
+export const actions = {
+  catchUp: async () => {
+    const db = getDb()
+    const tz = timezone()
+    const yesterday = dayBefore(localDate(new Date(), tz))
+    await getOrCreateDailySet(db, { timezone: tz, date: yesterday })
+    return { ok: true }
   }
 }

@@ -13,7 +13,7 @@ import { localDate, pickWords } from './select.js'
  * @param {string} date
  * @returns {Promise<DailySet | null>}
  */
-async function findSet(db, date) {
+export async function findSet(db, date) {
   const set = await db.execute({
     sql: 'SELECT id FROM daily_set WHERE local_date = ?',
     args: [date]
@@ -49,14 +49,15 @@ async function findSet(db, date) {
  * constraints on daily_set.local_date and featured_ledger.word_id make duplicates impossible
  * even if this code were wrong.
  * @param {import('@libsql/client').Client} db
- * @param {{ now?: Date, timezone?: string, count?: number }} [opts]
+ * @param {{ now?: Date, timezone?: string, count?: number, date?: string }} [opts]
+ *   `date` overrides the local date (used for the opt-in "catch up on yesterday" set)
  * @returns {Promise<DailySet>}
  */
 export async function getOrCreateDailySet(
   db,
-  { now = new Date(), timezone = 'UTC', count = 5 } = {}
+  { now = new Date(), timezone = 'UTC', count = 5, date: forcedDate } = {}
 ) {
-  const date = localDate(now, timezone)
+  const date = forcedDate ?? localDate(now, timezone)
   const existing = await findSet(db, date)
   if (existing) return existing
 

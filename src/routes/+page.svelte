@@ -1,23 +1,74 @@
 <script>
+  import { enhance } from '$app/forms'
+  import { resolve } from '$app/paths'
+  import { onMount } from 'svelte'
+  import { Flame, Repeat2, Brain } from 'lucide-svelte'
   import Mascot from '#lib/components/Mascot.svelte'
+  import ProgressRing from '#lib/components/ProgressRing.svelte'
+  import ConfettiBurst from '#lib/components/ConfettiBurst.svelte'
 
   let { data } = $props()
 
   const accents = ['grape', 'sun', 'coral', 'mint', 'sky']
+  const complete = $derived(data.progress.total > 0 && data.progress.done >= data.progress.total)
+
+  // Celebrate finishing the day once per date, not on every visit.
+  let celebrate = $state(false)
+  onMount(() => {
+    if (!complete) return
+    const key = `celebrated-${data.today}`
+    try {
+      if (localStorage.getItem(key)) return
+      localStorage.setItem(key, '1')
+    } catch {
+      /* storage unavailable: celebrate anyway */
+    }
+    celebrate = true
+  })
 </script>
 
 <svelte:head><title>Today · Mind Studio</title></svelte:head>
 
+<ConfettiBurst fire={celebrate} />
+
 <header class="hello pop-in">
-  <Mascot mood={data.status === 'ready' ? 'cheer' : 'sleep'} size={110} />
-  <div>
+  <Mascot mood={complete ? 'sleep' : data.status === 'ready' ? 'cheer' : 'sleep'} size={110} />
+  <div class="hello-text">
     <p class="date">{data.dateLabel}</p>
-    <h1>{data.status === 'ready' ? 'Your five words for today' : 'The word shelf is bare'}</h1>
+    <h1>
+      {#if data.status !== 'ready'}The word shelf is bare
+      {:else if complete}All five done. Nicely played!
+      {:else}Your five words for today{/if}
+    </h1>
     {#if data.status === 'ready'}
-      <p class="meta">About 10 minutes. Take them one at a time, or all at once.</p>
+      <p class="meta">
+        {complete
+          ? 'Professor Hoot is having a little nap. Come back tomorrow for five fresh words.'
+          : 'About 10 minutes. Take them one at a time, or all at once.'}
+      </p>
     {/if}
   </div>
+  {#if data.status === 'ready'}
+    <ProgressRing done={data.progress.done} total={data.progress.total} />
+  {/if}
 </header>
+
+{#if data.status === 'ready'}
+  <nav class="quick" aria-label="Practice">
+    <a class="pill" href={resolve('/review')}>
+      <Repeat2 size={18} aria-hidden="true" /> Review
+      <span class="count">{data.due} due</span>
+    </a>
+    <a class="pill" href={resolve('/review?scope=today&limit=5')}>
+      <Brain size={18} aria-hidden="true" /> Recall check
+    </a>
+    {#if data.streak > 1}
+      <span class="pill streak"
+        ><Flame size={18} aria-hidden="true" /> {data.streak} days in a row</span
+      >
+    {/if}
+  </nav>
+{/if}
 
 {#if data.status === 'low-reserve'}
   <section class="card pop-in" style="--i: 2">
@@ -32,7 +83,9 @@
     {#each data.words as w, i (w.slug)}
       <li class="word card pop-in" style="--i: {i + 1}; --accent: var(--{accents[i % 5]})">
         <span class="num" aria-hidden="true">{i + 1}</span>
-        <h2 class="headword">{w.headword}</h2>
+        <h2 class="headword">
+          <a class="stretch" href={resolve('/word/[slug]', { slug: w.slug })}>{w.headword}</a>
+        </h2>
         <p class="pron">
           <span class="visually-hidden">Pronounced </span>{w.pronunciation}
           <span class="pos">{w.pos}</span>
@@ -47,13 +100,43 @@
   </ol>
 {/if}
 
+{#if data.canCatchUp}
+  <section class="card catch pop-in" style="--i: 6">
+    <h2>Missed yesterday?</h2>
+    <p>No pressure. If you would like, you can pick up yesterday's five words too.</p>
+    <form method="POST" action="?/catchUp" use:enhance>
+      <button class="btn" type="submit">Catch up on yesterday</button>
+    </form>
+  </section>
+{/if}
+
+{#if data.catchUpWords.length}
+  <section class="catching">
+    <h2>Yesterday's words, still waiting</h2>
+    <ol class="words small">
+      {#each data.catchUpWords as w, i (w.slug)}
+        <li class="word card" style="--accent: var(--{accents[(i + 2) % 5]})">
+          <h3 class="headword">
+            <a class="stretch" href={resolve('/word/[slug]', { slug: w.slug })}>{w.headword}</a>
+          </h3>
+          <p class="def">{w.definition}</p>
+        </li>
+      {/each}
+    </ol>
+  </section>
+{/if}
+
 <style>
   .hello {
     display: flex;
     align-items: center;
     gap: var(--space-4);
     flex-wrap: wrap;
-    margin-bottom: var(--space-5);
+    margin-bottom: var(--space-4);
+  }
+  .hello-text {
+    flex: 1;
+    min-width: 14rem;
   }
   .date {
     margin: 0;
@@ -64,6 +147,40 @@
   .meta {
     margin: 0;
     color: var(--ink-soft);
+  }
+  .quick {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-bottom: var(--space-5);
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    border: 2px solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-ui);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  a.pill {
+    transition: transform var(--dur-fast) var(--ease-bounce);
+  }
+  a.pill:hover {
+    transform: translateY(-2px);
+  }
+  .count {
+    padding: 0 var(--space-2);
+    border-radius: var(--radius-pill);
+    background: var(--surface-2);
+    font-size: 0.85rem;
+  }
+  .streak :global(svg) {
+    color: var(--coral);
   }
   .words {
     list-style: none;
@@ -81,9 +198,19 @@
       transform var(--dur-med) var(--ease-bounce),
       box-shadow var(--dur-med);
   }
-  .word:hover {
+  .word:hover,
+  .word:focus-within {
     transform: translateY(-4px) rotate(-0.4deg);
     box-shadow: var(--shadow-2);
+  }
+  .stretch {
+    color: inherit;
+    text-decoration: none;
+  }
+  .stretch::after {
+    content: '';
+    position: absolute;
+    inset: 0;
   }
   .num {
     position: absolute;
@@ -130,5 +257,15 @@
     border-radius: 50%;
     background: var(--accent);
     flex: none;
+  }
+  .catch {
+    margin-top: var(--space-5);
+    max-width: 34rem;
+  }
+  .catching {
+    margin-top: var(--space-5);
+  }
+  .small .headword {
+    font-size: 1.4rem;
   }
 </style>

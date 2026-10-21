@@ -3,6 +3,7 @@
   import { resolve } from '$app/paths'
   import { ArrowLeft, Lightbulb, ArrowRight } from 'lucide-svelte'
   import ConfettiBurst from '#lib/components/ConfettiBurst.svelte'
+  import Mascot from '#lib/components/Mascot.svelte'
   import SourceList from '#lib/components/SourceList.svelte'
   import { STUDIO_TYPES } from '#lib/studio.js'
 
@@ -38,12 +39,15 @@
 >
 
 <article class="play" style="--c: var(--{info.color})">
-  <header class="pop-in">
-    <p class="kicker">
-      {info.single}{#if d.kind || d.area}
-        · {d.kind ?? d.area}{/if}
-    </p>
-    <h1>{a.title}</h1>
+  <header class="pop-in head">
+    <Mascot mood={result?.correct ? 'cheer' : finished ? 'cheer' : 'happy'} size={72} label="" />
+    <div>
+      <p class="kicker">
+        {info.single}{#if d.kind || d.area}
+          · {d.kind ?? d.area}{/if}
+      </p>
+      <h1>{a.title}</h1>
+    </div>
   </header>
 
   {#if a.type === 'capsule'}
@@ -181,6 +185,11 @@
     margin: 0 auto;
     display: grid;
     gap: var(--space-4);
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
   }
   .kicker {
     margin: 0;

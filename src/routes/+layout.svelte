@@ -6,7 +6,7 @@
   import '@fontsource/nunito/700.css'
   import '@fontsource/fraunces/600.css'
   import '@fontsource/caveat/500.css'
-  import { page } from '$app/state'
+  import { page, navigating } from '$app/state'
   import { resolve } from '$app/paths'
   import { onNavigate } from '$app/navigation'
   import {
@@ -46,6 +46,10 @@
   })
 </script>
 
+{#if navigating.to}
+  <div class="loadbar" role="progressbar" aria-label="Loading the next page"></div>
+{/if}
+
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="top">
@@ -73,6 +77,22 @@
 </main>
 
 <style>
+  .loadbar {
+    position: fixed;
+    inset: 0 0 auto 0;
+    height: 4px;
+    z-index: 30;
+    background: linear-gradient(
+      90deg,
+      var(--grape),
+      var(--coral),
+      var(--sun),
+      var(--mint),
+      var(--grape)
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.2s linear infinite;
+  }
   .skip {
     position: absolute;
     left: -999px;
@@ -140,7 +160,7 @@
     transform: translateY(-2px);
   }
   nav a[aria-current='page'] {
-    background: var(--grape);
+    background: var(--grape-deep);
     color: #fff;
   }
 

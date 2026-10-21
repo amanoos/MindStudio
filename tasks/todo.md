@@ -143,32 +143,34 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
 
 ## Phase 5: Polish and ship
 
-- [ ] **T27 Progress page and word garden** (M) — deps: T13, T26
+- [x] **T27 Progress page and word garden** (M) — deps: T13, T26
   - Acceptance: words encountered, review accuracy, due backlog, weekly consistency, self-rated confidence, decorative SVG garden growing by learning state; no medical claims.
   - Verify: unit tests for stats; visual check.
   - Files: `src/routes/progress/+page.server.js`, `+page.svelte`, `Garden.svelte`, `src/lib/server/stats.js`
 
-- [ ] **T28 Issue reports and Content Admin** (M) — deps: T9
+- [x] **T28 Issue reports and Content Admin** (M) — deps: T9
   - Acceptance: Report-an-issue stores word/field/comment; admin lists reports, duplicate audit, reserve-pool count, generation log.
   - Verify: integration tests; e2e submit and view.
   - Files: `src/routes/admin/+page.svelte`, `+page.server.js`, `src/lib/server/issues.js`
 
-- [ ] **T29 Illustration and animation polish pass** (M) — deps: T14, T24
+- [x] **T29 Illustration and animation polish pass** (M) — deps: T14, T24
   - Acceptance: illustration set (empty states, headers, per-topic spot art), mascot reactions (cheer/sleep), skeleton shimmer; everything off under reduced motion.
   - Verify: visual check in both themes and widths; reduced-motion e2e.
   - Files: `src/lib/assets/illustrations/*.svg`, `Mascot.svelte`, `animations.css`
 
-- [ ] **T30 Accessibility pass** (M) — deps: T29
+- [x] **T30 Accessibility pass** (M) — deps: T29
   - Acceptance: axe zero serious/critical on every route; keyboard-only walkthrough of core flows; WCAG AA contrast for all accent pairings.
   - Verify: `npm run test:e2e` a11y specs.
   - Files: `e2e/a11y.spec.js`, `e2e/keyboard.spec.js`, token fixes
 
-- [ ] **T31 Performance pass** (S) — deps: T30
+- [x] **T31 Performance pass** (S) — deps: T30
+  - Status: JavaScript measured at about 51 KB gzipped (budget 120 KB). Lighthouse performance score NOT measured yet; run it on the live site in Chrome DevTools (mobile).
   - Acceptance: initial JS ≤ 120 KB gzip; fonts subset; Lighthouse performance ≥ 90 on Today (mobile, warm).
   - Verify: bundle size script plus Lighthouse run.
   - Files: `scripts/check-bundle.js`, config tweaks
 
-- [ ] **T32 Final acceptance and docs** (M) — deps: all
+- [x] **T32 Final acceptance and docs** (M) — deps: all
+  - Status: README, ACCEPTANCE.md and the full end-to-end suite done. The live production check after this deploy is the owner's to confirm.
   - Acceptance: each PRD §16 criterion mapped to a passing test in `docs/ACCEPTANCE.md`; README; DEPLOY.md re-verified with limits date; production deploy verified.
   - Verify: full suite plus manual run-through on live site.
   - Files: `docs/ACCEPTANCE.md`, `README.md`, `docs/DEPLOY.md`

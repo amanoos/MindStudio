@@ -209,7 +209,11 @@
   </section>
 
   <section class="card pop-in" style="--i: 4">
-    <h2>Account</h2>
+    <h2>Account and content</h2>
+    <p class="hint">
+      The <a href={resolve('/admin')}>content admin</a> shows how many fresh words are left and any issues
+      readers have flagged.
+    </p>
     <form method="POST" action="?/logout">
       <button class="btn" type="submit"><LogOut size={18} aria-hidden="true" /> Sign out</button>
     </form>

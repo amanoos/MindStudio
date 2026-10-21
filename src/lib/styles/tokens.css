@@ -5,6 +5,8 @@
   --sun: #fbbf24;
   --coral: #fb7185;
   --mint: #34d399;
+  /* A deeper purple that keeps white text above 4.5:1 (WCAG AA). */
+  --grape-deep: #6d28d9;
   --sky: #38bdf8;
 
   /* Surfaces and text (light) */

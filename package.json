@@ -21,6 +21,7 @@
     "db:seed": "node scripts/seed.js",
     "content:lint": "node scripts/content-lint.js",
     "content:links": "node scripts/check-links.js",
+    "check:bundle": "node scripts/check-bundle.js",
     "export": "node scripts/export.js",
     "import": "node scripts/import.js"
   },

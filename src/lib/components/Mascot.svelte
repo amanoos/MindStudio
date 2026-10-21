@@ -8,8 +8,9 @@
   width={size}
   height={size}
   viewBox="0 0 120 120"
-  role="img"
-  aria-label={label}
+  role={label ? 'img' : undefined}
+  aria-label={label || undefined}
+  aria-hidden={label ? undefined : 'true'}
 >
   <g class="body">
     <path d="M30 18l12 14M90 18L78 32" stroke="#2a1f4d" stroke-width="5" stroke-linecap="round" />

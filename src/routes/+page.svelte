@@ -4,6 +4,7 @@
   import { onMount } from 'svelte'
   import { Flame, Repeat2, Brain, Sparkles } from 'lucide-svelte'
   import Mascot from '#lib/components/Mascot.svelte'
+  import Spot from '#lib/components/Spot.svelte'
   import ProgressRing from '#lib/components/ProgressRing.svelte'
   import ConfettiBurst from '#lib/components/ConfettiBurst.svelte'
 
@@ -91,6 +92,7 @@
           <span class="pos">{w.pos}</span>
         </p>
         <p class="def">{w.definition}</p>
+        <span class="spot-wrap"><Spot topic={w.topic} /></span>
         <p class="tag">
           <span class="dot" aria-hidden="true"></span>
           {w.confidence === 'sourced' ? 'Sourced history' : 'History uncertain'} · {w.topic}
@@ -220,6 +222,15 @@
     transform: translateY(-4px) rotate(-0.4deg);
     box-shadow: var(--shadow-2);
   }
+  .spot-wrap {
+    position: absolute;
+    right: var(--space-4);
+    bottom: var(--space-3);
+    transition: transform var(--dur-med) var(--ease-bounce);
+  }
+  .word:hover .spot-wrap {
+    transform: rotate(-8deg) scale(1.1);
+  }
   .stretch {
     color: inherit;
     text-decoration: none;
@@ -262,6 +273,7 @@
   }
   .tag {
     margin: 0;
+    padding-right: 4rem;
     font-size: 0.9rem;
     color: var(--ink-soft);
     display: flex;

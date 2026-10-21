@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { join } from 'node:path'
 import { loadBlocklist, loadWordFiles, lintWords } from './content.js'
 import { lintActivities, loadActivityFiles } from './activity-content.js'
+import { logRun } from './admin.js'
 import { migrate } from './db.js'
 import { normalizeHeadword, slugify } from './normalize.js'
 
@@ -128,6 +129,11 @@ export async function bootstrap(db, root = process.cwd()) {
 
   const result = await seedWords(db, entries)
   await seedActivities(db, activities)
+  await logRun(
+    db,
+    'seeded',
+    `${result.inserted} new and ${result.updated} refreshed words, ${activities.length} activities`
+  )
   await db.execute({
     sql: `INSERT INTO setting (key, value) VALUES ('content_hash', ?)
           ON CONFLICT(key) DO UPDATE SET value = excluded.value`,

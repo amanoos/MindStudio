@@ -23,7 +23,7 @@ const str = (v) => (v === null || v === undefined ? null : String(v))
  * @param {Date} [now]
  */
 export async function buildBackup(db, now = new Date()) {
-  const [ledger, sets, states, attempts, notes, activityAttempts, issues, settings] =
+  const [ledger, sets, states, attempts, notes, activityAttempts, issues, settings, exercises] =
     await Promise.all([
       db.execute(
         `SELECT w.normalized_headword AS word, f.first_featured_date AS date
@@ -57,7 +57,11 @@ export async function buildBackup(db, now = new Date()) {
         `SELECT w.normalized_headword AS word, i.field, i.comment, i.created_at, i.resolved
          FROM issue_report i LEFT JOIN word w ON w.id = i.word_id ORDER BY i.id`
       ),
-      db.execute('SELECT key, value FROM setting ORDER BY key')
+      db.execute('SELECT key, value FROM setting ORDER BY key'),
+      db.execute(
+        `SELECT exercise_type, word, item, chosen_index, correct, model, flagged, created_at
+         FROM exercise_attempt ORDER BY id`
+      )
     ])
 
   /** @type {Map<string, { date: string, timezone: string, words: string[] }>} */
@@ -109,6 +113,16 @@ export async function buildBackup(db, now = new Date()) {
       createdAt: String(r.created_at),
       resolved: Number(r.resolved) === 1
     })),
+    exerciseAttempts: exercises.rows.map((r) => ({
+      type: String(r.exercise_type),
+      word: String(r.word),
+      item: JSON.parse(String(r.item)),
+      chosenIndex: Number(r.chosen_index),
+      correct: Number(r.correct) === 1,
+      model: str(r.model),
+      flagged: Number(r.flagged) === 1,
+      createdAt: String(r.created_at)
+    })),
     settings: Object.fromEntries(
       settings.rows
         .filter((r) => !INTERNAL_SETTINGS.includes(String(r.key)))
@@ -143,6 +157,9 @@ export function validateBackup(b) {
     'issues'
   ])
     if (!Array.isArray(o[key])) errors.push(`Missing list: ${key}.`)
+  // Added after version 1 shipped, so older backups simply do not have it.
+  if (o.exerciseAttempts !== undefined && !Array.isArray(o.exerciseAttempts))
+    errors.push('Missing list: exerciseAttempts.')
   if (!o.settings || typeof o.settings !== 'object') errors.push('Missing settings.')
   return errors
 }
@@ -180,6 +197,7 @@ export async function importBackup(db, backup) {
     { sql: 'DELETE FROM user_word_note', args: [] },
     { sql: 'DELETE FROM activity_attempt', args: [] },
     { sql: 'DELETE FROM issue_report', args: [] },
+    { sql: 'DELETE FROM exercise_attempt', args: [] },
     {
       sql: `DELETE FROM setting WHERE key NOT IN (${INTERNAL_SETTINGS.map(() => '?').join(',')})`,
       args: INTERNAL_SETTINGS
@@ -254,6 +272,23 @@ export async function importBackup(db, backup) {
       args: [i.word, i.field, i.comment, i.createdAt, i.resolved ? 1 : 0]
     })
 
+  for (const e of backup.exerciseAttempts ?? [])
+    stmts.push({
+      sql: `INSERT INTO exercise_attempt
+              (exercise_type, word, item, chosen_index, correct, model, flagged, created_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+      args: [
+        e.type,
+        e.word,
+        JSON.stringify(e.item),
+        e.chosenIndex,
+        e.correct ? 1 : 0,
+        e.model,
+        e.flagged ? 1 : 0,
+        e.createdAt
+      ]
+    })
+
   for (const [key, value] of Object.entries(backup.settings))
     if (!INTERNAL_SETTINGS.includes(key))
       stmts.push({
@@ -267,6 +302,7 @@ export async function importBackup(db, backup) {
     words: backup.ledger.length,
     reviews: backup.reviewAttempts.length,
     notes: backup.notes.length,
+    exercises: (backup.exerciseAttempts ?? []).length,
     skippedUnknown: skipped
   }
 }

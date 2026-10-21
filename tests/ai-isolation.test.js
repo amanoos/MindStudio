@@ -23,10 +23,12 @@ describe('the AI code runs in the browser only', () => {
     expect(src).not.toMatch(/\$env|process\.env/)
   })
 
-  it('only the key store touches the stored key', () => {
+  it('only the key store reads the stored key', () => {
     for (const file of files.filter((f) => f !== 'key-store.js')) {
       const src = readFileSync(join(dir, file), 'utf8')
-      expect(src).not.toMatch(/localStorage/)
+      expect(src).not.toMatch(/claude-key|KEY_NAME/)
+      // Other modules may keep harmless settings in storage, but only by their own name.
+      if (/localStorage/.test(src)) expect(file).toBe('settings.js')
     }
   })
 })

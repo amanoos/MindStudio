@@ -70,6 +70,24 @@ goes wrong, nothing is changed. Entries for words the app does not know are skip
   ],
   "activityAttempts": [],
   "issues": [],
+  "exerciseAttempts": [
+    {
+      "type": "word-nuance",
+      "word": "scathing",
+      "item": {
+        "before": "The critic gave the film a ",
+        "after": " review.",
+        "options": [{ "word": "scathing", "note": "Fits: biting." }],
+        "correctIndex": 0,
+        "reason": "Scathing carries the tone."
+      },
+      "chosenIndex": 0,
+      "correct": true,
+      "model": "claude-sonnet-5-5",
+      "flagged": false,
+      "createdAt": "2026-10-20 09:10:00"
+    }
+  ],
   "settings": { "timezone": "Asia/Manila", "session_length": "15" }
 }
 ```
@@ -79,6 +97,9 @@ goes wrong, nothing is changed. Entries for words the app does not know are skip
 - `state` is one of `new`, `learning`, `familiar`, `mastered`, `revisit`. `step` is how far up the
   review ladder (1, 3, 7, 14, 30 days) the word has climbed, from 0 to 5.
 - `rating` is `again`, `hard`, `good`, `easy` or `null` (for example a card you only opened).
+- `exerciseAttempts` (Word Nuance and later exercises) was added after the first release. A backup
+  without it still restores, and the list is simply empty. `word` here is plain text, since a typed
+  word need not be in the library. Your Claude key is never part of a backup.
 - `version` changes only if the format changes in a way older files cannot be read. The app refuses
   files with a version it does not know.
 

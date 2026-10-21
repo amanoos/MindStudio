@@ -69,7 +69,7 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
 
 ## Phase 3: Word Nuance
 
-- [ ] **X6 Attempts in the database and backup** (M) — deps: none
+- [x] **X6 Attempts in the database and backup** (M) — deps: none
   - Acceptance: migration `002_exercises.sql` adds `exercise_attempt`; `exercises.js` saves and
     lists attempts; backup export and import include `exerciseAttempts`; older backups still load;
     the integrity and admin pages are unaffected.

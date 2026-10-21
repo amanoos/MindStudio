@@ -128,5 +128,5 @@ files, M = 3-5 files. Every task also meets the plan's Definition of Done.
 
 ### Checkpoint I: Done
 
-- [ ] All SPEC-exercises success criteria met; deployed
+- [x] All SPEC-exercises success criteria met; deployed
 - [ ] Owner confirms one real exercise with their own Claude key

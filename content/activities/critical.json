@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "survivorship-bomber-armor",
+    "type": "critical",
+    "title": "Where to put the armor",
+    "difficulty": 3,
+    "skill": "survivorship bias",
+    "scenario": "During World War II, analysts studied the bombers that returned from missions. The returning planes had many bullet holes in the wings and tail, but very few in the engines. The military wanted to add armor to the most vulnerable parts.",
+    "question": "Where should the armor go?",
+    "options": [
+      "On the wings and tail, where the holes are",
+      "On the engines, where the returning planes have the fewest holes",
+      "Evenly across the whole plane",
+      "Nowhere: the planes are already returning safely"
+    ],
+    "answerIndex": 1,
+    "explanation": "The analysts were looking only at planes that survived. Planes hit in the engines were the ones that did not come back, so the absence of engine holes on survivors is a clue that engine hits were fatal. The statistician Abraham Wald made this argument. The lesson: always ask what you cannot see because it did not survive to be counted.",
+    "sources": [
+      {
+        "name": "Wikipedia: Survivorship bias",
+        "url": "https://en.wikipedia.org/wiki/Survivorship_bias",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "ice-cream-and-drowning",
+    "type": "critical",
+    "title": "Ice cream and drowning",
+    "difficulty": 1,
+    "skill": "correlation and causation",
+    "scenario": "A city's records show that in months when ice cream sales are high, more people drown in swimming accidents. In months when ice cream sales are low, fewer people do.",
+    "question": "What is the most reasonable conclusion?",
+    "options": [
+      "Eating ice cream causes people to drown.",
+      "Drownings make people want to buy ice cream.",
+      "Something else, such as hot weather, probably drives both.",
+      "The pattern must be a pure coincidence."
+    ],
+    "answerIndex": 2,
+    "explanation": "Two things that rise and fall together are correlated, but that does not show one causes the other. Here, a third factor, hot weather, leads people to both swim more and eat more ice cream. When you see a link, ask whether a hidden common cause could explain it.",
+    "sources": [
+      {
+        "name": "Wikipedia: Correlation does not imply causation",
+        "url": "https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-supplement-believer",
+    "type": "critical",
+    "title": "The supplement that always works",
+    "difficulty": 1,
+    "skill": "confirmation bias",
+    "scenario": "Priya believes a new supplement boosts her energy. She vividly remembers the days she took it and felt great. She does not remember the days she took it and felt tired, and she mostly reads online reviews that praise the product.",
+    "question": "Which thinking error is most at work?",
+    "options": [
+      "Anchoring on the first price she saw",
+      "Confirmation bias: noticing and remembering what supports a belief",
+      "Hindsight bias: believing an outcome was obvious after it happened",
+      "The sunk cost fallacy: continuing because of money already spent"
+    ],
+    "answerIndex": 1,
+    "explanation": "Confirmation bias is the habit of noticing, remembering and seeking out evidence that agrees with what we already believe, while ignoring evidence that does not. To test a belief fairly, you must also look for cases that could prove it wrong, for example by tracking energy on days with and without the supplement.",
+    "sources": [
+      {
+        "name": "Wikipedia: Confirmation bias",
+        "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-crossed-out-price",
+    "type": "critical",
+    "title": "The crossed-out price",
+    "difficulty": 1,
+    "skill": "anchoring",
+    "scenario": "A shop displays a jacket with the old price, $400, crossed out, and a new price of $180 written next to it. Shoppers say it is a great deal.",
+    "question": "How is the old price likely to influence the shoppers?",
+    "options": [
+      "It anchors their sense of value, so $180 feels cheap whether or not it is fair.",
+      "It proves that the jacket is truly worth $400.",
+      "It shows the shop is selling at a loss.",
+      "It has no effect, because people judge prices independently."
+    ],
+    "answerIndex": 0,
+    "explanation": "Anchoring is the tendency to rely too heavily on the first number we see. A high starting price sets a reference point that makes the next price feel like a bargain. The old price may never have been what anyone actually paid, so judge the jacket against what similar jackets cost and what you would pay without the anchor.",
+    "sources": [
+      {
+        "name": "Wikipedia: Anchoring (cognitive bias)",
+        "url": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-accurate-test",
+    "type": "critical",
+    "title": "The 99% accurate test",
+    "difficulty": 3,
+    "skill": "base rates",
+    "scenario": "A disease affects 1 person in 1,000. A test for it correctly detects 99 percent of people who have the disease, and wrongly flags 1 percent of healthy people. Your test comes back positive.",
+    "question": "About how likely is it that you really have the disease?",
+    "options": ["About 99%", "About 90%", "About 9%", "About 50%"],
+    "answerIndex": 2,
+    "explanation": "Imagine 1,000 people. About 1 has the disease and almost certainly tests positive. Of the other 999 healthy people, about 1 percent, roughly 10, also test positive. So around 11 people test positive, and only 1 of them is truly sick: about 9 percent. When a condition is rare, most positives are false alarms, even from a good test. Ignoring how common something is in the first place is called the base rate fallacy.",
+    "sources": [
+      {
+        "name": "Wikipedia: Base rate fallacy",
+        "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-new-logo",
+    "type": "critical",
+    "title": "The new logo",
+    "difficulty": 1,
+    "skill": "post hoc reasoning",
+    "scenario": "A company changes its logo in March. Sales rise in April and May. A manager announces, The new logo boosted our sales.",
+    "question": "What is the most useful question to ask?",
+    "options": [
+      "How much did the new logo cost?",
+      "What else changed at the same time, such as the season, advertising, or prices?",
+      "Why do customers not like the old logo?",
+      "Can we make the logo even bigger?"
+    ],
+    "answerIndex": 1,
+    "explanation": "This is the post hoc fallacy: assuming that because B came after A, A caused B. Sales may have risen because of the season, a promotion, a competitor's problem or just random variation. To judge whether the logo mattered, you would need to compare against a similar period without the change, or test it on only some customers.",
+    "sources": [
+      {
+        "name": "Wikipedia: Post hoc ergo propter hoc",
+        "url": "https://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "attack-the-person",
+    "type": "critical",
+    "title": "Ignore her data",
+    "difficulty": 1,
+    "skill": "ad hominem",
+    "scenario": "Dr. Lee presents data suggesting a new policy will raise costs. A colleague replies, Dr. Lee was once fired from a job, so we should ignore everything she says.",
+    "question": "What is wrong with the reply?",
+    "options": [
+      "It attacks the person instead of examining the data and reasoning.",
+      "It relies on the opinion of a famous expert.",
+      "It claims that one small step will lead to disaster.",
+      "Nothing is wrong: a person's history decides whether data is correct."
+    ],
+    "answerIndex": 0,
+    "explanation": "This is an ad hominem argument: it goes after the speaker rather than the claim. Data stands or falls on how it was gathered and analyzed, whoever presents it. A person's past may justify checking their work carefully, but it does not make their conclusions false.",
+    "sources": [
+      {
+        "name": "Wikipedia: Ad hominem",
+        "url": "https://en.wikipedia.org/wiki/Ad_hominem",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "less-homework",
+    "type": "critical",
+    "title": "So you want kids to learn nothing?",
+    "difficulty": 2,
+    "skill": "straw man",
+    "scenario": "A parent says, I think the school should reduce the amount of homework for young children. A teacher replies, So you think children should never have to learn anything?",
+    "question": "Which flaw does the teacher's reply have?",
+    "options": [
+      "It is a straw man: it replaces the real claim with an exaggerated version that is easy to attack.",
+      "It is a false cause: it assumes one event caused another.",
+      "It is circular: it assumes what it is trying to prove.",
+      "It has no flaw, because reducing homework means ending learning."
+    ],
+    "answerIndex": 0,
+    "explanation": "The parent argued for less homework, not for no learning. The teacher misrepresented that position as an extreme and then rejected the extreme. A good test: could the person you are arguing with agree that this is what they actually said? If not, you may be attacking a straw man.",
+    "sources": [
+      {
+        "name": "Wikipedia: Straw man",
+        "url": "https://en.wikipedia.org/wiki/Straw_man",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "cut-or-collapse",
+    "type": "critical",
+    "title": "Cut the budget or collapse",
+    "difficulty": 2,
+    "skill": "false dilemma",
+    "scenario": "A manager tells the team, Either we cut the budget by 20 percent, or the company will collapse. There is no third option.",
+    "question": "What should you question first?",
+    "options": [
+      "Whether the manager has enough experience",
+      "Whether those two choices are really the only possibilities",
+      "Whether the company has a good name",
+      "Whether collapse is a nice word to use"
+    ],
+    "answerIndex": 1,
+    "explanation": "This is a false dilemma, also called a false dichotomy: presenting only two options when more exist. There may be a smaller cut, new revenue, a delay, or another path. When someone says there is no third option, treat it as a prompt to look for one.",
+    "sources": [
+      {
+        "name": "Wikipedia: False dilemma",
+        "url": "https://en.wikipedia.org/wiki/False_dilemma",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "all-natural-and-safe",
+    "type": "critical",
+    "title": "100% natural, so safe",
+    "difficulty": 1,
+    "skill": "appeal to nature",
+    "scenario": "An advertisement for a herbal product says, It is 100 percent natural, so it is completely safe.",
+    "question": "What assumption is hidden in the claim?",
+    "options": [
+      "That natural things are always safe, which is not true",
+      "That safe products must be expensive",
+      "That all herbs are more useful than medicines",
+      "That advertisements always tell the truth"
+    ],
+    "answerIndex": 0,
+    "explanation": "The word so hides the assumption that natural means safe. Plenty of natural substances are harmful, such as poisonous mushrooms, snake venom and the toxin in poison ivy, while many human-made treatments are very safe. Whether something is safe depends on what it is and how much you take, not on where it came from.",
+    "sources": [
+      {
+        "name": "Wikipedia: Appeal to nature",
+        "url": "https://en.wikipedia.org/wiki/Appeal_to_nature",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "praise-or-criticism",
+    "type": "critical",
+    "title": "Does criticism work better than praise?",
+    "difficulty": 3,
+    "skill": "regression to the mean",
+    "scenario": "A flight instructor notices that pilots he praises after an exceptionally good landing usually do worse on the next one, while pilots he scolds after a very poor landing usually do better. He concludes that criticism works better than praise.",
+    "question": "What is a better explanation of the pattern?",
+    "options": [
+      "Pilots are discouraged by praise and motivated by scolding.",
+      "Extreme performances tend to be followed by more average ones, whatever the instructor says.",
+      "Pilots who land well get overconfident and careless.",
+      "Landings get worse over time for everyone."
+    ],
+    "answerIndex": 1,
+    "explanation": "Any performance partly reflects skill and partly luck. An unusually good landing probably had some good luck, and an unusually bad one some bad luck, so the next attempt will on average move back toward the pilot's normal level. This is regression to the mean. It can make praise look harmful and criticism look helpful when neither is doing the work.",
+    "sources": [
+      {
+        "name": "Wikipedia: Regression toward the mean",
+        "url": "https://en.wikipedia.org/wiki/Regression_toward_the_mean",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-cycling-poll",
+    "type": "critical",
+    "title": "The cycling magazine poll",
+    "difficulty": 2,
+    "skill": "selection bias",
+    "scenario": "A cycling magazine runs an online poll on its website. Of 5,000 respondents, 92 percent say cycling is the best way to commute. The magazine publishes: Nine in ten people agree that cycling is best.",
+    "question": "Why is the conclusion unreliable?",
+    "options": [
+      "5,000 is too few people for any poll.",
+      "The respondents chose themselves and are likely to be cycling fans, so they do not represent everyone.",
+      "Polls on websites cannot be accurate in any case.",
+      "People always exaggerate their answers in polls."
+    ],
+    "answerIndex": 1,
+    "explanation": "This is selection bias: the people who visit a cycling magazine and choose to vote are far more likely to love cycling than the public at large. A large sample does not fix a skewed sample. A fair poll needs respondents chosen in a way that gives everyone a similar chance of being included.",
+    "sources": [
+      {
+        "name": "Wikipedia: Selection bias",
+        "url": "https://en.wikipedia.org/wiki/Selection_bias",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-diet-testimonials",
+    "type": "critical",
+    "title": "Three amazing diet results",
+    "difficulty": 2,
+    "skill": "cherry-picking",
+    "scenario": "A company promoting a diet plan shows the stories of three customers who each lost more than 20 kilograms. The study behind the plan involved 40 people, and the company does not mention the results for the other 37.",
+    "question": "What is the main problem with the evidence?",
+    "options": [
+      "Three people is too many to be believable.",
+      "The company selected only the best results and hid the rest.",
+      "Weight loss can never be measured.",
+      "The diet must be harmful."
+    ],
+    "answerIndex": 1,
+    "explanation": "This is cherry-picking: choosing only the data that supports a claim and leaving out the rest. Even a useless plan will produce a few striking successes among 40 people. To judge it, you need results for everyone, including those who dropped out or gained weight.",
+    "sources": [
+      {
+        "name": "Wikipedia: Cherry picking",
+        "url": "https://en.wikipedia.org/wiki/Cherry_picking",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "shark-attack-news",
+    "type": "critical",
+    "title": "The shark in the news",
+    "difficulty": 1,
+    "skill": "availability heuristic",
+    "scenario": "After a news story about a shark attack, Marco cancels his beach trip because it feels too dangerous. He drives to work every day without a second thought, although car crashes cause far more harm.",
+    "question": "Which bias best explains Marco's reaction?",
+    "options": [
+      "The availability heuristic: vivid, memorable events seem more likely than they are.",
+      "Survivorship bias: only successes are visible.",
+      "The anchoring effect: the first number shapes later numbers.",
+      "Groupthink: a team converges on one idea."
+    ],
+    "answerIndex": 0,
+    "explanation": "We often judge how likely something is by how easily examples come to mind. Shark attacks are vivid and heavily reported, so they feel common even though they are very rare. Everyday risks like driving are dull and familiar, so they feel safe. Notice when your fear follows the news rather than the numbers.",
+    "sources": [
+      {
+        "name": "Wikipedia: Availability heuristic",
+        "url": "https://en.wikipedia.org/wiki/Availability_heuristic",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "foods-and-diseases",
+    "type": "critical",
+    "title": "The food that causes a disease",
+    "difficulty": 3,
+    "skill": "multiple comparisons",
+    "scenario": "A researcher tests 200 different foods against 30 different diseases, looking for any link. She finds one food that is statistically linked to one disease, at the usual 5 percent threshold, and publishes it as: Food X causes Disease Y.",
+    "question": "What is the main concern?",
+    "options": [
+      "Researchers should never test more than one food.",
+      "With thousands of comparisons, some will look significant by pure chance.",
+      "Statistics cannot be used on food.",
+      "She should have tested fewer diseases and found a stronger link."
+    ],
+    "answerIndex": 1,
+    "explanation": "She made 6,000 comparisons. At a 5 percent threshold, about 300 would look significant by chance alone, even if no food affected any disease. Painting the target around the bullet holes after you shoot is called the Texas sharpshooter fallacy. A single surprising finding from a huge search needs confirmation in a new, separate test before anyone should believe it.",
+    "sources": [
+      {
+        "name": "Wikipedia: Multiple comparisons problem",
+        "url": "https://en.wikipedia.org/wiki/Multiple_comparisons_problem",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Texas sharpshooter fallacy",
+        "url": "https://en.wikipedia.org/wiki/Texas_sharpshooter_fallacy",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  }
+]

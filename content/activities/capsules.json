@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "rosetta-stone",
+    "type": "capsule",
+    "title": "The stone that spoke three languages",
+    "difficulty": 1,
+    "area": "history",
+    "body": [
+      "In 1799, French soldiers repairing a fort near the Egyptian town of Rashid, which Europeans called Rosetta, found a dark slab covered in writing. It carried one royal decree from the 190s BC, repeated three times in three kinds of writing: Egyptian hieroglyphs, a cursive Egyptian script called Demotic, and ancient Greek.",
+      "Scholars could still read Greek. That meant they could read one version of the text and compare it with the others. The English scientist Thomas Young made early progress by working out that some signs inside oval rings, called cartouches, spelled royal names.",
+      "In 1822, the French scholar Jean-François Champollion announced that he had worked out how hieroglyphs functioned. They were not only pictures of ideas: many signs stood for sounds, others for meanings. After about fourteen centuries of silence, Egyptian writing could be read again. The stone has been in the British Museum since the early nineteenth century."
+    ],
+    "keyIdea": "A text in a language you know, sitting next to the same text in one you do not, can unlock the unknown language.",
+    "followUp": "Which writing system or language would you most like a Rosetta Stone for, and why?",
+    "sources": [
+      {
+        "name": "Wikipedia: Rosetta Stone",
+        "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Jean-François Champollion",
+        "url": "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "eratosthenes-measures-earth",
+    "type": "capsule",
+    "title": "The man who measured the Earth with a stick",
+    "difficulty": 2,
+    "area": "science",
+    "body": [
+      "About 2,200 years ago, Eratosthenes, a scholar in charge of the great library at Alexandria, heard that at noon on the summer solstice the sun shone straight down a deep well at Syene, in the south of Egypt, and cast no shadow. In Alexandria, farther north, a vertical stick on the same day did cast a shadow.",
+      "He reasoned that the difference came from the Earth's curved surface. The shadow in Alexandria measured about one fiftieth of a full circle. If the two cities were a known distance apart, then the whole Earth must be about fifty times that distance around.",
+      "His result was close to the modern figure of roughly 40,000 kilometers, though how close depends on the exact length of the unit he used, the stadion, which historians still debate. What matters is the method: some shadows, a bit of geometry, and one important idea, that the Earth is a sphere."
+    ],
+    "keyIdea": "A clever comparison of two ordinary observations can measure something enormous, without leaving the ground.",
+    "followUp": "What other big quantity could you estimate by comparing two simple measurements taken in different places?",
+    "sources": [
+      {
+        "name": "Wikipedia: Eratosthenes",
+        "url": "https://en.wikipedia.org/wiki/Eratosthenes",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "harrison-and-longitude",
+    "type": "capsule",
+    "title": "The clock that solved the sea",
+    "difficulty": 2,
+    "area": "technology",
+    "body": [
+      "Sailors have long been able to find latitude, their north-south position, by measuring the sun or stars. Longitude, east-west, was harder. The Earth turns 15 degrees every hour, so if you knew the exact time at your home port and the local time where you were, the difference would tell you how far you had traveled east or west.",
+      "The catch was keeping accurate time on a rolling, damp, temperature-changing ship. Pendulum clocks failed at sea. In 1714 the British government offered a large prize for a practical method, and the problem became a national obsession.",
+      "John Harrison, a self-taught clockmaker from Yorkshire, spent decades building marine timekeepers. His fourth, a large watch-like device called H4, performed far better than the prize rules required on sea trials in the early 1760s. Harrison had to fight for years to have his achievement recognized."
+    ],
+    "keyIdea": "Navigation across oceans came down to time: knowing precisely what time it is somewhere else tells you where you are.",
+    "followUp": "What everyday technology today depends on extremely precise timekeeping, and what would happen if it failed?",
+    "sources": [
+      {
+        "name": "Wikipedia: John Harrison",
+        "url": "https://en.wikipedia.org/wiki/John_Harrison",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: History of longitude",
+        "url": "https://en.wikipedia.org/wiki/History_of_longitude",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "why-the-sky-is-blue",
+    "type": "capsule",
+    "title": "Why the sky is blue, and sunsets are red",
+    "difficulty": 1,
+    "area": "science",
+    "body": [
+      "Sunlight looks white, but it is a mix of all the colors of the rainbow. When it enters the atmosphere, it bumps into air molecules, which scatter the light in all directions. Short wavelengths, blue and violet, are scattered much more strongly than long wavelengths, red and orange. This kind of scattering is named after the physicist Lord Rayleigh.",
+      "So why is the sky blue and not violet? The sun puts out less violet light, part of it is absorbed high in the atmosphere, and our eyes are more sensitive to blue. Together, blue wins.",
+      "At sunrise and sunset, sunlight travels through much more air to reach your eyes. Most of the blue has been scattered out of the beam by then, and what is left is the warm reds and oranges."
+    ],
+    "keyIdea": "The color of the sky is not painted on: it is the light that air scatters toward you, and which colors survive the journey.",
+    "followUp": "Using this idea, why do you think distant mountains look blue-gray?",
+    "sources": [
+      {
+        "name": "Wikipedia: Rayleigh scattering",
+        "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Diffuse sky radiation",
+        "url": "https://en.wikipedia.org/wiki/Diffuse_sky_radiation",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "semmelweis-and-handwashing",
+    "type": "capsule",
+    "title": "The doctor who told doctors to wash their hands",
+    "difficulty": 2,
+    "area": "science",
+    "body": [
+      "In the 1840s the Vienna General Hospital had two maternity clinics. In one, run by doctors and medical students, many more mothers died of childbed fever than in the other, run by midwives. Women even begged not to be admitted to the first.",
+      "A Hungarian doctor, Ignaz Semmelweis, noticed that the doctors often came to the delivery room straight from performing autopsies. In 1847 he ordered them to wash their hands in a chlorinated lime solution before examining patients. Deaths in the clinic dropped sharply.",
+      "Germ theory did not yet exist, and many physicians took his idea as an insult to their profession. Semmelweis was largely ignored in his lifetime. Only years later did the work of Louis Pasteur and Joseph Lister provide the explanation, and handwashing became standard practice."
+    ],
+    "keyIdea": "A result can be right long before anyone can explain it, and good evidence can still be rejected when it is unwelcome.",
+    "followUp": "Why do you think it is so hard to accept evidence that suggests we have been making a mistake?",
+    "sources": [
+      {
+        "name": "Wikipedia: Ignaz Semmelweis",
+        "url": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Puerperal fever",
+        "url": "https://en.wikipedia.org/wiki/Puerperal_fever",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "year-without-a-summer",
+    "type": "capsule",
+    "title": "The summer that never came",
+    "difficulty": 2,
+    "area": "history",
+    "body": [
+      "In April 1815, the volcano Mount Tambora in Indonesia erupted in one of the largest eruptions in recorded history. It threw enormous amounts of ash and sulfur gases into the upper atmosphere, where they reflected some sunlight back into space.",
+      "The following year, 1816, became known as the Year Without a Summer. Across Europe and North America, temperatures fell, frosts struck in summer, and crops failed, causing food shortages and hardship.",
+      "That cold, wet summer also shaped literature. A group of friends, including Mary Shelley and Lord Byron, were kept indoors by the bad weather near Lake Geneva and challenged each other to write ghost stories. Mary Shelley's contribution became the novel Frankenstein."
+    ],
+    "keyIdea": "A single event on one side of the planet can ripple through weather, food and even art on the other side.",
+    "followUp": "What is another example you know of, in history or today, where a distant event changed everyday life?",
+    "sources": [
+      {
+        "name": "Wikipedia: Year Without a Summer",
+        "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: 1815 eruption of Mount Tambora",
+        "url": "https://en.wikipedia.org/wiki/1815_eruption_of_Mount_Tambora",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-voynich-manuscript",
+    "type": "capsule",
+    "title": "The book nobody can read",
+    "difficulty": 2,
+    "area": "culture",
+    "body": [
+      "The Voynich manuscript is a small illustrated book written in an unknown script, with no clue to its meaning. It is named after Wilfrid Voynich, a book dealer who bought it in 1912. Today it is kept at Yale University's Beinecke Library.",
+      "Its pages show strange plants that do not match known species, diagrams that look astronomical, and small figures bathing in green liquid. Radiocarbon tests on the vellum place its creation in the early fifteenth century.",
+      "Codebreakers, linguists and computer scientists have attempted to read it for a century. Some think it is a coded text, some a lost language, some an elaborate hoax. No explanation has been generally accepted, and the question remains open."
+    ],
+    "keyIdea": "Some mysteries survive even careful scientific dating: knowing when something was made does not tell you what it says.",
+    "followUp": "If you had to argue that the Voynich manuscript is a hoax, what evidence would you want to find?",
+    "sources": [
+      {
+        "name": "Wikipedia: Voynich manuscript",
+        "url": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-invention-of-zero",
+    "type": "capsule",
+    "title": "How nothing became a number",
+    "difficulty": 2,
+    "area": "mathematics",
+    "body": [
+      "Several ancient cultures used a mark to show an empty place in a written number, so that 205 could be told apart from 25. But treating zero as a number in its own right, one you can add, subtract and multiply, took longer.",
+      "In India, the mathematician Brahmagupta, in a work from the seventh century, wrote down rules for arithmetic with zero and with negative numbers. Indian numerals, including a symbol for zero, later spread through the Islamic world.",
+      "They reached Europe in the Middle Ages, where books such as Fibonacci's Liber Abaci, written in 1202, helped to introduce them. The Hindu-Arabic numerals gradually replaced Roman numerals, making written arithmetic far easier."
+    ],
+    "keyIdea": "Zero is not only a placeholder. Treating nothing as a number made modern arithmetic possible.",
+    "followUp": "Why might Roman numerals, which have no zero, make multiplication so awkward?",
+    "sources": [
+      {
+        "name": "Wikipedia: 0 (number)",
+        "url": "https://en.wikipedia.org/wiki/0",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Brahmagupta",
+        "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "tardigrades-survivors",
+    "type": "capsule",
+    "title": "The tiny animal that survives almost anything",
+    "difficulty": 1,
+    "area": "science",
+    "body": [
+      "Tardigrades, also called water bears, are microscopic animals about half a millimeter long, found in moss, soil and water almost everywhere on Earth. They have eight stubby legs and a slow, waddling walk.",
+      "When conditions turn harsh, they can shrivel into a dried-out state called a tun and slow their metabolism almost to a halt. In this state they can tolerate extreme cold, heat, pressure and radiation, and they revive when water returns.",
+      "In 2007, a European Space Agency experiment exposed some tardigrades to the vacuum and radiation of open space in orbit. Many survived, and some went on to reproduce after returning to Earth."
+    ],
+    "keyIdea": "Life can pause itself. Survival is not only about being strong, but about shutting down until conditions improve.",
+    "followUp": "What might tardigrades teach us about the limits of where life could exist?",
+    "sources": [
+      {
+        "name": "Wikipedia: Tardigrade",
+        "url": "https://en.wikipedia.org/wiki/Tardigrade",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Cryptobiosis",
+        "url": "https://en.wikipedia.org/wiki/Cryptobiosis",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "spains-borrowed-clock",
+    "type": "capsule",
+    "title": "Why Spain lives in the wrong time zone",
+    "difficulty": 2,
+    "area": "geography",
+    "body": [
+      "Look at a map: Spain lies at roughly the same longitude as Britain and Portugal, countries that follow Greenwich Mean Time. Yet mainland Spain uses Central European Time, the same as Germany and Poland, which lie far to the east.",
+      "The reason is political. In 1940, the Spanish government under Francisco Franco moved the country's clocks forward by one hour, bringing them in line with Berlin's time. The change was never reversed after the war.",
+      "As a result, the sun in Spain rises and sets about an hour later than the clock suggests. Many people think this helps explain Spain's late dinners and late bedtimes, and there have been public debates about switching back."
+    ],
+    "keyIdea": "Time zones are human decisions, not natural facts, and a political choice can shape daily habits for generations.",
+    "followUp": "If you could choose your own time zone, how would your daily routine change?",
+    "sources": [
+      {
+        "name": "Wikipedia: Time in Spain",
+        "url": "https://en.wikipedia.org/wiki/Time_in_Spain",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-first-webcam-coffee-pot",
+    "type": "capsule",
+    "title": "The coffee pot that went online",
+    "difficulty": 1,
+    "area": "technology",
+    "body": [
+      "In the early 1990s, researchers in the Computer Laboratory at the University of Cambridge worked on different floors from a shared coffee pot, known as the Trojan Room coffee pot. People often walked all the way up only to find it empty.",
+      "In 1991 they pointed a camera at the pot and wrote software so that everyone in the building could check the level on their computer screens. A few years later, in 1993, the pictures were connected to the early World Wide Web.",
+      "It became one of the first webcams. Thousands of strangers watched a picture of a coffee pot update a few times a minute, simply because they could."
+    ],
+    "keyIdea": "Many important technologies begin as small, practical fixes for everyday annoyances.",
+    "followUp": "What small annoyance in your own life could a simple bit of technology solve?",
+    "sources": [
+      {
+        "name": "Wikipedia: Trojan Room coffee pot",
+        "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "lascaux-cave-paintings",
+    "type": "capsule",
+    "title": "Four teenagers and the painted cave",
+    "difficulty": 2,
+    "area": "art",
+    "body": [
+      "In September 1940, in the countryside of southwestern France, a teenager named Marcel Ravidat was out walking when, according to the story, his dog fell into a hole. Returning with friends, he squeezed into an opening and found a cave covered in paintings.",
+      "The walls of the Lascaux cave show horses, deer, bulls and other animals, painted by people of the Upper Paleolithic roughly seventeen thousand years ago. Some of the animals are larger than life.",
+      "After the cave opened to the public, the breath and moisture of visitors began to damage the paintings, and it was closed in 1963. A faithful replica was built nearby so people could see the art without harming the original."
+    ],
+    "keyIdea": "Preserving something precious can mean protecting it from the very people who want to see it.",
+    "followUp": "Is a perfect replica as valuable as the original? What do you think we lose or keep?",
+    "sources": [
+      {
+        "name": "Wikipedia: Lascaux",
+        "url": "https://en.wikipedia.org/wiki/Lascaux",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "radioactive-bananas",
+    "type": "capsule",
+    "title": "Why a banana is slightly radioactive",
+    "difficulty": 1,
+    "area": "science",
+    "body": [
+      "Bananas are rich in potassium, an element your body needs for nerves and muscles. A very small fraction of all natural potassium is a radioactive form called potassium-40, and so bananas give off a tiny amount of radiation.",
+      "Scientists even invented a joking unit, the banana equivalent dose, to put small radiation amounts into perspective. Eating one banana adds about a tenth of a microsievert, a tiny fraction of the dose we receive from natural sources every day.",
+      "The lesson is not to fear bananas. Radiation is everywhere in small amounts, from soil, rocks, food and cosmic rays. What matters is the dose, and the dose from a banana is harmless."
+    ],
+    "keyIdea": "Words like radioactive sound alarming, but the amount matters far more than the label.",
+    "followUp": "What other things sound dangerous until you ask how much?",
+    "sources": [
+      {
+        "name": "Wikipedia: Banana equivalent dose",
+        "url": "https://en.wikipedia.org/wiki/Banana_equivalent_dose",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Potassium-40",
+        "url": "https://en.wikipedia.org/wiki/Potassium-40",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "the-great-stink-of-london",
+    "type": "capsule",
+    "title": "The smell that built London's sewers",
+    "difficulty": 2,
+    "area": "history",
+    "body": [
+      "By the middle of the nineteenth century, London's population had grown enormously, and much of its sewage flowed straight into the River Thames. In the hot summer of 1858, the smell became unbearable. Newspapers called it the Great Stink.",
+      "The stench was so strong that it reached the Houses of Parliament, where curtains soaked in chemicals were hung over the windows. Politicians, who had delayed action for years, finally voted to pay for a solution within days.",
+      "The engineer Joseph Bazalgette designed and built a huge network of sewers that carried waste away from the city, and the system largely still works today. Cleaner water also helped to reduce outbreaks of diseases such as cholera."
+    ],
+    "keyIdea": "Sometimes a problem is only solved when it becomes impossible to ignore, even for people in power.",
+    "followUp": "What problem today do you think will need its own Great Stink before anyone acts?",
+    "sources": [
+      {
+        "name": "Wikipedia: Great Stink",
+        "url": "https://en.wikipedia.org/wiki/Great_Stink",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      },
+      {
+        "name": "Wikipedia: Joseph Bazalgette",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Bazalgette",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "slug": "antikythera-mechanism",
+    "type": "capsule",
+    "title": "The ancient computer from the sea",
+    "difficulty": 3,
+    "area": "technology",
+    "body": [
+      "In 1901, sponge divers exploring a shipwreck near the Greek island of Antikythera brought up statues, jewelry and a lump of corroded bronze. Inside the lump were gears.",
+      "Decades of study, including modern X-ray imaging, showed that the device was a hand-powered machine with dozens of interlocking gears. It modeled the motions of the sun and moon, predicted eclipses, and tracked cycles including the timing of the ancient Olympic Games. It is usually dated to the second or first century BC.",
+      "Nothing of comparable mechanical complexity is known from the following thousand years or so. The device suggests that ancient Greek engineers were capable of far more than was once believed, and perhaps that many such machines have simply not survived."
+    ],
+    "keyIdea": "A single surprising artifact can force us to rethink what people in the past were capable of.",
+    "followUp": "What might be lost forever that would change how we see an ancient civilization?",
+    "sources": [
+      {
+        "name": "Wikipedia: Antikythera mechanism",
+        "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+        "license": "CC BY-SA 4.0; linked, not reproduced"
+      }
+    ]
+  }
+]

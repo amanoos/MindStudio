@@ -2,6 +2,7 @@
 // Run: npm run content:links   (needs network; not part of the offline content lint)
 import { join } from 'node:path'
 import { loadWordFiles } from '../src/lib/server/content.js'
+import { loadActivityFiles } from '../src/lib/server/activity-content.js'
 
 const entries = await loadWordFiles(join(process.cwd(), 'content', 'words'))
 
@@ -11,6 +12,10 @@ for (const { word } of entries) {
   const all = [...word.etymology.sources, ...(word.historicalSources ?? []), ...word.sources]
   for (const s of all) urls.set(s.url, [...(urls.get(s.url) ?? []), word.headword])
 }
+const activities = await loadActivityFiles(join(process.cwd(), 'content', 'activities'))
+for (const { activity } of activities)
+  for (const s of activity.sources ?? [])
+    urls.set(s.url, [...(urls.get(s.url) ?? []), activity.slug])
 
 /** @param {string} url */
 async function check(url) {

@@ -1,0 +1,275 @@
+[
+  {
+    "slug": "three-light-switches",
+    "type": "teaser",
+    "title": "The three light switches",
+    "difficulty": 2,
+    "kind": "logic",
+    "prompt": "Outside a closed room are three switches, all off. Exactly one of them controls a light bulb inside. You may flip the switches as much as you like, but you may enter the room only once. How can you be sure which switch controls the bulb?",
+    "hint": "A bulb gives you two clues, not one: whether it is lit, and whether it is warm.",
+    "options": [
+      "Turn one on for a few minutes, turn it off, turn a second one on, then go in. Lit means the second switch, warm but off means the first, cold means the third.",
+      "Turn all three on, then go in and look at which bulb is on.",
+      "Turn one on, go in, and if the bulb is off, try the next switch.",
+      "It cannot be done in a single visit."
+    ],
+    "answerIndex": 0,
+    "reasoning": "A bulb leaves two clues, light and heat. Run the first switch long enough to heat the bulb, then switch it off and turn the second on. Inside, the lit bulb belongs to the second switch. If it is dark but warm, the first switch heated it. If it is dark and cold, it must be the third switch, which you never touched. Using a second sense, touch, doubles the information from one visit."
+  },
+  {
+    "slug": "two-guards-two-doors",
+    "type": "teaser",
+    "title": "Two guards, two doors",
+    "difficulty": 3,
+    "kind": "logic",
+    "prompt": "You face two doors. One leads to safety, the other to danger. Each door has a guard. One guard always tells the truth and the other always lies, but you do not know which is which. You may ask one question to one guard. Which question guarantees you find the safe door?",
+    "hint": "Make the question so that a truth-teller and a liar both end up pointing at the same wrong door.",
+    "options": [
+      "Which door is safe?",
+      "Which door would the other guard say is safe? Then take the opposite door.",
+      "Are you the truth-teller?",
+      "Is the left door safe? Then do exactly what the answer says."
+    ],
+    "answerIndex": 1,
+    "reasoning": "Ask either guard what the other guard would say. If you ask the truth-teller, he truthfully reports the liar's false answer, which points at the dangerous door. If you ask the liar, he lies about the truth-teller's honest answer, which also points at the dangerous door. Either way the answer names the wrong door, so you take the other one. Two layers of honesty or lying cancel into a reliable signal."
+  },
+  {
+    "slug": "bat-and-ball",
+    "type": "teaser",
+    "title": "The bat and the ball",
+    "difficulty": 2,
+    "kind": "number",
+    "prompt": "A bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "hint": "Check each answer by adding both prices. The bat must be exactly one dollar more than the ball.",
+    "options": ["10 cents", "5 cents", "1 cent", "15 cents"],
+    "answerIndex": 1,
+    "reasoning": "If the ball were 10 cents, the bat would be $1.10 and the total $1.20. If the ball costs 5 cents, the bat costs $1.05, which is exactly one dollar more, and together they make $1.10. Many people blurt out 10 cents because the numbers pull toward it. This is a classic test of how a quick first answer can feel right yet fail a simple check."
+  },
+  {
+    "slug": "lily-pad-lake",
+    "type": "teaser",
+    "title": "The lily pads on the lake",
+    "difficulty": 2,
+    "kind": "number",
+    "prompt": "A patch of lily pads on a lake doubles in size every day. It takes 48 days for the patch to cover the whole lake. On which day was the lake half covered?",
+    "hint": "Work backwards. What happens on the day just before the lake is full?",
+    "options": ["Day 24", "Day 47", "Day 36", "Day 40"],
+    "answerIndex": 1,
+    "reasoning": "Because the patch doubles each day, it was half the size the day before it was full. Day 47 is therefore the day the lake was half covered. Our instinct treats growth as steady, but doubling is explosive: almost all of the growth happens in the last few days."
+  },
+  {
+    "slug": "five-machines-five-widgets",
+    "type": "teaser",
+    "title": "Five machines, five widgets",
+    "difficulty": 2,
+    "kind": "number",
+    "prompt": "If 5 machines take 5 minutes to make 5 widgets, how long would 100 machines take to make 100 widgets?",
+    "hint": "How long does one machine need to make one widget?",
+    "options": ["100 minutes", "20 minutes", "5 minutes", "1 minute"],
+    "answerIndex": 2,
+    "reasoning": "Each machine makes one widget in 5 minutes. A hundred machines each make one widget at the same time, so 100 widgets take the same 5 minutes. The trap is to scale the time with the number of machines, when it is the output that scales."
+  },
+  {
+    "slug": "mislabeled-boxes",
+    "type": "teaser",
+    "title": "The mislabeled boxes",
+    "difficulty": 3,
+    "kind": "logic",
+    "prompt": "Three boxes are labeled Apples, Oranges and Apples and Oranges. Every label is wrong. You may take one piece of fruit from one box, without looking inside. From which box should you draw, so that you can correctly relabel all three?",
+    "hint": "Which label gives the most information if it is wrong?",
+    "options": [
+      "The box labeled Apples",
+      "The box labeled Oranges",
+      "The box labeled Apples and Oranges",
+      "It does not matter which box you pick"
+    ],
+    "answerIndex": 2,
+    "reasoning": "The mixed-label box is wrong, so it cannot contain a mixture. It holds only apples or only oranges. Say you draw an apple. That box is Apples. The box labeled Oranges cannot be oranges, and apples are taken, so it holds the mixture. The last box, labeled Apples, must then be the oranges. Choosing the label with the most constraint makes one draw enough."
+  },
+  {
+    "slug": "overtake-second-place",
+    "type": "teaser",
+    "title": "The overtaking runner",
+    "difficulty": 1,
+    "kind": "logic",
+    "prompt": "In a race you overtake the runner who is in second place. What position are you in now?",
+    "options": ["First", "Second", "Third", "It depends on the race"],
+    "answerIndex": 1,
+    "reasoning": "When you pass the runner in second place, you take their position: you are now second, and they are third. To be first you would need to pass the leader. It is a small trap of picturing yourself as winning when you have only moved up one place."
+  },
+  {
+    "slug": "fox-goose-beans",
+    "type": "teaser",
+    "title": "The fox, the goose and the beans",
+    "difficulty": 2,
+    "kind": "logic",
+    "prompt": "A farmer must carry a fox, a goose and a sack of beans across a river in a boat that holds only the farmer and one item at a time. Left alone together, the fox eats the goose and the goose eats the beans. What should the farmer carry across first?",
+    "hint": "Which item can safely be left with each of the others? One of the three is the problem.",
+    "options": ["The fox", "The beans", "The goose", "Nothing; he should row across empty"],
+    "answerIndex": 2,
+    "reasoning": "The goose is the troublemaker: it cannot be left with the fox or with the beans. Taking it first leaves the fox and the beans, which are safe together. Next the farmer returns and carries the fox across, brings the goose back, takes the beans over, returns empty, and finally carries the goose across again. Starting with the item that causes the conflict is the key."
+  },
+  {
+    "slug": "pronic-sequence",
+    "type": "teaser",
+    "title": "2, 6, 12, 20, 30, ...",
+    "difficulty": 2,
+    "kind": "pattern",
+    "prompt": "What number comes next in the sequence 2, 6, 12, 20, 30?",
+    "hint": "Look at the gaps between the numbers, or at how each one factors.",
+    "options": ["38", "40", "42", "44"],
+    "answerIndex": 2,
+    "reasoning": "The numbers are 1 times 2, 2 times 3, 3 times 4, 4 times 5 and 5 times 6. The next is 6 times 7, which is 42. The gaps grow by 2 each time (4, 6, 8, 10), so the next gap is 12 and the answer is 42."
+  },
+  {
+    "slug": "fibonacci-next",
+    "type": "teaser",
+    "title": "1, 1, 2, 3, 5, 8, 13, ...",
+    "difficulty": 1,
+    "kind": "pattern",
+    "prompt": "What comes next in 1, 1, 2, 3, 5, 8, 13?",
+    "options": ["18", "20", "21", "26"],
+    "answerIndex": 2,
+    "reasoning": "Each number is the sum of the two before it: 8 plus 13 is 21. This is the Fibonacci sequence, which turns up in the spirals of sunflowers and pinecones and has fascinated mathematicians for centuries."
+  },
+  {
+    "slug": "growing-gaps-sequence",
+    "type": "teaser",
+    "title": "3, 6, 11, 18, 27, ...",
+    "difficulty": 2,
+    "kind": "pattern",
+    "prompt": "What number completes the sequence 3, 6, 11, 18, 27?",
+    "hint": "Write down the difference between each pair of neighbors.",
+    "options": ["36", "38", "40", "44"],
+    "answerIndex": 1,
+    "reasoning": "The differences are 3, 5, 7 and 9, so the next difference is 11. Adding 11 to 27 gives 38. The terms are also one more than the squares: 2 squared plus 2 is 6, and so on, which is another way to see the pattern."
+  },
+  {
+    "slug": "one-two-three-letters",
+    "type": "teaser",
+    "title": "O, T, T, F, F, S, S, E, N, ...",
+    "difficulty": 2,
+    "kind": "pattern",
+    "prompt": "What letter comes next in the sequence O, T, T, F, F, S, S, E, N?",
+    "hint": "The letters are not about the alphabet. Say the numbers out loud, starting from one.",
+    "options": ["T", "E", "N", "S"],
+    "answerIndex": 0,
+    "reasoning": "The letters are the first letters of the numbers: One, Two, Three, Four, Five, Six, Seven, Eight, Nine. The next number is Ten, so the next letter is T. Puzzles like this reward stepping outside the obvious pattern."
+  },
+  {
+    "slug": "monty-hall",
+    "type": "teaser",
+    "title": "The game show doors",
+    "difficulty": 3,
+    "kind": "probability",
+    "prompt": "On a game show there are three doors. Behind one is a car, behind the others goats. You pick a door. The host, who knows where the car is, opens a different door to reveal a goat and offers you the chance to switch to the remaining closed door. What should you do to maximize your chance of winning the car?",
+    "hint": "When you first picked, what was the chance you were right? Where does the rest of the probability go?",
+    "options": [
+      "Switch: it wins two times out of three.",
+      "Stay: it wins two times out of three.",
+      "It does not matter: it is 50-50.",
+      "Switch only if the host looks nervous."
+    ],
+    "answerIndex": 0,
+    "reasoning": "Your first pick has a 1 in 3 chance of being the car, and the other two doors together hold the remaining 2 in 3. The host, who always opens a goat door, moves that whole 2 in 3 onto the single door left. So switching wins whenever your first pick was wrong, which is two times out of three. It feels like 50-50, which is why this is famous."
+  },
+  {
+    "slug": "birthday-sharing",
+    "type": "teaser",
+    "title": "The shared birthday",
+    "difficulty": 2,
+    "kind": "probability",
+    "prompt": "How many people must be in a room before there is a better than even chance that two of them share a birthday? (Ignore leap years and assume birthdays are equally likely.)",
+    "options": ["23", "50", "100", "183"],
+    "answerIndex": 0,
+    "reasoning": "With 23 people there are 253 different pairs, and the chance that none of them shares a birthday falls to about 49 percent, so a match is slightly more likely than not. We tend to guess 183, half of 365, because we think of matching our own birthday. Here any pair can match, and the number of pairs grows quickly."
+  },
+  {
+    "slug": "five-heads-in-a-row",
+    "type": "teaser",
+    "title": "Five heads in a row",
+    "difficulty": 1,
+    "kind": "probability",
+    "prompt": "You flip a fair coin and it lands heads five times in a row. What is the chance the sixth flip is heads?",
+    "options": [
+      "Less than one half, because tails is overdue",
+      "More than one half, because heads is on a streak",
+      "Exactly one half",
+      "It cannot be known"
+    ],
+    "answerIndex": 2,
+    "reasoning": "A fair coin has no memory. Each flip is independent, so the next one is heads with probability exactly one half no matter what came before. Believing that tails is due is called the gambler's fallacy. The chance of five heads in a row is small in advance, but once it has happened it tells you nothing about the next flip."
+  },
+  {
+    "slug": "two-dice-most-likely-sum",
+    "type": "teaser",
+    "title": "Two dice, one sum",
+    "difficulty": 1,
+    "kind": "probability",
+    "prompt": "You roll two fair six-sided dice and add them. Which total is the most likely?",
+    "options": ["6", "7", "8", "12"],
+    "answerIndex": 1,
+    "reasoning": "A total of 7 can be made in six ways (1+6, 2+5, 3+4, 4+3, 5+2, 6+1) out of 36 equally likely outcomes, more than any other total. Totals of 6 and 8 each have five ways, and 12 has just one. This is why 7 matters so much in dice games."
+  },
+  {
+    "slug": "five-people-handshakes",
+    "type": "teaser",
+    "title": "The handshakes",
+    "difficulty": 1,
+    "kind": "number",
+    "prompt": "Five people meet and each shakes hands once with every other person. How many handshakes happen in total?",
+    "hint": "The first person shakes 4 hands. How many new ones does the second person add?",
+    "options": ["5", "10", "15", "20"],
+    "answerIndex": 1,
+    "reasoning": "The first person shakes 4 hands, the next adds 3 new ones, then 2, then 1, which totals 4 + 3 + 2 + 1 = 10. Another way is that 5 people times 4 handshakes each counts every handshake twice, so divide by 2 to get 10."
+  },
+  {
+    "slug": "man-pushes-car-hotel",
+    "type": "teaser",
+    "title": "The man who pushed his car",
+    "difficulty": 1,
+    "kind": "lateral",
+    "prompt": "A man pushes his car to a hotel, stops outside and realizes he has lost his entire fortune. What happened?",
+    "options": [
+      "He was playing the board game Monopoly and landed on a hotel.",
+      "His car broke down and he could not afford the repair.",
+      "He gambled at the hotel casino.",
+      "He had been robbed in the hotel parking lot."
+    ],
+    "answerIndex": 0,
+    "reasoning": "He is playing Monopoly: his car is a game token, and he has landed on a space with a hotel owned by another player, which costs him all his money. Lateral puzzles work by tricking you into reading a familiar word in its everyday sense."
+  },
+  {
+    "slug": "elevator-short-man",
+    "type": "teaser",
+    "title": "The man in the elevator",
+    "difficulty": 2,
+    "kind": "lateral",
+    "prompt": "A man lives on the 20th floor. Each morning he takes the elevator to the ground floor. Coming home, he rides to the 10th floor and walks the rest of the way, unless it is raining, when he rides all the way up. Why?",
+    "hint": "What might stop him from pressing the top button, and what could he use on a rainy day?",
+    "options": [
+      "He is too short to reach the button for the 20th floor, but on rainy days he uses his umbrella to press it.",
+      "He is trying to get exercise on dry days.",
+      "The elevator is slower when it rains.",
+      "He likes to visit a friend on the 10th floor."
+    ],
+    "answerIndex": 0,
+    "reasoning": "He can reach only as high as the button for the 10th floor. On rainy days he carries an umbrella, which lets him press the button for the 20th floor. The clues, a pattern tied to the weather and a limit halfway up, point to a physical reach limit rather than a habit."
+  },
+  {
+    "slug": "woman-shoots-husband",
+    "type": "teaser",
+    "title": "The photographer's morning",
+    "difficulty": 2,
+    "kind": "lateral",
+    "prompt": "A woman shoots her husband. Then she holds him underwater for five minutes. Finally she hangs him. Moments later they go out to dinner and enjoy themselves. How is this possible?",
+    "options": [
+      "She was a photographer: she shot a photograph, developed it in water, and hung it to dry.",
+      "They were actors rehearsing a play.",
+      "It was a dream, and he woke up.",
+      "He was a magician and she was his assistant."
+    ],
+    "answerIndex": 0,
+    "reasoning": "She is a photographer. She shoots a photograph of her husband, develops the print in a tray of liquid, and hangs it up to dry. Every shocking verb has a second meaning in photography. Reading the puzzle for alternative meanings of its words is the lateral move."
+  }
+]

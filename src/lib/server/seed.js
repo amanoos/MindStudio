@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto'
 import { join } from 'node:path'
 import { loadBlocklist, loadWordFiles, lintWords } from './content.js'
+import { lintActivities, loadActivityFiles } from './activity-content.js'
 import { migrate } from './db.js'
 import { normalizeHeadword, slugify } from './normalize.js'
 
@@ -75,11 +76,35 @@ export async function seedWords(db, entries) {
   return { inserted, updated }
 }
 
-/** Fingerprint of all word content, so unchanged content is not re-seeded on every start. */
-function contentHash(/** @type {{ word: any }[]} */ entries) {
+/** Fingerprint of all word and activity content, so unchanged content is not re-seeded on every start. */
+function contentHash(
+  /** @type {{ word: any }[]} */ entries,
+  /** @type {{ activity: any }[]} */ activities
+) {
   return createHash('sha256')
-    .update(JSON.stringify(entries.map((e) => e.word)))
+    .update(JSON.stringify([entries.map((e) => e.word), activities.map((e) => e.activity)]))
     .digest('hex')
+}
+
+/**
+ * Insert or refresh Mind Studio activities in a single round trip. Attempts reference an
+ * activity by id, so existing rows are updated in place and never deleted.
+ * @param {import('@libsql/client').Client} db
+ * @param {{ file: string, activity: any }[]} activities
+ */
+export async function seedActivities(db, activities) {
+  if (!activities.length) return
+  await db.batch(
+    activities.map(({ activity: a }) => ({
+      sql: `INSERT INTO activity (slug, type, title, data, difficulty)
+            VALUES (?, ?, ?, ?, ?)
+            ON CONFLICT(slug) DO UPDATE SET
+              type = excluded.type, title = excluded.title,
+              data = excluded.data, difficulty = excluded.difficulty`,
+      args: [a.slug, a.type, a.title, JSON.stringify(a), a.difficulty]
+    })),
+    'write'
+  )
 }
 
 /**
@@ -92,14 +117,17 @@ function contentHash(/** @type {{ word: any }[]} */ entries) {
 export async function bootstrap(db, root = process.cwd()) {
   await migrate(db, join(root, 'db', 'migrations'))
   const entries = await loadWordFiles(join(root, 'content', 'words'))
-  const errors = lintWords(entries, await loadBlocklist(join(root, 'content', 'blocklist.txt')))
+  const activities = await loadActivityFiles(join(root, 'content', 'activities'))
+  const blocklist = await loadBlocklist(join(root, 'content', 'blocklist.txt'))
+  const errors = [...lintWords(entries, blocklist), ...lintActivities(activities, blocklist)]
   if (errors.length) throw new Error(`Content lint failed:\n${errors.join('\n')}`)
 
-  const hash = contentHash(entries)
+  const hash = contentHash(entries, activities)
   const saved = await db.execute("SELECT value FROM setting WHERE key = 'content_hash'")
   if (saved.rows[0]?.value === hash) return { inserted: 0, updated: 0, skipped: true }
 
   const result = await seedWords(db, entries)
+  await seedActivities(db, activities)
   await db.execute({
     sql: `INSERT INTO setting (key, value) VALUES ('content_hash', ?)
           ON CONFLICT(key) DO UPDATE SET value = excluded.value`,

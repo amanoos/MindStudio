@@ -2,7 +2,7 @@
   import { enhance } from '$app/forms'
   import { resolve } from '$app/paths'
   import { onMount } from 'svelte'
-  import { Flame, Repeat2, Brain } from 'lucide-svelte'
+  import { Flame, Repeat2, Brain, Sparkles } from 'lucide-svelte'
   import Mascot from '#lib/components/Mascot.svelte'
   import ProgressRing from '#lib/components/ProgressRing.svelte'
   import ConfettiBurst from '#lib/components/ConfettiBurst.svelte'
@@ -107,6 +107,23 @@
     <form method="POST" action="?/catchUp" use:enhance>
       <button class="btn" type="submit">Catch up on yesterday</button>
     </form>
+  </section>
+{/if}
+
+{#if data.mindStretch}
+  <section class="stretch-card card pop-in" style="--i: 7">
+    <Sparkles size={26} aria-hidden="true" />
+    <div>
+      <p class="kicker">Today's mind-stretcher, if you fancy one</p>
+      <h2>{data.mindStretch.title}</h2>
+    </div>
+    <a
+      class="btn"
+      href={resolve('/studio/[type]/[slug]', {
+        type: data.mindStretch.type,
+        slug: data.mindStretch.slug
+      })}>Try it</a
+    >
   </section>
 {/if}
 
@@ -261,6 +278,31 @@
   .catch {
     margin-top: var(--space-5);
     max-width: 34rem;
+  }
+  .stretch-card {
+    margin-top: var(--space-5);
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    border-left: 12px solid var(--grape);
+  }
+  .stretch-card > :global(svg) {
+    color: var(--grape);
+    flex: none;
+  }
+  .stretch-card > div {
+    flex: 1;
+    min-width: 12rem;
+  }
+  .stretch-card h2,
+  .stretch-card .kicker {
+    margin: 0;
+  }
+  .stretch-card .kicker {
+    font-family: var(--font-hand);
+    font-size: 1.35rem;
+    color: var(--ink-soft);
   }
   .catching {
     margin-top: var(--space-5);

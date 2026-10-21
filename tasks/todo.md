@@ -47,7 +47,7 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
 
 ### Checkpoint A: Foundation
 - [x] All checks green; live Render + Turso URL shows today's five words; redeploy keeps history (redeploy check pending user); duplicate DB test passes
-- [ ] Review with user (look and feel check)
+- [x] Review with user (look and feel check)
 
 ## Phase 2: Learning loop
 
@@ -117,28 +117,28 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
 - [x] **T21 Word batch 4 (20: social concepts, idioms/phrases, "surprise me" delights)** (S) — deps: T20 — same criteria — `batch-04.json`
 - [x] **T22 Word batch 5 (remainder to ~100, topic balance report)** (S) — deps: T21 — same criteria plus a topic/difficulty distribution check — `batch-05.json`
 
-- [ ] **T23 Mind Studio shell and Brain Teaser** (M) — deps: T3, T6, T2
+- [x] **T23 Mind Studio shell and Brain Teaser** (M) — deps: T3, T6, T2
   - Acceptance: Studio hub; teaser flow (attempt → reveal reasoning with unfold animation → gentle shake/sparkle feedback); ~20 teasers; one suggested per day on Today.
   - Verify: tests for daily pick; e2e solve and reveal.
   - Files: `src/routes/studio/+page.svelte`, `studio/[type]/+page.svelte`, `content/activities/teasers.json`, `src/lib/server/activities.js`
 
-- [ ] **T24 Curiosity Capsule** (M) — deps: T23
+- [x] **T24 Curiosity Capsule** (M) — deps: T23
   - Acceptance: ~15 capsules with sources and follow-up question; linter covers activity sources.
   - Verify: `npm run content:lint`; e2e read and answer.
   - Files: `content/activities/capsules.json`, capsule component, lint extension
 
-- [ ] **T25 Critical Thinking Lab** (M) — deps: T23
+- [x] **T25 Critical Thinking Lab** (M) — deps: T23
   - Acceptance: ~15 prompts (hidden assumption, correlation vs causation, bias, claim evaluation) with explanations.
   - Verify: `npm run content:lint`; e2e complete one.
   - Files: `content/activities/critical-thinking.json`, component
 
-- [ ] **T26 Activity history** (S) — deps: T24, T25
+- [x] **T26 Activity history** (S) — deps: T24, T25
   - Acceptance: attempts stored; history list on Studio and Progress; no punitive scoring.
   - Verify: integration test; e2e.
   - Files: `src/lib/server/activities.js`, `studio/history/+page.svelte`
 
 ### Checkpoint D: Content complete
-- [ ] ~100 words lint-clean and seeded on live site; three activity types work end to end
+- [x] ~100 words lint-clean and seeded on live site; three activity types work end to end
 - [ ] Review with user
 
 ## Phase 5: Polish and ship

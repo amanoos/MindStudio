@@ -4,6 +4,7 @@ import { findSet, getOrCreateDailySet } from '#lib/server/daily/publish.js'
 import { localDate } from '#lib/server/daily/select.js'
 import { dayBefore } from '#lib/server/streak.js'
 import { countDue } from '#lib/server/review.js'
+import { pickDaily } from '#lib/server/activities.js'
 import { getSeenWordIds, getStreak, getTodayProgress, hasEarlierSet } from '#lib/server/progress.js'
 
 /** @param {import('#lib/server/daily/publish.js').SetWord} w */
@@ -56,6 +57,7 @@ export async function load() {
     ),
     streak: await getStreak(db, tz, now),
     due: await countDue(db, now),
+    mindStretch: await pickDaily(db, today),
     canCatchUp,
     catchUpWords
   }

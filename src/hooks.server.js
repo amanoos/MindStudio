@@ -8,8 +8,12 @@ const PUBLIC_PATHS = ['/login', '/healthz']
 /** Runs once at startup: migrate, lint content, seed. Refuses to start on bad content. */
 export async function init() {
   authConfig() // fail fast in production if secrets are missing
-  const { inserted, updated } = await bootstrap(getDb())
-  console.log(`[boot] content ready: ${inserted} new, ${updated} refreshed`)
+  const { inserted, updated, skipped } = await bootstrap(getDb())
+  console.log(
+    skipped
+      ? '[boot] content unchanged, seed skipped'
+      : `[boot] content ready: ${inserted} new, ${updated} refreshed`
+  )
 }
 
 /** @type {import('@sveltejs/kit/hooks').Handle} */

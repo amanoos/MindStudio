@@ -1,0 +1,808 @@
+[
+  {
+    "headword": "gregarious",
+    "pos": ["adjective"],
+    "pronunciation": "grih-GAIR-ee-us",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "Fond of company; enjoying being around other people.",
+    "register": "Neutral to formal; warm and approving.",
+    "nuance": "A gregarious person seeks out company and feels energized by it. It is about sociability, not talkativeness, and in biology it can also describe animals that live in groups.",
+    "synonyms": [
+      { "word": "sociable", "distinction": "Friendly and easy company; the everyday word." },
+      { "word": "outgoing", "distinction": "Open and friendly toward others." },
+      { "word": "convivial", "distinction": "Cheerful and festive, as at a lively party." },
+      {
+        "word": "extroverted",
+        "distinction": "A psychology term for gaining energy from social contact."
+      }
+    ],
+    "antonyms": ["reclusive", "solitary"],
+    "examples": [
+      {
+        "text": "Our new neighbor is gregarious and had half the street over for dinner in a week.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Sheep and starlings are gregarious animals, safer and happier in a crowd.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin gregarius, meaning of a flock or herd, from grex, greg- (flock, herd). The English word first described animals that live in flocks, and later people who like company.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/gregarious",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/gregarious",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is gregariousness. It is a cousin of congregate, segregate and egregious, which originally meant standing out from the flock.",
+    "memoryHook": "Grex is the flock: congregate means to flock together, segregate to separate from the flock. A gregarious person flocks gladly.",
+    "practice": { "prompt": "Describe a gregarious person you know and how they change a room." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/gregarious",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "equanimity",
+    "pos": ["noun"],
+    "pronunciation": "ee-kwuh-NIM-ih-tee",
+    "topic": "everyday precision",
+    "difficulty": 3,
+    "definition": "Calmness and composure, especially under stress or in difficult situations.",
+    "register": "Formal and literary; admiring.",
+    "nuance": "Equanimity is an even mind that does not swing with every upset. It is quieter than bravery and different from coldness: the feelings are felt, but they do not take control.",
+    "synonyms": [
+      { "word": "composure", "distinction": "Self-control that keeps outward calm." },
+      { "word": "poise", "distinction": "Graceful balance and self-assurance." },
+      { "word": "serenity", "distinction": "A deep, untroubled calm." },
+      { "word": "sangfroid", "distinction": "Coolness under danger, from French." }
+    ],
+    "antonyms": ["agitation", "panic"],
+    "examples": [
+      {
+        "text": "She received the bad news with remarkable equanimity and began planning the next step.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Years of meditation had given him an equanimity that crisis could dent but not break.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin aequanimitas, meaning evenness of mind, built from aequus (even, equal) and animus (mind, spirit). It literally means an even mind.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/equanimity",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/equanimity",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typically with the phrase with equanimity. The adjective is equanimous, which is rare. It is valued in Stoic and Buddhist traditions.",
+    "memoryHook": "Aequus is even and animus is mind, as in animate and unanimous. Equanimity is an even mind.",
+    "practice": { "prompt": "Describe a situation where you kept your equanimity, and how." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/equanimity",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "magnanimous",
+    "pos": ["adjective"],
+    "pronunciation": "mag-NAN-ih-mus",
+    "topic": "social concepts",
+    "difficulty": 3,
+    "definition": "Generous and forgiving, especially toward a rival or someone less powerful.",
+    "register": "Formal and literary; admiring.",
+    "nuance": "Magnanimity shows greatness of spirit: being gracious in victory, or forgiving a wrong when you could have punished it. It implies you are in the stronger position.",
+    "synonyms": [
+      { "word": "generous", "distinction": "Giving freely; the plain word." },
+      {
+        "word": "gracious",
+        "distinction": "Courteous and kind, especially in how something is done."
+      },
+      { "word": "big-hearted", "distinction": "Warm and giving; informal." },
+      { "word": "forgiving", "distinction": "Willing to pardon." }
+    ],
+    "antonyms": ["petty", "vindictive"],
+    "examples": [
+      {
+        "text": "The winner was magnanimous and praised her opponent's strong game.",
+        "kind": "everyday"
+      },
+      {
+        "text": "He took the magnanimous course and offered his rival the job he had also wanted.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin magnanimus, meaning great-souled, built from magnus (great) and animus (soul, mind, spirit). It translates the Greek idea of greatness of soul that Aristotle admired.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/magnanimous",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/magnanimous",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is magnanimity. Often used in the phrase magnanimous in victory. Its opposite is pusillanimous, which means timid.",
+    "memoryHook": "Magnus is great, as in magnify, and animus is soul. A magnanimous person has a great soul.",
+    "practice": { "prompt": "Describe a magnanimous act you witnessed, or wish you had made." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/magnanimous",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "benevolent",
+    "pos": ["adjective"],
+    "pronunciation": "buh-NEV-uh-lent",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "Kind, well-meaning and wishing to do good for others.",
+    "register": "Formal; admiring, sometimes slightly patronizing.",
+    "nuance": "Benevolent stresses good intentions toward others, especially from someone with power or resources. A benevolent ruler wants the best for the people, though the phrase can also hint at paternalism.",
+    "synonyms": [
+      { "word": "kindly", "distinction": "Warm and gentle; the everyday word." },
+      { "word": "charitable", "distinction": "Generous in giving help or in judging others." },
+      { "word": "benign", "distinction": "Gentle and harmless; also used for medical conditions." },
+      { "word": "philanthropic", "distinction": "Giving money to improve human welfare." }
+    ],
+    "antonyms": ["malevolent", "spiteful"],
+    "examples": [
+      {
+        "text": "The benevolent owner kept the shop open late so students could study in the warmth.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The benevolent fund quietly paid the tuition of dozens of children each year.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin benevolens, meaning well-wishing, built from bene (well) and volens, the present participle of velle (to wish, to want). The word literally means wishing well.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/benevolent",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/benevolent",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is benevolence. Its pair is malevolent, wishing harm. Benevolent society is an old term for a mutual aid organization.",
+    "memoryHook": "Bene is well and velle is to wish, as in volition. Benevolent means wishing well, and malevolent means wishing ill.",
+    "practice": { "prompt": "Describe a benevolent act from your own life, big or small." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/benevolent",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "quandary",
+    "pos": ["noun"],
+    "pronunciation": "KWON-duh-ree",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "A state of uncertainty about what to do in a difficult situation; a dilemma.",
+    "register": "Neutral; everyday and written.",
+    "nuance": "A quandary is the feeling of being stuck between options, none clearly right. It is the state of mind, while a dilemma is the situation of having two difficult choices.",
+    "synonyms": [
+      { "word": "dilemma", "distinction": "A choice between two unwelcome options." },
+      { "word": "predicament", "distinction": "A difficult, awkward situation." },
+      { "word": "bind", "distinction": "Informal; a tight spot." },
+      { "word": "quagmire", "distinction": "A situation hard to escape, like a bog." }
+    ],
+    "antonyms": ["certainty", "clarity"],
+    "examples": [
+      { "text": "I'm in a quandary about whether to accept the job or stay.", "kind": "everyday" },
+      {
+        "text": "The doctor's quandary was real: telling the full truth might harm the patient, but so might hiding it.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "The word appears in English in the sixteenth century with the meaning of a state of perplexity. Its origin is unknown. Some have guessed that it was a playful pseudo-Latin coinage, but that is only speculation and no reliable source for it has been found.",
+      "confidence": "uncertain",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/quandary",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/quandary",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical in the phrase in a quandary or to be in a quandary over. The plural is quandaries.",
+    "memoryHook": "No hook from the etymology here, since the origin is unknown. Remember it by sound: a quandary is a quandary because you do not know which way to go.",
+    "practice": { "prompt": "Describe a quandary you faced and how you finally chose." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/quandary",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "resilient",
+    "pos": ["adjective"],
+    "pronunciation": "rih-ZIL-yent",
+    "topic": "everyday precision",
+    "difficulty": 1,
+    "definition": "Able to recover quickly from difficulty; or, of a material, able to spring back into shape.",
+    "register": "Neutral; positive and widely used.",
+    "nuance": "Resilience is bouncing back, not never falling. A resilient person or community absorbs a shock and returns to function, often stronger.",
+    "synonyms": [
+      { "word": "tough", "distinction": "Able to withstand hardship; the plain word." },
+      { "word": "adaptable", "distinction": "Able to adjust to new conditions." },
+      { "word": "elastic", "distinction": "Able to stretch and return to shape." },
+      { "word": "hardy", "distinction": "Strong enough to survive harsh conditions, as in plants." }
+    ],
+    "antonyms": ["fragile", "brittle"],
+    "examples": [
+      { "text": "Children are often more resilient than adults expect.", "kind": "everyday" },
+      {
+        "text": "A resilient supply chain bends under pressure and then returns to shape.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin resiliens, the present participle of resilire, meaning to leap back or rebound, built from re- (back) and salire (to jump). It first described physical springing back before it described people.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/resilient",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/resilient",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is resilience. It is used for people, economies, ecosystems and infrastructure.",
+    "memoryHook": "Salire is to jump, like salient and somersault. A resilient thing jumps back.",
+    "practice": { "prompt": "Describe what made you resilient after a setback." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/resilient",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "pensive",
+    "pos": ["adjective"],
+    "pronunciation": "PEN-siv",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "Deep in thought, often quietly or with a touch of sadness.",
+    "register": "Literary; gentle.",
+    "nuance": "Pensive describes a thoughtful, inward look. It is quieter than worried and softer than brooding. It suggests reflection rather than anxiety.",
+    "synonyms": [
+      { "word": "thoughtful", "distinction": "Absorbed in thought, or considerate of others." },
+      { "word": "contemplative", "distinction": "Reflecting deeply and calmly." },
+      { "word": "wistful", "distinction": "Gently longing, often for the past." },
+      { "word": "brooding", "distinction": "Gloomily preoccupied." }
+    ],
+    "antonyms": ["carefree", "unthinking"],
+    "examples": [
+      { "text": "She sat by the window, pensive, watching the rain.", "kind": "everyday" },
+      {
+        "text": "The painter caught him in a pensive moment, chin on hand, eyes somewhere far away.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Old French pensif, from penser (to think), which comes from Latin pensare (to weigh, to consider). That verb is a frequent form of pendere (to hang, to weigh). Thinking was pictured as weighing things in the mind.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/pensive",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/pensive",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used for faces, moods and looks. A related French word pensée means thought, which is also a pansy flower, from the idea of thoughtful faces.",
+    "memoryHook": "Pensare is to weigh, which is the root of pension (a weighed payment) and compensate. A pensive person is weighing things in mind.",
+    "practice": { "prompt": "Describe a pensive moment with details a reader could see." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/pensive",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "sagacious",
+    "pos": ["adjective"],
+    "pronunciation": "suh-GAY-shus",
+    "topic": "everyday precision",
+    "difficulty": 3,
+    "definition": "Having or showing keen judgment and practical wisdom.",
+    "register": "Formal and literary; admiring.",
+    "nuance": "A sagacious person is both wise and shrewd: they read situations well and decide soundly. It is less academic than learned and more practical than philosophical.",
+    "synonyms": [
+      { "word": "wise", "distinction": "The plain word for deep understanding." },
+      { "word": "shrewd", "distinction": "Sharp and clever about practical affairs." },
+      { "word": "astute", "distinction": "Quick to see what is advantageous." },
+      { "word": "judicious", "distinction": "Showing good judgment and care." }
+    ],
+    "antonyms": ["foolish", "naive"],
+    "examples": [
+      {
+        "text": "Her sagacious advice saved the small business from a costly mistake.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The sagacious old judge could tell within minutes which witness was lying.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin sagax, sagac-, meaning of quick perception or keen-scented, from sagire (to perceive keenly). Like a hound with a good nose, the sagacious person picks up the trail of the truth.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/sagacious",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/sagacious",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is sagacity. It is more formal than wise and slightly old-fashioned, so it often appears in literary or humorous writing.",
+    "memoryHook": "Sagire is to perceive keenly, and sagax carries the image of a keen scent. Sagacious people sniff out what matters.",
+    "practice": { "prompt": "Describe sagacious advice you once received and how it helped." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/sagacious",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "ineffable",
+    "pos": ["adjective"],
+    "pronunciation": "in-EF-uh-bul",
+    "topic": "literature and rhetoric",
+    "difficulty": 3,
+    "definition": "Too great, beautiful or deep to be put into words.",
+    "register": "Literary and religious; elevated.",
+    "nuance": "Ineffable describes experiences that language cannot capture, such as awe, love or the sublime. It praises the thing by admitting words fall short.",
+    "synonyms": [
+      { "word": "indescribable", "distinction": "The plain word for cannot be described." },
+      { "word": "unspeakable", "distinction": "Too awful, or too great, to say; often negative." },
+      { "word": "inexpressible", "distinction": "Not able to be expressed." },
+      { "word": "sublime", "distinction": "Awe-inspiring in grandeur or beauty." }
+    ],
+    "antonyms": ["describable", "mundane"],
+    "examples": [
+      {
+        "text": "There was an ineffable sadness in the old song that nobody could explain.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Standing under the night sky, she felt something ineffable and gave up trying to name it.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Late Latin ineffabilis, meaning unutterable, built from in- (not) and effabilis (utterable), from effari (to speak out), which comes from ex- (out) and fari (to speak). The word began in religious writing about what cannot be spoken of God.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ineffable",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ineffable",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is ineffability. Fari, to speak, also gives us fable, fame and infant, which literally means not speaking.",
+    "memoryHook": "Fari is to speak, as in infant (not yet speaking). Ineffable means not able to be spoken.",
+    "practice": {
+      "prompt": "Try to describe something ineffable, and notice where the words fail."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ineffable",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "cacophony",
+    "pos": ["noun"],
+    "pronunciation": "kuh-KOF-uh-nee",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "A harsh, jarring mixture of loud sounds.",
+    "register": "Neutral to literary; vivid.",
+    "nuance": "Cacophony is noise that clashes: not just loud but discordant. It can describe sound, and also a confusion of voices, opinions or colors.",
+    "synonyms": [
+      { "word": "din", "distinction": "A loud, continuous, unpleasant noise." },
+      { "word": "racket", "distinction": "Loud, disturbing noise; informal." },
+      { "word": "discord", "distinction": "Clashing sounds or disagreement." },
+      { "word": "clamor", "distinction": "A loud outcry or confused noise." }
+    ],
+    "antonyms": ["harmony", "euphony"],
+    "examples": [
+      { "text": "The market was a cacophony of vendors, horns and radios.", "kind": "everyday" },
+      {
+        "text": "Online, the cacophony of opinions makes it hard to hear a single clear voice.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek kakophonia, meaning bad sound, built from kakos (bad) and phone (sound, voice). Its opposite is euphony, from eu (good) and phone.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/cacophony",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/cacophony",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is cacophonous. It is often used for street noise, bird calls and overlapping voices.",
+    "memoryHook": "Kakos is bad, as in kakistocracy (rule by the worst), and phone is sound, as in telephone. Cacophony is bad sound.",
+    "practice": {
+      "prompt": "Describe a cacophony you have stood inside, and what you could pick out."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/cacophony",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "euphoria",
+    "pos": ["noun"],
+    "pronunciation": "yoo-FOR-ee-uh",
+    "topic": "words with a story",
+    "difficulty": 2,
+    "definition": "A feeling of intense happiness and well-being, often sudden and overflowing.",
+    "register": "Neutral; everyday and medical.",
+    "nuance": "Euphoria is a high: joyful, buoyant, sometimes slightly out of proportion to the cause. In medicine it can also describe an exaggerated sense of well-being.",
+    "synonyms": [
+      { "word": "elation", "distinction": "Great joy and pride, often after success." },
+      { "word": "bliss", "distinction": "Perfect happiness and peace." },
+      { "word": "exhilaration", "distinction": "A thrilling, lively excitement." },
+      { "word": "rapture", "distinction": "Ecstatic delight, almost beyond self-control." }
+    ],
+    "antonyms": ["despair", "dejection"],
+    "examples": [
+      {
+        "text": "The crowd was in a state of euphoria when the team scored in the last minute.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A brief euphoria followed the final exam, before the tiredness caught up.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek euphoria, meaning the power of bearing easily, from euphoros (bearing well), built from eu (well, good) and pherein (to bear, to carry). In Greek medicine it described a patient's ease in enduring illness.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/euphoria",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/euphoria",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is euphoric. It can be positive or, in medical contexts, a symptom, as when a drug causes unrealistic well-being.",
+    "memoryHook": "Eu is good and pherein is to bear, as in metaphor. Euphoria is bearing things well, so well it overflows.",
+    "practice": { "prompt": "Describe a moment of euphoria and what came right after it." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/euphoria",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "inertia",
+    "pos": ["noun"],
+    "pronunciation": "ih-NER-shuh",
+    "topic": "science and nature",
+    "difficulty": 2,
+    "definition": "The tendency to keep doing what one is doing, or to remain at rest; in physics, an object's resistance to changes in its motion.",
+    "register": "Neutral; scientific and general.",
+    "nuance": "In physics, inertia means a body at rest stays at rest and a body in motion stays in motion unless a force acts on it. In daily life it means the difficulty of starting something or changing a habit.",
+    "synonyms": [
+      { "word": "inactivity", "distinction": "A state of not doing anything." },
+      {
+        "word": "momentum",
+        "distinction": "The force of motion once started, almost the opposite feeling."
+      },
+      { "word": "lethargy", "distinction": "A heavy lack of energy or interest." },
+      { "word": "apathy", "distinction": "Lack of interest or concern." }
+    ],
+    "antonyms": ["momentum", "initiative"],
+    "examples": [
+      {
+        "text": "It took real effort to overcome the inertia and finally start exercising.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Institutional inertia kept the old system running years after everyone knew it was broken.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin inertia, meaning idleness or unskillfulness, from iners (inactive, unskilled), built from in- (without) and ars (skill, art). In the seventeenth century scientists such as Kepler adopted it for the resistance of matter to change in motion.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/inertia",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/inertia",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is inertial. It is common in the phrases overcome inertia and bureaucratic inertia.",
+    "memoryHook": "Iners means without skill or art, as in inert. A thing with inertia has no inclination to change on its own.",
+    "practice": { "prompt": "Describe an inertia you broke by making one small first move." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/inertia",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "vicarious",
+    "pos": ["adjective"],
+    "pronunciation": "vy-KAIR-ee-us",
+    "topic": "everyday precision",
+    "difficulty": 3,
+    "definition": "Experienced through someone else's actions or feelings rather than your own.",
+    "register": "Neutral to formal.",
+    "nuance": "A vicarious thrill is felt by watching or imagining someone else's experience. It also names acts done by a substitute, as in vicarious liability, where one party is responsible for another's acts.",
+    "synonyms": [
+      {
+        "word": "secondhand",
+        "distinction": "Gained from another's experience, often with a note of thinness."
+      },
+      { "word": "substitute", "distinction": "Acting in place of someone." },
+      { "word": "delegated", "distinction": "Handed to someone to carry out on your behalf." },
+      {
+        "word": "empathetic",
+        "distinction": "Sharing someone's feelings, without the idea of living through them."
+      }
+    ],
+    "antonyms": ["firsthand", "direct"],
+    "examples": [
+      {
+        "text": "She got a vicarious thrill from her brother's mountain photos.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Parents sometimes live vicariously through their children, which can be generous or burdensome.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin vicarius, meaning substituting or delegated, from vicis (change, turn, place). The same Latin root gives us vicar, a substitute for a higher official, and the prefix vice- in vice president.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/vicarious",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/vicarious",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Most commonly paired with experience, thrill, pleasure and living. The adverb is vicariously.",
+    "memoryHook": "Vicis is a turn or place; a vicar takes the place of a priest, and a vicarious experience takes the place of your own.",
+    "practice": {
+      "prompt": "Describe something you enjoy vicariously, and why you do not do it yourself."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/vicarious",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "juxtapose",
+    "pos": ["verb"],
+    "pronunciation": "JUK-stuh-pohz",
+    "topic": "history and arts",
+    "difficulty": 3,
+    "definition": "To place two things side by side so that their differences or similarities stand out.",
+    "register": "Formal; common in art, writing and criticism.",
+    "nuance": "Juxtaposing is a deliberate act of comparison by placement. A writer might juxtapose a luxurious feast with an empty street to make a point without commenting on it.",
+    "synonyms": [
+      { "word": "contrast", "distinction": "To show differences by comparing." },
+      { "word": "compare", "distinction": "To examine likenesses and differences." },
+      { "word": "collocate", "distinction": "To place side by side; technical and rare." },
+      { "word": "counterpose", "distinction": "To set one thing against another." }
+    ],
+    "antonyms": ["separate"],
+    "examples": [
+      {
+        "text": "The exhibition juxtaposes old photographs with images of the same streets today.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The poem juxtaposes a child's laughter with the sound of distant guns and says nothing more.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From French juxtaposer, built from Latin juxta (next to, close by) and French poser (to place). The noun juxtaposition came first in English, and the verb followed.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/juxtapose",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/juxtapose",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun juxtaposition is more common than the verb. Used in art, film, design and writing.",
+    "memoryHook": "Juxta is Latin for next to, close by. To juxtapose is to put things next to each other.",
+    "practice": {
+      "prompt": "Juxtapose two images from your day in one sentence and let the contrast speak."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/juxtapose",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "panacea",
+    "pos": ["noun"],
+    "pronunciation": "pan-uh-SEE-uh",
+    "topic": "words with a story",
+    "difficulty": 3,
+    "definition": "A solution or remedy supposed to cure all problems or all diseases.",
+    "register": "Formal to neutral; usually skeptical.",
+    "nuance": "Panacea is often used in negative sentences: there is no panacea. It warns against believing that one solution fixes everything.",
+    "synonyms": [
+      { "word": "cure-all", "distinction": "The plain compound for the same idea." },
+      { "word": "elixir", "distinction": "A magical or medicinal liquid believed to cure." },
+      {
+        "word": "silver bullet",
+        "distinction": "A simple, miraculous solution to a hard problem."
+      },
+      { "word": "remedy", "distinction": "A cure or solution; not necessarily universal." }
+    ],
+    "antonyms": ["partial fix"],
+    "examples": [
+      { "text": "Technology is not a panacea for every problem in schools.", "kind": "everyday" },
+      {
+        "text": "Free markets were once sold as a panacea, and then people discovered the fine print.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek panakeia, meaning all-healing, from panakes (all-healing), built from pan (all) and akos (cure, remedy). Panakeia was also the name of a Greek goddess of healing.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/panacea",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/panacea",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typically appears in the phrase not a panacea. It is often used skeptically in discussions of policy, medicine and technology.",
+    "memoryHook": "Pan is all, as in pandemic and panorama, and akos is a cure. A panacea is the cure for all.",
+    "practice": { "prompt": "Name a thing people treat as a panacea, and what it actually fixes." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/panacea",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  }
+]

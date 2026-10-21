@@ -109,3 +109,26 @@ describe('seeding', () => {
     expect(Number(sources.rows[0].n)).toBeGreaterThan(entries.length)
   })
 })
+
+describe('bootstrap', () => {
+  it('seeds once, then skips while content is unchanged', async () => {
+    const { bootstrap } = await import('../src/lib/server/seed.js')
+    const db = await testDb()
+    const first = await bootstrap(db)
+    expect(first.skipped).toBe(false)
+    expect(first.inserted).toBeGreaterThanOrEqual(5)
+    const second = await bootstrap(db)
+    expect(second).toEqual({ inserted: 0, updated: 0, skipped: true })
+  })
+
+  it('reseeds when the stored fingerprint no longer matches the content', async () => {
+    const { bootstrap } = await import('../src/lib/server/seed.js')
+    const db = await testDb()
+    const first = await bootstrap(db)
+    await db.execute("UPDATE setting SET value = 'stale' WHERE key = 'content_hash'")
+    const again = await bootstrap(db)
+    expect(again.skipped).toBe(false)
+    expect(again.inserted).toBe(0)
+    expect(again.updated).toBe(first.inserted)
+  })
+})

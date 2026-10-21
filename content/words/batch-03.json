@@ -1,0 +1,1140 @@
+[
+  {
+    "headword": "entropy",
+    "pos": ["noun"],
+    "pronunciation": "EN-truh-pee",
+    "topic": "science and nature",
+    "difficulty": 3,
+    "definition": "A measure of disorder or randomness in a system; in physics, the tendency of energy to spread out so that systems drift toward disorder over time.",
+    "register": "Technical in science; used figuratively in general writing.",
+    "nuance": "In everyday use entropy stands for the slide from order to disorder, like a tidy desk gradually becoming messy. In physics it has a precise meaning: it measures how many ways a system's parts can be arranged.",
+    "synonyms": [
+      { "word": "disorder", "distinction": "The plain word for lack of arrangement." },
+      { "word": "randomness", "distinction": "Lack of pattern or predictability." },
+      { "word": "decay", "distinction": "Gradual breakdown, a looser relative of entropy." },
+      { "word": "chaos", "distinction": "Complete confusion; stronger and more dramatic." }
+    ],
+    "antonyms": ["order", "structure"],
+    "examples": [
+      {
+        "text": "Left alone, a garden drifts toward entropy: weeds win, paths vanish.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The second law of thermodynamics says that the entropy of an isolated system never decreases.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Coined in the nineteenth century by the German physicist Rudolf Clausius as German Entropie, from Greek en (in) and tropē (a turning, a transformation). He modeled the word on energy.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/entropy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/entropy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Appears in physics, information theory and metaphorically for organizations, relationships and tidiness. The adjective is entropic.",
+    "memoryHook": "Tropē means turning, like in tropic and heliotrope. Entropy is how things turn toward disorder.",
+    "practice": {
+      "prompt": "Describe something in your life that slides toward entropy unless you tend it."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/entropy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "catalyst",
+    "pos": ["noun"],
+    "pronunciation": "KAT-uh-list",
+    "topic": "science and nature",
+    "difficulty": 2,
+    "definition": "A substance that speeds up a chemical reaction without being used up; more broadly, a person or event that causes change.",
+    "register": "Technical in chemistry; common in general and business writing.",
+    "nuance": "A catalyst makes something happen faster or at all, while staying essentially unchanged itself. In figurative use it is the spark: the event or person who triggers change.",
+    "synonyms": [
+      { "word": "spark", "distinction": "The small trigger that sets things off." },
+      { "word": "trigger", "distinction": "An event that starts a reaction, often suddenly." },
+      { "word": "stimulus", "distinction": "Something that prompts a response or growth." },
+      { "word": "driver", "distinction": "A force that keeps change moving." }
+    ],
+    "antonyms": ["brake", "obstacle"],
+    "examples": [
+      {
+        "text": "The new manager was a catalyst for change in the whole department.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Platinum acts as a catalyst in the converter, helping clean the exhaust without being consumed.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek katalysis, meaning dissolution, from katalyein (to dissolve), built from kata (down) and lyein (to loosen). Chemists in the nineteenth century used catalysis for the effect of substances that cause reactions without being used up, and later the figurative sense of a trigger for change followed.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/catalyst",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/catalyst",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in science, economics and politics: a catalyst for reform, growth or protest. The verb is catalyze, and the adjective is catalytic.",
+    "memoryHook": "Lyein is to loosen, as in analysis. A catalyst loosens the barrier so a reaction can proceed.",
+    "practice": { "prompt": "Name a catalyst in your own life and what it set in motion." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/catalyst",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "symbiosis",
+    "pos": ["noun"],
+    "pronunciation": "sim-bee-OH-sis",
+    "topic": "science and nature",
+    "difficulty": 3,
+    "definition": "A close relationship between two different kinds of living things, or between people or groups, that benefits both.",
+    "register": "Technical in biology; widely used figuratively.",
+    "nuance": "In biology symbiosis can include mutual benefit, one-sided benefit or even harm, but in everyday use it usually means a mutually helpful partnership.",
+    "synonyms": [
+      {
+        "word": "mutualism",
+        "distinction": "The strict biological term for a relationship where both partners benefit."
+      },
+      { "word": "partnership", "distinction": "A shared arrangement between people or groups." },
+      { "word": "interdependence", "distinction": "Mutual reliance, without implying benefit." },
+      { "word": "synergy", "distinction": "Combined effect greater than the parts." }
+    ],
+    "antonyms": ["parasitism", "competition"],
+    "examples": [
+      {
+        "text": "The cafe and the bookshop next door live in symbiosis: each sends customers to the other.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Lichens are a symbiosis between a fungus and an alga, each providing what the other lacks.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek symbiosis, meaning living together, from symbioun (to live together), built from syn (together, with) and bios (life). Biologists later used it for organisms of different kinds living in close association.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/symbiosis",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/symbiosis",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is symbiotic and the plural is symbioses. It is used for ecology, technology partnerships and relationships.",
+    "memoryHook": "Syn is with and bios is life, as in biology. Symbiosis is life with.",
+    "practice": { "prompt": "Describe a symbiotic relationship you see in daily life." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/symbiosis",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "metamorphosis",
+    "pos": ["noun"],
+    "pronunciation": "met-uh-MOR-fuh-sis",
+    "topic": "science and nature",
+    "difficulty": 2,
+    "definition": "A complete change of form or character; in biology, the transformation of an animal from one stage to another, such as a caterpillar into a butterfly.",
+    "register": "Neutral to formal; scientific and literary.",
+    "nuance": "A metamorphosis is a deep transformation, not just a gradual improvement. It implies that what emerges looks or behaves strikingly different from what began.",
+    "synonyms": [
+      {
+        "word": "transformation",
+        "distinction": "A large change in form or nature; the general word."
+      },
+      {
+        "word": "transmutation",
+        "distinction": "Change from one substance or form into another, often grand or alchemical."
+      },
+      { "word": "evolution", "distinction": "Gradual development, not sudden change." },
+      { "word": "makeover", "distinction": "Informal; a change of appearance, often superficial." }
+    ],
+    "antonyms": ["stasis", "constancy"],
+    "examples": [
+      {
+        "text": "Moving abroad was a metamorphosis for her: new language, new job, new habits.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The butterfly's metamorphosis, from caterpillar through chrysalis, still looks like magic.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin metamorphosis, from Greek metamorphosis, meaning a transforming, from metamorphoun (to transform), built from meta (change, beyond) and morphe (form, shape). The Roman poet Ovid made the word famous with his long poem on transformations.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/metamorphosis",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/metamorphosis",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The plural is metamorphoses. The verb is metamorphose. It is used for insects and amphibians, and for dramatic personal or social change.",
+    "memoryHook": "Morphe is form, as in morph and morphology. A metamorphosis is a change of form.",
+    "practice": {
+      "prompt": "Describe a metamorphosis, in a person, a place or an idea, that surprised you."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/metamorphosis",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "photosynthesis",
+    "pos": ["noun"],
+    "pronunciation": "foh-toh-SIN-thuh-sis",
+    "topic": "science and nature",
+    "difficulty": 1,
+    "definition": "The process by which green plants, algae and some bacteria use sunlight, water and carbon dioxide to make food and release oxygen.",
+    "register": "Scientific; also known from school.",
+    "nuance": "It is the foundation of most food chains. The word is often used figuratively for turning raw materials into something valuable through light or energy.",
+    "synonyms": [
+      {
+        "word": "carbon fixation",
+        "distinction": "The step in which carbon dioxide is turned into sugars."
+      },
+      {
+        "word": "respiration",
+        "distinction": "Roughly the reverse: using food and oxygen to release energy."
+      },
+      {
+        "word": "chlorophyll",
+        "distinction": "The green pigment that captures light for photosynthesis."
+      },
+      { "word": "assimilation", "distinction": "Taking in and using nutrients." }
+    ],
+    "antonyms": ["respiration"],
+    "examples": [
+      {
+        "text": "Leaves turn toward the window because photosynthesis depends on light.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Photosynthesis in the ocean's tiny plankton produces a large share of the oxygen we breathe.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Formed in English from photo-, from Greek phos, photos (light), and synthesis, from Greek syn (together) and tithenai (to put, to place). It literally means putting together with light.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/photosynthesis",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/photosynthesis",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is photosynthetic. Photosynthesizing organisms are called photosynthesizers or phototrophs.",
+    "memoryHook": "Photo is light, as in photograph, and synthesis is putting together. Photosynthesis is putting things together with light.",
+    "practice": { "prompt": "Explain photosynthesis to a child in two sentences." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/photosynthesis",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "hypothesis",
+    "pos": ["noun"],
+    "pronunciation": "hy-POTH-uh-sis",
+    "topic": "science and nature",
+    "difficulty": 2,
+    "definition": "A proposed explanation for something, made as a starting point for further investigation and testing.",
+    "register": "Formal; scientific and academic.",
+    "nuance": "A hypothesis is testable and can be proven wrong. It is more specific than a guess, and it is not yet a theory, which is a well-supported explanation backed by a lot of evidence.",
+    "synonyms": [
+      { "word": "theory", "distinction": "A well-tested explanation; stronger than a hypothesis." },
+      { "word": "conjecture", "distinction": "An opinion formed on incomplete evidence." },
+      { "word": "premise", "distinction": "A statement taken as a starting point in an argument." },
+      { "word": "supposition", "distinction": "Something assumed to be true without proof." }
+    ],
+    "antonyms": ["fact", "proven result"],
+    "examples": [
+      {
+        "text": "Our hypothesis is that customers leave because the checkout is too slow.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The experiment was designed to test one hypothesis and could have disproved it.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek hypothesis, meaning a base, a foundation or a supposition, from hypotithenai (to put under), built from hypo (under) and tithenai (to place). A hypothesis is something placed beneath an argument to build on.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/hypothesis",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/hypothesis",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The plural is hypotheses. The adjective is hypothetical and the verb is hypothesize. A null hypothesis is the default assumption that a study tries to disprove.",
+    "memoryHook": "Hypo is under, as in hypodermic, and thesis is a placing. A hypothesis is what you place under your reasoning.",
+    "practice": {
+      "prompt": "State a hypothesis about something in your routine and how you would test it."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/hypothesis",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "ecosystem",
+    "pos": ["noun"],
+    "pronunciation": "EE-koh-sis-tum",
+    "topic": "science and nature",
+    "difficulty": 1,
+    "definition": "A community of living things and their physical environment, interacting as a connected system.",
+    "register": "Scientific; also widely used figuratively.",
+    "nuance": "The word stresses connection: change one part, such as removing a predator, and the rest of the system shifts. It is now used for technology, business and cultural networks.",
+    "synonyms": [
+      {
+        "word": "habitat",
+        "distinction": "The place where an organism lives, not the whole web of interactions."
+      },
+      {
+        "word": "biome",
+        "distinction": "A large region defined by climate and typical life, such as tundra."
+      },
+      { "word": "environment", "distinction": "Surroundings in general." },
+      { "word": "web", "distinction": "A network of connections, as in food web." }
+    ],
+    "antonyms": ["isolated part"],
+    "examples": [
+      {
+        "text": "The pond is a small ecosystem with plants, insects, frogs and birds.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The startup depended on a whole ecosystem of developers, suppliers and users.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Coined in the early twentieth century by the British ecologist Arthur Tansley. It combines eco-, from Greek oikos (house, habitat), and system. The Greek root also gives us economy and ecology.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ecosystem",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ecosystem",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in environmental science and tech: the app ecosystem, a fragile ecosystem. Keep it for systems of interacting parts, not for any group.",
+    "memoryHook": "Oikos is house, so ecosystem is the house system: everything that lives in the same house and depends on each other.",
+    "practice": {
+      "prompt": "Describe a human ecosystem you belong to, such as a neighborhood or a workplace."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ecosystem",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "paradigm",
+    "pos": ["noun"],
+    "pronunciation": "PAIR-uh-dym",
+    "topic": "philosophy and ideas",
+    "difficulty": 2,
+    "definition": "A typical model or pattern of something; a framework of ideas and assumptions that shapes how people see a subject.",
+    "register": "Formal; academic and business.",
+    "nuance": "A paradigm is a lens, not just an idea: it decides which questions seem worth asking. A paradigm shift is a change in the whole framework, not a small update.",
+    "synonyms": [
+      { "word": "model", "distinction": "A pattern or example to follow." },
+      { "word": "framework", "distinction": "A structure of ideas organizing a subject." },
+      { "word": "archetype", "distinction": "The original or ideal example of something." },
+      { "word": "worldview", "distinction": "A broad way of seeing life and reality." }
+    ],
+    "antonyms": ["exception"],
+    "examples": [
+      {
+        "text": "Streaming changed the paradigm for how people watch television.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Newton's physics was a paradigm for two centuries before relativity redrew the picture.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Late Latin paradigma, from Greek paradeigma, meaning a pattern or an example, from paradeiknynai (to show side by side), built from para (beside) and deiknynai (to show). The philosopher Thomas Kuhn made the phrase paradigm shift popular in discussing how scientific revolutions happen.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/paradigm",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/paradigm",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often overused as a fancy word for model. In grammar a paradigm is also the full set of inflected forms of a word, such as all the endings of a verb.",
+    "memoryHook": "Para is beside and deiknynai is to show, as in deictic. A paradigm is an example shown beside the thing you want to teach.",
+    "practice": {
+      "prompt": "Name a paradigm shift you have lived through in your own field or life."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/paradigm",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "hegemony",
+    "pos": ["noun"],
+    "pronunciation": "hih-JEM-uh-nee",
+    "topic": "history and society",
+    "difficulty": 3,
+    "definition": "Dominance or leadership of one group, state or idea over others, often through influence rather than force alone.",
+    "register": "Formal; political science and history.",
+    "nuance": "Hegemony is leadership that others accept or are shaped to accept. It is a softer, wider idea than conquest. It can also refer to cultural dominance of certain norms or values.",
+    "synonyms": [
+      { "word": "dominance", "distinction": "Having the most power or influence." },
+      {
+        "word": "supremacy",
+        "distinction": "The state of being above all others; sounds absolute."
+      },
+      { "word": "leadership", "distinction": "Guiding others; neutral in tone." },
+      { "word": "ascendancy", "distinction": "A position of rising or established power." }
+    ],
+    "antonyms": ["equality", "pluralism"],
+    "examples": [
+      {
+        "text": "The region lived under the hegemony of a single powerful city for centuries.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Critics argue that a few languages enjoy hegemony in science, quietly shaping which ideas travel.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek hegemonia, meaning leadership or supremacy, from hegemon (leader, ruler), which comes from hegeisthai (to lead, to guide). The word was first used for the leadership of one Greek city-state over others.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/hegemony",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/hegemony",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is hegemonic. The word is common in international relations and cultural studies, often used with critical overtones.",
+    "memoryHook": "Hegeisthai is to lead, which is also behind exegesis. Hegemony is leadership that sets the direction.",
+    "practice": {
+      "prompt": "Describe a form of cultural hegemony you notice in media or fashion."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/hegemony",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "dynasty",
+    "pos": ["noun"],
+    "pronunciation": "DY-nuh-stee",
+    "topic": "history and society",
+    "difficulty": 1,
+    "definition": "A line of rulers from the same family, or any powerful family, group or team that stays on top for a long time.",
+    "register": "Neutral; historical and general.",
+    "nuance": "It stresses continuity across generations. In sport and business it is used for a team or company that dominates for years.",
+    "synonyms": [
+      { "word": "house", "distinction": "A royal family line, as in the House of Windsor." },
+      { "word": "lineage", "distinction": "Descent from a common ancestor." },
+      { "word": "regime", "distinction": "The government in power, not necessarily one family." },
+      {
+        "word": "empire",
+        "distinction": "A large political unit under a single ruler or authority."
+      }
+    ],
+    "antonyms": ["interregnum"],
+    "examples": [
+      {
+        "text": "The family built a retail dynasty that spanned three generations.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The Tang dynasty is remembered for its poetry, its capital and its open roads to the West.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek dynasteia, meaning lordship or power, from dynastes (ruler, lord), which comes from dynasthai (to be able, to have power). It is a relative of dynamic and dynamite.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/dynasty",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/dynasty",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is dynastic. It is used for royal houses of China, Egypt and Europe, and for dominant sports teams and business families.",
+    "memoryHook": "Dynasthai means to be able, the root of dynamic. A dynasty is power passed down.",
+    "practice": {
+      "prompt": "Describe a dynasty from history or sport you find fascinating, and why it lasted."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/dynasty",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "archaic",
+    "pos": ["adjective"],
+    "pronunciation": "ar-KAY-ik",
+    "topic": "history and society",
+    "difficulty": 2,
+    "definition": "Very old or old-fashioned; no longer in common use, especially of words, practices or technology.",
+    "register": "Neutral to formal; sometimes mildly dismissive.",
+    "nuance": "Archaic means belonging to an earlier age. For words, a dictionary label archaic means the word is no longer in normal use, though people may still meet it in older books.",
+    "synonyms": [
+      { "word": "antiquated", "distinction": "Out of date and often criticized as such." },
+      { "word": "obsolete", "distinction": "No longer used because something replaced it." },
+      { "word": "outmoded", "distinction": "No longer fashionable." },
+      { "word": "ancient", "distinction": "Of very long ago; about age, not style." }
+    ],
+    "antonyms": ["modern", "current"],
+    "examples": [
+      {
+        "text": "The company still uses an archaic payroll system that nobody dares to update.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Words like thou and hath sound archaic today, yet they still shape how Shakespeare reads.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek archaikos, meaning old-fashioned or antiquated, from archaios (ancient, from the beginning), which is from arche (beginning, origin, rule). The same Greek root appears in archaeology and monarch.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/archaic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/archaic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used for language, laws, machines and attitudes. In history and art, the Archaic period is a specific era of ancient Greece.",
+    "memoryHook": "Arche is the beginning, also in archaeology. Archaic means from near the beginning.",
+    "practice": { "prompt": "Name an archaic word or custom you wish would come back." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/archaic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "anachronism",
+    "pos": ["noun"],
+    "pronunciation": "uh-NAK-ruh-niz-um",
+    "topic": "history and society",
+    "difficulty": 3,
+    "definition": "Something placed in the wrong time period, or a person or thing that seems out of its proper era.",
+    "register": "Formal; used in history, literature and film criticism.",
+    "nuance": "An anachronism can be an error, such as a wristwatch in an ancient film, or a deliberate and playful clash. A person can also be called an anachronism if their ways seem to belong to another age.",
+    "synonyms": [
+      {
+        "word": "throwback",
+        "distinction": "Something that revives an older style, often fondly."
+      },
+      { "word": "relic", "distinction": "A survivor from the past." },
+      { "word": "misdating", "distinction": "Placing something in the wrong time." },
+      { "word": "fossil", "distinction": "Informal; something stuck in the past." }
+    ],
+    "antonyms": ["contemporary"],
+    "examples": [
+      {
+        "text": "A cell phone in the medieval drama was a glaring anachronism.",
+        "kind": "everyday"
+      },
+      {
+        "text": "His formal letter-writing style felt like a charming anachronism in the age of text messages.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek anakhronismos, from anakhronizein (to refer to the wrong time), built from ana (back, against) and khronos (time). It literally means a time mistake.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/anachronism",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/anachronism",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is anachronistic. Writers of historical fiction work hard to avoid anachronisms in speech and objects.",
+    "memoryHook": "Khronos is time, as in chronology. An anachronism is a time error, something against its own time.",
+    "practice": { "prompt": "Invent a deliberate anachronism for a scene, and say why it works." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/anachronism",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "pandemic",
+    "pos": ["noun", "adjective"],
+    "pronunciation": "pan-DEM-ik",
+    "topic": "history and society",
+    "difficulty": 1,
+    "definition": "An outbreak of disease that spreads across many countries or continents and affects a large share of the population.",
+    "register": "Neutral; medical and general.",
+    "nuance": "A pandemic is larger than an epidemic, which is a widespread outbreak within a region. The difference is geographic reach, not only severity.",
+    "synonyms": [
+      { "word": "epidemic", "distinction": "A widespread outbreak in one community or region." },
+      { "word": "outbreak", "distinction": "A sudden rise in cases of a disease." },
+      {
+        "word": "plague",
+        "distinction": "A deadly disease or a historical outbreak; dramatic and old-fashioned."
+      },
+      { "word": "endemic", "distinction": "Constantly present in a region at a steady level." }
+    ],
+    "antonyms": ["isolated case"],
+    "examples": [
+      {
+        "text": "The pandemic changed how many people work, study and travel.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Historians compare the modern pandemic with earlier ones to see how societies adapt.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek pandemos, meaning of all the people, built from pan (all) and demos (people). It parallels epidemic, from epi (upon) and demos, and endemic, from en (in) and demos.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/pandemic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/pandemic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Also used as an adjective in a more general sense: pandemic fear. Compare epidemic, endemic and demography, which share the demos root.",
+    "memoryHook": "Pan is all and demos is people, like in democracy. A pandemic touches all the people.",
+    "practice": { "prompt": "Write down three words in the demos family and what each means." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/pandemic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "propaganda",
+    "pos": ["noun"],
+    "pronunciation": "prop-uh-GAN-duh",
+    "topic": "history and society",
+    "difficulty": 2,
+    "definition": "Information, often biased or misleading, spread to promote a cause or point of view.",
+    "register": "Neutral to critical; political and media contexts.",
+    "nuance": "The word has a negative flavor today: it suggests manipulation rather than honest persuasion. The original Latin sense was neutral: the spreading of a belief.",
+    "synonyms": [
+      { "word": "spin", "distinction": "Informal; presenting facts in a favorable light." },
+      {
+        "word": "disinformation",
+        "distinction": "Deliberately false information spread to deceive."
+      },
+      { "word": "publicity", "distinction": "Drawing public attention, usually neutral." },
+      { "word": "indoctrination", "distinction": "Teaching someone to accept ideas uncritically." }
+    ],
+    "antonyms": ["objective reporting"],
+    "examples": [
+      {
+        "text": "The posters were pure propaganda, praising the leader and hiding the shortages.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Scholars of propaganda study how simple images and slogans can bypass careful thought.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin propaganda, the feminine gerundive of propagare (to propagate, to extend), as in Congregatio de Propaganda Fide, a committee set up by the Catholic Church in the early seventeenth century to spread the faith. The negative sense developed later in political use.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/propaganda",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/propaganda",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is propagandistic and a propagandist is its practitioner. The verb is propagandize.",
+    "memoryHook": "It shares a root with propagate, to spread. Propaganda is what gets propagated, and the word began neutrally.",
+    "practice": {
+      "prompt": "Pick an ad or poster you know and say how it persuades without arguing."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/propaganda",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "epistemology",
+    "pos": ["noun"],
+    "pronunciation": "ih-pis-tuh-MOL-uh-jee",
+    "topic": "philosophy and ideas",
+    "difficulty": 3,
+    "definition": "The branch of philosophy that studies knowledge: what it is, how we get it, and how we can be sure of it.",
+    "register": "Academic and philosophical.",
+    "nuance": "Epistemology asks how we know what we know, not just what is true. Its questions include the nature of evidence, belief and justification.",
+    "synonyms": [
+      { "word": "theory of knowledge", "distinction": "The plain-English name for the field." },
+      {
+        "word": "methodology",
+        "distinction": "The methods used in a particular field of inquiry."
+      },
+      { "word": "ontology", "distinction": "The study of what exists, rather than how we know." },
+      { "word": "logic", "distinction": "The study of valid reasoning." }
+    ],
+    "antonyms": [],
+    "examples": [
+      {
+        "text": "The philosophy course began with a question from epistemology: how do you know you are awake?",
+        "kind": "everyday"
+      },
+      {
+        "text": "A debate about vaccines is partly a debate about epistemology: whom do we trust, and why?",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Formed in English in the nineteenth century from Greek episteme (knowledge, understanding) and -logia (study of). Greek episteme comes from epistasthai (to know how, to understand).",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/epistemology",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/epistemology",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is epistemic or epistemological. Epistemic humility means recognizing the limits of what you know.",
+    "memoryHook": "Episteme is knowledge. Epistemology is the logic of knowing, not of things themselves.",
+    "practice": {
+      "prompt": "Explain how you know one thing you believe strongly, as an epistemologist would."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/epistemology",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "ethos",
+    "pos": ["noun"],
+    "pronunciation": "EE-thos",
+    "topic": "philosophy and ideas",
+    "difficulty": 2,
+    "definition": "The characteristic spirit, values and beliefs of a person, group, culture or institution.",
+    "register": "Formal; used in sociology, business and rhetoric.",
+    "nuance": "Ethos is the underlying character that shapes how a group acts. In classical rhetoric it also means the speaker's credibility, one of the three ways to persuade, next to logos and pathos.",
+    "synonyms": [
+      { "word": "spirit", "distinction": "The guiding mood or feeling of something." },
+      { "word": "culture", "distinction": "The shared habits and values of a group." },
+      { "word": "philosophy", "distinction": "A guiding set of principles." },
+      { "word": "character", "distinction": "The qualities that define a person or group." }
+    ],
+    "antonyms": [],
+    "examples": [
+      {
+        "text": "The company's ethos is simple: ship small, listen to users, fix quickly.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A strong ethos makes a speaker believable before they have said anything controversial.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek ethos, meaning character, custom or habit. It is related to ethikos, the source of English ethics, and shares a root with the Greek word for custom or usual place.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ethos",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ethos",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often paired with the words work, community or team: a team ethos. In rhetoric it forms a triad with logos (reason) and pathos (emotion).",
+    "memoryHook": "Ethos and ethics are family: ethos is the character, ethics is how that character is judged.",
+    "practice": { "prompt": "Describe the ethos of a place you love in one sentence." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ethos",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "dialectic",
+    "pos": ["noun"],
+    "pronunciation": "dy-uh-LEK-tik",
+    "topic": "philosophy and ideas",
+    "difficulty": 3,
+    "definition": "A method of reaching truth through discussion, in which opposing ideas are examined and tested against each other.",
+    "register": "Academic and philosophical.",
+    "nuance": "Dialectic is conversation as a tool for discovery: question, answer, challenge, refine. In some modern philosophies it also names a pattern in which opposing forces produce a new synthesis.",
+    "synonyms": [
+      { "word": "debate", "distinction": "Competitive argument between sides." },
+      { "word": "dialogue", "distinction": "A conversation, not necessarily aimed at truth." },
+      {
+        "word": "argumentation",
+        "distinction": "The practice of constructing reasoned arguments."
+      },
+      {
+        "word": "dialectics",
+        "distinction": "A plural form, often used for the whole system of reasoning."
+      }
+    ],
+    "antonyms": ["monologue", "dogma"],
+    "examples": [
+      {
+        "text": "The seminar worked as a dialectic: each view was challenged until a better one emerged.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Socrates used a dialectic of questions to show that his partners did not know what they claimed to know.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek dialektike (techne), meaning the art of conversation or debate, from dialegesthai (to converse, to discuss), built from dia (through, across) and legein (to speak, to gather). The method is closely tied with Socrates and Plato.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/dialectic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/dialectic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is dialectical. The word dialect shares the same Greek root, meaning a way of speaking.",
+    "memoryHook": "Dia is through and legein is to speak, as in dialogue. A dialectic is thinking through by speaking.",
+    "practice": {
+      "prompt": "Take a belief you hold and write one challenge to it, then your reply."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/dialectic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "stoic",
+    "pos": ["noun", "adjective"],
+    "pronunciation": "STOH-ik",
+    "topic": "philosophy and ideas",
+    "difficulty": 2,
+    "definition": "A person who endures hardship or pain without complaint or visible emotion; as an adjective, showing that kind of calm endurance.",
+    "register": "Neutral; admiring or sometimes slightly critical for emotional distance.",
+    "nuance": "Everyday stoic means calm under pressure. The Stoics, a school of ancient philosophers, held that we control our judgments, not events, so peace comes from accepting what we cannot change.",
+    "synonyms": [
+      { "word": "composed", "distinction": "Calm and in control of oneself." },
+      { "word": "impassive", "distinction": "Showing no emotion at all." },
+      { "word": "phlegmatic", "distinction": "Calm and slow to react, almost sluggish." },
+      { "word": "resilient", "distinction": "Able to recover from difficulty." }
+    ],
+    "antonyms": ["excitable", "emotional"],
+    "examples": [
+      {
+        "text": "He stayed stoic through the long delay, reading quietly while others complained.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The Stoic philosophers taught that suffering often comes from our judgments about events, not from the events themselves.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek Stoikos, from stoa (porch), because the philosopher Zeno taught at the Stoa Poikile, the painted porch in Athens. The school was named after the place, and the sense of calm endurance grew out of its teachings.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/stoic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/stoic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is stoicism. A capital S usually refers to the ancient school, a lowercase s to the general trait.",
+    "memoryHook": "Stoa means porch. The Stoics were porch philosophers, and a stoic person stays calm like they are watching from the porch.",
+    "practice": { "prompt": "Describe a time you stayed stoic and what it cost you or gave you." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/stoic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "empirical",
+    "pos": ["adjective"],
+    "pronunciation": "em-PEER-ih-kul",
+    "topic": "philosophy and ideas",
+    "difficulty": 2,
+    "definition": "Based on observation or experience rather than on theory alone.",
+    "register": "Formal; scientific and academic.",
+    "nuance": "Empirical claims can be checked by looking, measuring or experimenting. It is contrasted with theoretical or purely logical reasoning.",
+    "synonyms": [
+      { "word": "observational", "distinction": "Based on watching and recording what happens." },
+      { "word": "experimental", "distinction": "Based on deliberate tests." },
+      {
+        "word": "evidence-based",
+        "distinction": "Grounded in evidence; common in policy and medicine."
+      },
+      { "word": "practical", "distinction": "Concerned with what works." }
+    ],
+    "antonyms": ["theoretical", "speculative"],
+    "examples": [
+      {
+        "text": "Before changing the layout, we want empirical data on how people actually use it.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The empirical evidence for the theory is strong, because several independent labs reached the same result.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek empeirikos, meaning experienced, from empeiria (experience), which comes from en (in) and peira (trial, attempt). The word was first used for a school of ancient doctors who relied on experience rather than theory.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/empirical",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/empirical",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical with evidence, data, research and studies. The noun empiricism names the philosophy that knowledge comes from experience. Do not confuse it with imperial.",
+    "memoryHook": "Peira is a trial, as in experiment and pirate (one who tries his luck). Empirical knowledge is knowledge you have tried.",
+    "practice": {
+      "prompt": "Name a belief of yours, and describe the empirical test that could change your mind."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/empirical",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "skeptic",
+    "pos": ["noun"],
+    "pronunciation": "SKEP-tik",
+    "topic": "philosophy and ideas",
+    "difficulty": 2,
+    "definition": "A person who questions claims and withholds belief until there is good evidence.",
+    "register": "Neutral; often admiring. Sceptic is the British spelling.",
+    "nuance": "A skeptic is not the same as a cynic. A skeptic asks for evidence and is willing to be persuaded; a cynic assumes bad motives or expects the worst without needing evidence.",
+    "synonyms": [
+      { "word": "doubter", "distinction": "The plain word for someone who doubts." },
+      { "word": "cynic", "distinction": "Distrusts people's motives, often with scorn." },
+      { "word": "critic", "distinction": "A person who evaluates and judges." },
+      {
+        "word": "agnostic",
+        "distinction": "Claims that something cannot be known; often about religion."
+      }
+    ],
+    "antonyms": ["believer", "gullible person"],
+    "examples": [
+      {
+        "text": "I am a skeptic about miracle diets: show me the study first.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A good skeptic is not someone who rejects everything, but someone who asks what would change their mind.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek skeptikos, meaning thoughtful, inquiring, from skeptesthai (to look, to examine, to consider). The original Skeptics, a school of ancient Greek philosophers, were known for suspending judgment.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/skeptic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/skeptic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is skeptical and the noun is skepticism. In British English the spelling is sceptic, sceptical and scepticism.",
+    "memoryHook": "Skeptesthai is to look closely, like in scope and microscope. A skeptic is someone who looks closely before believing.",
+    "practice": {
+      "prompt": "Write a skeptical question you would ask before believing a surprising headline."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/skeptic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  }
+]

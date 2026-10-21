@@ -1,0 +1,1106 @@
+[
+  {
+    "headword": "ephemeral",
+    "pos": ["adjective"],
+    "pronunciation": "ih-FEM-er-ul",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Lasting only a very short time; here today and gone soon.",
+    "register": "Formal and literary; neutral in tone, often wistful.",
+    "nuance": "It stresses brevity, not unimportance. An ephemeral joy can still matter a great deal, which is part of why the word often sounds gentle or poignant.",
+    "synonyms": [
+      {
+        "word": "fleeting",
+        "distinction": "Passing quickly, usually said of a moment or a glimpse."
+      },
+      {
+        "word": "transient",
+        "distinction": "Staying only briefly, often about people, visitors or states."
+      },
+      { "word": "short-lived", "distinction": "Plain and neutral; simply did not last long." },
+      { "word": "evanescent", "distinction": "Fading away like mist; more poetic than ephemeral." }
+    ],
+    "antonyms": ["enduring", "permanent"],
+    "examples": [
+      {
+        "text": "Social media posts feel ephemeral: by tomorrow nobody remembers them.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The cherry blossoms are all the more precious for being ephemeral.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek ephemeros, meaning lasting only a day, built from epi- (on, for) and hemera (day). The word first described a fever or a creature that lived a single day, before it came to mean anything short-lived.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ephemeral",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ephemeral",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in writing about trends, art, nature and memory. It pairs with beauty, fame, pleasure and nature. Mayflies are the classic ephemeral creatures, and the word ephemera names printed items meant to be used briefly.",
+    "memoryHook": "Hemera means day, so an ephemeral thing lasts about a day, like a mayfly.",
+    "practice": {
+      "prompt": "Name something in your life that is ephemeral but still worth savoring."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ephemeral",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "ubiquitous",
+    "pos": ["adjective"],
+    "pronunciation": "yoo-BIK-wih-tus",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Present or found everywhere, or seeming to be.",
+    "register": "Formal to neutral; very common in journalism and technology writing.",
+    "nuance": "Stronger than common or widespread: it suggests you cannot avoid it. It is neutral about whether that is good or bad.",
+    "synonyms": [
+      {
+        "word": "omnipresent",
+        "distinction": "Present everywhere at once, with a grander, almost abstract feel."
+      },
+      {
+        "word": "pervasive",
+        "distinction": "Spreading through and affecting everything, like an atmosphere."
+      },
+      {
+        "word": "widespread",
+        "distinction": "Found over a large area, but not necessarily everywhere."
+      },
+      { "word": "commonplace", "distinction": "So ordinary that it no longer stands out." }
+    ],
+    "antonyms": ["rare", "scarce"],
+    "examples": [
+      {
+        "text": "Smartphones have become ubiquitous, even in places with few paved roads.",
+        "kind": "everyday"
+      },
+      {
+        "text": "In that city the smell of woodsmoke was ubiquitous, settling into hair, coats and memory.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From the Latin adverb ubique, meaning everywhere, which comes from ubi (where) plus the ending -que. The English adjective was formed from that Latin base, with the usual -ous ending.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ubiquitous",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ubiquitous",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often used for technology, brands, advertising and habits: ubiquitous Wi-Fi, a ubiquitous logo. The noun is ubiquity. Reserve it for things that really are everywhere, not just frequent.",
+    "memoryHook": "Ubi is Latin for where, as in the English word ubiquity. A ubiquitous thing is found wherever you ask where.",
+    "practice": {
+      "prompt": "Describe a ubiquitous thing from your childhood that has nearly vanished today."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ubiquitous",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "pragmatic",
+    "pos": ["adjective"],
+    "pronunciation": "prag-MAT-ik",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "Dealing with things sensibly and realistically, based on what works rather than on theory or ideals.",
+    "register": "Neutral; mostly approving in business and politics.",
+    "nuance": "A pragmatic person asks what will work here, not what should work in principle. It can sound slightly cool or compromising if someone values ideals above results.",
+    "synonyms": [
+      {
+        "word": "practical",
+        "distinction": "Focused on use and common sense; the plainest of these words."
+      },
+      {
+        "word": "realistic",
+        "distinction": "Accepting facts as they are, whether or not you act on them."
+      },
+      { "word": "businesslike", "distinction": "Efficient and unemotional in manner." },
+      { "word": "hard-headed", "distinction": "Unsentimental; willing to make tough choices." }
+    ],
+    "antonyms": ["idealistic", "impractical"],
+    "examples": [
+      {
+        "text": "We took a pragmatic approach: fix the biggest bug first and polish later.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Her pragmatic streak showed in negotiations, where she traded a principle for a signed deal.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin pragmaticus, from Greek pragmatikos, meaning skilled in business or relating to facts, which comes from pragma (a deed, a thing done). The root is the Greek verb prassein, to do or to act.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/pragmatic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/pragmatic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common for decisions, solutions, approaches and leaders. Pragmatism is also the name of a school of philosophy that judges ideas by their practical effects. Do not confuse it with pedantic.",
+    "memoryHook": "Pragma means a deed in Greek, and practice shares its Greek family. A pragmatic person judges by deeds.",
+    "practice": { "prompt": "Describe a time a pragmatic choice beat the ideal one." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/pragmatic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "meticulous",
+    "pos": ["adjective"],
+    "pronunciation": "muh-TIK-yuh-lus",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "Showing great attention to detail; very careful and precise.",
+    "register": "Formal to neutral; usually admiring, occasionally teasing.",
+    "nuance": "It praises carefulness that goes beyond the ordinary. Used of someone who fusses over trivia it can sound slightly critical, but the default tone is respect.",
+    "synonyms": [
+      {
+        "word": "painstaking",
+        "distinction": "Emphasizes effort and care taken, often over slow work."
+      },
+      {
+        "word": "thorough",
+        "distinction": "Covers everything; about completeness more than precision."
+      },
+      {
+        "word": "scrupulous",
+        "distinction": "Careful about doing right or being accurate, with a moral edge."
+      },
+      { "word": "fastidious", "distinction": "Hard to please; fussy about cleanliness or detail." }
+    ],
+    "antonyms": ["careless", "sloppy"],
+    "examples": [
+      {
+        "text": "Her meticulous notes made it easy for anyone to take over the project.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The restorer worked with meticulous patience, lifting centuries of grime a few fibers at a time.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin meticulosus, meaning fearful or timid, from metus (fear). In English the word first meant overly timid, then overly careful about details, and later settled into the positive sense of being careful and precise.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/meticulous",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/meticulous",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common with planning, research, records, work and attention. The adverb meticulously is frequent. It is a compliment today, even though its ancestor meant fearful.",
+    "memoryHook": "Metus is Latin for fear. A meticulous person is a little afraid of getting details wrong, so they check everything twice.",
+    "practice": { "prompt": "Write about a task where being meticulous was worth the extra time." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/meticulous",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "candid",
+    "pos": ["adjective"],
+    "pronunciation": "KAN-did",
+    "topic": "work and communication",
+    "difficulty": 1,
+    "definition": "Honest and straightforward in speech, even when the truth is uncomfortable.",
+    "register": "Neutral; approving, with a hint of boldness.",
+    "nuance": "Candid people say what they really think, but without necessarily being harsh. Compared with blunt, candid suggests openness; compared with frank, it can feel slightly warmer.",
+    "synonyms": [
+      { "word": "frank", "distinction": "Open and direct; very close to candid." },
+      {
+        "word": "blunt",
+        "distinction": "Direct to the point of bluntness, with little care for feelings."
+      },
+      {
+        "word": "forthright",
+        "distinction": "Direct and honest in a confident, unhesitating way."
+      },
+      { "word": "outspoken", "distinction": "Willing to speak up, often on controversial matters." }
+    ],
+    "antonyms": ["evasive", "guarded"],
+    "examples": [
+      {
+        "text": "Thanks for being candid about the schedule; now we can plan around it.",
+        "kind": "everyday"
+      },
+      {
+        "text": "In a candid interview, the director admitted the film had lost its way halfway through.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin candidus, meaning white, shining or bright, from candere (to glow). In English the sense moved from pure and spotless to free from bias, and then to open and honest in speech.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/candid",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/candid",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used for conversations, feedback, interviews and photographs (a candid photo is an unposed one). Candor is the noun.",
+    "memoryHook": "Candidus meant white and shining, and candle and candidate share the same root. A candid person has nothing hidden.",
+    "practice": { "prompt": "Give a candid piece of feedback to a friend, kindly worded." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/candid",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "lucid",
+    "pos": ["adjective"],
+    "pronunciation": "LOO-sid",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Clearly expressed and easy to understand; or, of a person, thinking clearly.",
+    "register": "Formal to neutral; admiring.",
+    "nuance": "A lucid explanation feels like switching a light on. For people it can also mean clear-headed in a moment when confusion would be expected, for example after an illness.",
+    "synonyms": [
+      { "word": "clear", "distinction": "Plainer and more general." },
+      { "word": "coherent", "distinction": "Logically connected and consistent." },
+      { "word": "limpid", "distinction": "Transparent and smooth, often about writing style." },
+      { "word": "articulate", "distinction": "Able to express ideas well in speech." }
+    ],
+    "antonyms": ["confused", "muddled"],
+    "examples": [
+      {
+        "text": "Her lucid summary of the contract saved us an hour of reading.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Even in her last weeks she remained lucid, correcting dates in the family stories.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin lucidus, meaning shining, bright or clear, from lucere (to shine) and ultimately from luc-, the Latin root for light. The sense moved from shining to clear to the mind.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/lucid",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/lucid",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common for writing, arguments, explanations and dreams (a lucid dream is one where you know you are dreaming). The noun is lucidity.",
+    "memoryHook": "Luc- means light, as in elucidate, translucent and lucent. A lucid idea lets the light through.",
+    "practice": { "prompt": "Explain something you know well in two lucid sentences." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/lucid",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "tenacious",
+    "pos": ["adjective"],
+    "pronunciation": "tuh-NAY-shus",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Holding firmly to a goal or belief and not giving up easily.",
+    "register": "Neutral; usually admiring.",
+    "nuance": "It is persistence with grip. Unlike stubborn, it does not imply refusing to listen; it is about not letting go despite difficulty.",
+    "synonyms": [
+      { "word": "persistent", "distinction": "Continuing steadily; the general word." },
+      { "word": "determined", "distinction": "Firmly decided on a goal." },
+      { "word": "dogged", "distinction": "Stubbornly continuing, with a plodding feel." },
+      { "word": "stubborn", "distinction": "Refuses to change, often unreasonably." }
+    ],
+    "antonyms": ["yielding", "half-hearted"],
+    "examples": [
+      {
+        "text": "The team was tenacious, chasing the bug for three days until it was fixed.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A tenacious weed pushed through the pavement, indifferent to the city above it.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin tenax, meaning holding fast, from tenere (to hold). The English word followed the Latin sense of gripping, and then of keeping to a purpose.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/tenacious",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/tenacious",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common with defenders, competitors, memory and grip. Tenacity is the noun. It is a quality admired in sports, research and advocacy.",
+    "memoryHook": "Tenere means to hold; you also see it in tenant, tenure and retain. A tenacious person holds on.",
+    "practice": {
+      "prompt": "Describe someone tenacious you admire and what they refused to drop."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/tenacious",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "laconic",
+    "pos": ["adjective"],
+    "pronunciation": "luh-KON-ik",
+    "topic": "work and communication",
+    "difficulty": 3,
+    "definition": "Using very few words, often in a dry or abrupt way.",
+    "register": "Literary and formal; often affectionate or amused.",
+    "nuance": "It is about economy of speech. A laconic reply can feel witty, cool or curt, depending on context. It does not mean unfriendly, only brief.",
+    "synonyms": [
+      { "word": "terse", "distinction": "Brief to the point of seeming abrupt." },
+      { "word": "concise", "distinction": "Brief and clear; about efficiency, not mood." },
+      { "word": "curt", "distinction": "Rudely short." },
+      { "word": "taciturn", "distinction": "Habitually silent; about temperament, not one reply." }
+    ],
+    "antonyms": ["verbose", "talkative"],
+    "examples": [
+      { "text": "His laconic reply to my long email was one word: fine.", "kind": "everyday" },
+      {
+        "text": "The old sailor's laconic wit settled arguments with a single dry sentence.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin Laconicus, from Greek Lakonikos, meaning of Laconia, the region around Sparta. The Spartans were known for speaking briefly and bluntly, so Laconian came to mean brief in speech.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/laconic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/laconic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used for replies, humor, notes and people. It names a style of speech, so it fits characters and writers as well as one-off comments.",
+    "memoryHook": "It is named after Sparta's region, Laconia. Think of a Spartan: few words, no frills.",
+    "practice": {
+      "prompt": "Reply to a long question with one laconic sentence that still answers it."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/laconic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "verbose",
+    "pos": ["adjective"],
+    "pronunciation": "ver-BOHS",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "Using more words than are needed.",
+    "register": "Formal; mildly critical.",
+    "nuance": "It describes wordiness that adds length without adding meaning. It is a mild criticism of writing or speech, rarely of the person.",
+    "synonyms": [
+      { "word": "wordy", "distinction": "The plain everyday word for the same fault." },
+      { "word": "long-winded", "distinction": "Tediously long, usually in speech." },
+      { "word": "prolix", "distinction": "Very wordy, in a formal or literary register." },
+      {
+        "word": "garrulous",
+        "distinction": "Talkative about trivial things; about the speaker, not the text."
+      }
+    ],
+    "antonyms": ["concise", "succinct"],
+    "examples": [
+      {
+        "text": "The report was accurate but verbose; half of it could be cut.",
+        "kind": "everyday"
+      },
+      {
+        "text": "His verbose toast circled the point for ten minutes and never landed.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin verbosus, meaning full of words, from verbum (word). English borrowed it with the sense of using too many words.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/verbose",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/verbose",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in feedback on writing, code and speeches. The noun is verbosity. Its opposite in praise of writing is concise.",
+    "memoryHook": "Verbum means word, as in verbal and verb. Verbose is simply too many verba.",
+    "practice": { "prompt": "Take a verbose sentence of your own and cut it by a third." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/verbose",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "succinct",
+    "pos": ["adjective"],
+    "pronunciation": "suk-SINGKT",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "Expressed briefly and clearly, with no wasted words.",
+    "register": "Formal to neutral; praising.",
+    "nuance": "Unlike curt or terse, succinct is a compliment: it means a lot is said in a few words, and nothing is missing.",
+    "synonyms": [
+      {
+        "word": "concise",
+        "distinction": "Almost identical; slightly more common in everyday use."
+      },
+      { "word": "brief", "distinction": "Short, whether or not it is clear." },
+      { "word": "pithy", "distinction": "Short and full of meaning, often memorable." },
+      { "word": "compact", "distinction": "Neatly condensed." }
+    ],
+    "antonyms": ["rambling", "verbose"],
+    "examples": [
+      { "text": "Please send a succinct summary, no more than five lines.", "kind": "everyday" },
+      { "text": "Her succinct closing argument fit on one page and won the case.", "kind": "rich" }
+    ],
+    "etymology": {
+      "summary": "From Latin succinctus, meaning girded up or tucked in, from the verb succingere, built from sub- (under, up) and cingere (to gird, to encircle). The image is of a robe tucked up with a belt so that nothing trails behind you.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/succinct",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/succinct",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common for summaries, answers, explanations and writing style. Pronounce the cc like ks.",
+    "memoryHook": "Cingere is to gird, like a cincture or belt. A succinct sentence has its robe belted up and nothing trailing.",
+    "practice": { "prompt": "Give a succinct answer to: what do you do?" },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/succinct",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "diligent",
+    "pos": ["adjective"],
+    "pronunciation": "DIL-ih-jent",
+    "topic": "work and communication",
+    "difficulty": 1,
+    "definition": "Showing steady, careful effort in work or duty.",
+    "register": "Neutral to formal; approving.",
+    "nuance": "It stresses consistent care over time rather than brilliance or speed. A diligent worker keeps going and does it properly.",
+    "synonyms": [
+      { "word": "industrious", "distinction": "Hardworking and busy." },
+      { "word": "conscientious", "distinction": "Careful to do what is right and expected." },
+      { "word": "assiduous", "distinction": "Steadily attentive, with a formal tone." },
+      { "word": "hardworking", "distinction": "The plain, general term." }
+    ],
+    "antonyms": ["lazy", "negligent"],
+    "examples": [
+      {
+        "text": "A diligent intern checked every figure twice before the meeting.",
+        "kind": "everyday"
+      },
+      {
+        "text": "With diligent attention, she restored the family garden one bed at a time.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin diligens, meaning attentive or careful, the present participle of diligere, to value highly or to love. That verb is built from dis- (apart) and legere (to choose or gather).",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/diligent",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/diligent",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used for students, workers, searches and efforts. The phrase due diligence names the careful checking done before a deal.",
+    "memoryHook": "It comes from a verb that meant to love or value: being diligent means caring enough to do it carefully.",
+    "practice": { "prompt": "Describe a habit that makes someone you know diligent." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/diligent",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "conscientious",
+    "pos": ["adjective"],
+    "pronunciation": "kon-shee-EN-shus",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "Careful to do your work or duty well and honestly, guided by your sense of right.",
+    "register": "Formal to neutral; admiring.",
+    "nuance": "A conscientious person is internally driven: they do it well because it matters, not because someone is watching. A conscientious objector refuses something on grounds of conscience.",
+    "synonyms": [
+      { "word": "dutiful", "distinction": "Faithful to obligations." },
+      { "word": "diligent", "distinction": "Steady in effort; less moral weight." },
+      { "word": "scrupulous", "distinction": "Very careful about right and wrong or accuracy." },
+      { "word": "responsible", "distinction": "Reliable and accountable; broader and plainer." }
+    ],
+    "antonyms": ["careless", "irresponsible"],
+    "examples": [
+      {
+        "text": "She is conscientious about replying to every message, even the awkward ones.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A conscientious editor, he checked each quotation against its source before printing.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From French consciencieux, from Latin conscientia, meaning knowledge shared with oneself, hence inner awareness of right and wrong. That word is built from con- (with) and scire (to know).",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/conscientious",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/conscientious",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in references, appraisals and psychology, where conscientiousness is one of the major personality traits. Be careful with the spelling: there is a sci in the middle.",
+    "memoryHook": "It contains conscience: a conscientious person listens to their own inner knowing.",
+    "practice": { "prompt": "Write about a task you do conscientiously even when nobody checks." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/conscientious",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "ambivalent",
+    "pos": ["adjective"],
+    "pronunciation": "am-BIV-uh-lent",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Having mixed or conflicting feelings about something or someone at the same time.",
+    "register": "Neutral to formal; common in psychology and everyday talk.",
+    "nuance": "It is not the same as indifferent. An ambivalent person cares, and feels pulled both ways, for example excited and afraid about a new job.",
+    "synonyms": [
+      { "word": "torn", "distinction": "The plain, emotional way to say it." },
+      { "word": "conflicted", "distinction": "Pulled between competing feelings or duties." },
+      {
+        "word": "equivocal",
+        "distinction": "About statements or evidence that can be read two ways."
+      },
+      { "word": "uncertain", "distinction": "Not sure, without the sense of opposite pulls." }
+    ],
+    "antonyms": ["decided", "wholehearted"],
+    "examples": [
+      {
+        "text": "I feel ambivalent about moving: I love the city, but I miss home.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Her ambivalent smile at the farewell party left everyone wondering whether she was sad or relieved.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed from German Ambivalenz, a term from early twentieth-century psychiatry, formed from Latin ambi- (both) and valentia (strength, from valere, to be strong). It describes two opposite strengths pulling at once.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ambivalent",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ambivalent",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often followed by about or toward. The noun is ambivalence. Do not use it to mean uninterested; that is indifferent.",
+    "memoryHook": "Ambi- means both, as in ambidextrous. An ambivalent person is strong in both directions at once.",
+    "practice": {
+      "prompt": "Describe a decision you felt ambivalent about, and what each side said."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ambivalent",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "expedite",
+    "pos": ["verb"],
+    "pronunciation": "EK-spuh-dyt",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "To make a process or action happen sooner or more smoothly.",
+    "register": "Formal; business and administration.",
+    "nuance": "It means to speed something up by removing obstacles, not by rushing. You expedite a request or a shipment, rarely a person.",
+    "synonyms": [
+      { "word": "accelerate", "distinction": "To make something go faster in general." },
+      { "word": "hasten", "distinction": "To cause something to happen sooner." },
+      { "word": "facilitate", "distinction": "To make easier, without necessarily making faster." },
+      { "word": "fast-track", "distinction": "Informal; to give priority treatment." }
+    ],
+    "antonyms": ["delay", "hinder"],
+    "examples": [
+      { "text": "We can expedite your passport for an extra fee.", "kind": "everyday" },
+      {
+        "text": "The mayor offered to expedite permits for anyone rebuilding after the flood.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin expedire, meaning to free from a snare, to make ready, built from ex- (out) and pes, ped- (foot). The picture is of freeing a foot that was caught so that you can move on. Its opposite, impedire, gives us impede.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/expedite",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/expedite",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical in shipping, immigration, legal and customer-service writing: expedited delivery, to expedite a claim. A related adjective is expeditious.",
+    "memoryHook": "Ped- is foot, and impede is its opposite: to expedite is to free the foot, to impede is to snare it.",
+    "practice": { "prompt": "Describe a process you wish someone would expedite." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/expedite",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "tangible",
+    "pos": ["adjective"],
+    "pronunciation": "TAN-juh-bul",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "Real and clear enough to be seen, felt or measured; concrete rather than abstract.",
+    "register": "Neutral to formal.",
+    "nuance": "It originally meant touchable. Today it often describes results, benefits or evidence that you can actually point to, as opposed to hopes or ideas.",
+    "synonyms": [
+      { "word": "concrete", "distinction": "Specific and real, not abstract." },
+      { "word": "palpable", "distinction": "So strong it can almost be felt, often about mood." },
+      { "word": "material", "distinction": "Physical; or relevant and significant in law." },
+      { "word": "measurable", "distinction": "Capable of being quantified." }
+    ],
+    "antonyms": ["intangible", "abstract"],
+    "examples": [
+      {
+        "text": "The new bike lanes brought tangible benefits: fewer cars and cleaner air.",
+        "kind": "everyday"
+      },
+      {
+        "text": "There was a tangible relief in the room when the results came back clear.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Late Latin tangibilis, meaning that can be touched, from tangere (to touch). The sense widened from touchable to real and definite.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/tangible",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/tangible",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in business and policy: tangible results, tangible evidence. Intangible is just as common, for assets such as reputation.",
+    "memoryHook": "Tangere is to touch, as in tactile and contact. Something tangible is something you could touch.",
+    "practice": { "prompt": "Name a tangible result you are proud of, and an intangible one." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/tangible",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "nuance",
+    "pos": ["noun"],
+    "pronunciation": "NOO-ahns",
+    "topic": "everyday precision",
+    "difficulty": 2,
+    "definition": "A subtle difference in meaning, tone, expression or color.",
+    "register": "Neutral to formal; admired as a mark of careful thinking.",
+    "nuance": "Nuance is the fine shading between two similar things, such as annoyed and furious. Asking for more nuance means asking for subtler distinctions.",
+    "synonyms": [
+      { "word": "subtlety", "distinction": "Fineness of detail; overlaps with nuance." },
+      { "word": "shade", "distinction": "A small variation in meaning or color." },
+      { "word": "distinction", "distinction": "A difference that is noticed, large or small." },
+      { "word": "overtone", "distinction": "A suggested secondary meaning or feeling." }
+    ],
+    "antonyms": ["blunt generalization"],
+    "examples": [
+      {
+        "text": "The translation lost some of the nuance of the original poem.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A good diplomat hears the nuance in a single word choice and replies in kind.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed from French nuance, meaning a shade or subtle gradation, from nuer (to shade), which comes from nue (cloud). That traces back to Latin nubes, meaning a cloud.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/nuance",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/nuance",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often used with a verb of noticing or losing: capture the nuance, miss the nuance. The adjective is nuanced, praising a view that avoids black-and-white thinking.",
+    "memoryHook": "A nuance is a small shade, like the fine gradations of color in clouds, which is where the word began.",
+    "practice": { "prompt": "Explain the nuance between two words you often treat as the same." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/nuance",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "scrupulous",
+    "pos": ["adjective"],
+    "pronunciation": "SKROO-pyuh-lus",
+    "topic": "work and communication",
+    "difficulty": 3,
+    "definition": "Extremely careful about doing what is right, accurate or honest, even in small matters.",
+    "register": "Formal; admiring.",
+    "nuance": "It adds a moral edge to carefulness: a scrupulous person will not cut corners or bend the truth. Unscrupulous, its opposite, is far more common and means willing to act dishonestly.",
+    "synonyms": [
+      { "word": "meticulous", "distinction": "Precise about detail, with no moral tone." },
+      { "word": "principled", "distinction": "Guided by firm moral principles." },
+      { "word": "punctilious", "distinction": "Very attentive to formal rules and manners." },
+      { "word": "honest", "distinction": "Truthful; the plain word." }
+    ],
+    "antonyms": ["unscrupulous", "careless"],
+    "examples": [
+      {
+        "text": "The accountant was scrupulous about recording every expense, however small.",
+        "kind": "everyday"
+      },
+      {
+        "text": "She was scrupulously fair, giving both sides the same time to speak.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin scrupulosus, meaning full of sharp stones, from scrupulus, a small sharp stone, which is a diminutive of scrupus (a sharp stone). The idea was a pebble in the shoe, then an uneasy conscience or doubt, then a careful concern for right and wrong.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/scrupulous",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/scrupulous",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in the phrase scrupulously honest or fair. Unscrupulous is the one you meet most, for dishonest dealers or methods.",
+    "memoryHook": "A scruple is a small pebble in the shoe of your conscience. A scrupulous person cannot ignore it.",
+    "practice": {
+      "prompt": "Describe a situation where being scrupulous cost you something, and why it was right."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/scrupulous",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "pertinent",
+    "pos": ["adjective"],
+    "pronunciation": "PER-tn-ent",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "Directly relevant to the matter at hand.",
+    "register": "Formal; common in law, business and academic writing.",
+    "nuance": "Pertinent is a notch more precise than relevant: it implies that the point bears directly on the issue and belongs in the discussion.",
+    "synonyms": [
+      { "word": "relevant", "distinction": "The general word for connected to the matter." },
+      { "word": "germane", "distinction": "Closely connected and appropriate to the subject." },
+      { "word": "applicable", "distinction": "Capable of being applied to the case." },
+      { "word": "apposite", "distinction": "Strikingly appropriate; a literary choice." }
+    ],
+    "antonyms": ["irrelevant", "beside the point"],
+    "examples": [
+      { "text": "Please include only the pertinent details in your summary.", "kind": "everyday" },
+      {
+        "text": "Her question was brief and pertinent, and it changed the direction of the meeting.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin pertinens, the present participle of pertinere, meaning to relate to or to reach, built from per- (through, thoroughly) and tenere (to hold). A pertinent point holds on to the matter all the way through.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/pertinent",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/pertinent",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical in the phrase pertinent information, facts or questions. The verb pertain is its relative, as in matters pertaining to the case.",
+    "memoryHook": "Tenere again, to hold: a pertinent fact holds right through to the issue. It is a cousin of pertain and tenacious.",
+    "practice": { "prompt": "Pick the three most pertinent facts for a decision you face." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/pertinent",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "mitigate",
+    "pos": ["verb"],
+    "pronunciation": "MIT-ih-gayt",
+    "topic": "work and communication",
+    "difficulty": 2,
+    "definition": "To make something harmful or severe less so.",
+    "register": "Formal; common in risk, law, medicine and climate writing.",
+    "nuance": "To mitigate is to reduce the effect, not to eliminate it. You mitigate a risk, a penalty or damage. Do not confuse it with militate, which means to work against.",
+    "synonyms": [
+      { "word": "alleviate", "distinction": "To ease pain or hardship." },
+      { "word": "lessen", "distinction": "To make smaller; the plain word." },
+      { "word": "temper", "distinction": "To soften or moderate." },
+      { "word": "ameliorate", "distinction": "To make a bad situation better; more formal." }
+    ],
+    "antonyms": ["aggravate", "worsen"],
+    "examples": [
+      { "text": "Better drainage will mitigate flooding on the lower street.", "kind": "everyday" },
+      {
+        "text": "A frank apology did much to mitigate the damage of the first announcement.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin mitigare, meaning to make mild or soft, built from mitis (mild, gentle) and agere (to do, to drive). Literally, to make something mild.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/mitigate",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/mitigate",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical with risk, effects, damage, impact and circumstances. In law, mitigating circumstances reduce blame. A common slip is to write mitigate against when militate against is meant.",
+    "memoryHook": "Mitis is Latin for mild. To mitigate is to make mild.",
+    "practice": { "prompt": "Describe a risk you have mitigated and how." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/mitigate",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "corroborate",
+    "pos": ["verb"],
+    "pronunciation": "kuh-ROB-uh-rayt",
+    "topic": "work and communication",
+    "difficulty": 3,
+    "definition": "To support a statement, theory or finding with additional evidence.",
+    "register": "Formal; legal, scientific and journalistic.",
+    "nuance": "To corroborate is to strengthen something already claimed by independent confirmation. It confirms, it does not originate.",
+    "synonyms": [
+      {
+        "word": "confirm",
+        "distinction": "To establish that something is true; the general word."
+      },
+      { "word": "substantiate", "distinction": "To provide solid evidence for a claim." },
+      { "word": "verify", "distinction": "To check that something is accurate." },
+      { "word": "bear out", "distinction": "Informal; to support or prove right." }
+    ],
+    "antonyms": ["contradict", "refute"],
+    "examples": [
+      {
+        "text": "Two other witnesses corroborated her account of the accident.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The diary entries corroborate what the shipping records suggest about that winter.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin corroborare, meaning to strengthen, built from con- (together, thoroughly) and roborare (to make strong), from robur (strength, hard oak). The word first meant to make physically stronger before it came to mean strengthening a claim with evidence.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/corroborate",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/corroborate",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical with story, account, evidence, claim and testimony. The noun is corroboration. Journalists seek corroboration from a second source.",
+    "memoryHook": "Robur means oak, and it is also the root of robust. To corroborate is to add oak to a claim.",
+    "practice": {
+      "prompt": "Explain how you would corroborate a surprising claim you saw online."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/corroborate",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  }
+]

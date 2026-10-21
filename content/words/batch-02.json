@@ -1,0 +1,1121 @@
+[
+  {
+    "headword": "allegory",
+    "pos": ["noun"],
+    "pronunciation": "AL-uh-gor-ee",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "A story, poem or picture in which characters and events stand for deeper ideas, often moral or political.",
+    "register": "Literary and scholarly.",
+    "nuance": "An allegory carries a second, hidden meaning through the whole work, not just in one phrase. A metaphor is a single comparison, while an allegory is a sustained one.",
+    "synonyms": [
+      { "word": "parable", "distinction": "A short story that teaches a moral lesson." },
+      { "word": "fable", "distinction": "A short tale, often with animals, ending in a moral." },
+      {
+        "word": "symbolism",
+        "distinction": "Use of symbols; less structured than a full allegory."
+      },
+      {
+        "word": "metaphor",
+        "distinction": "A single figurative comparison, not a sustained story."
+      }
+    ],
+    "antonyms": ["literal account"],
+    "examples": [
+      {
+        "text": "Many readers see the novel about a farm as an allegory of a political revolution.",
+        "kind": "everyday"
+      },
+      {
+        "text": "In the medieval allegory, every traveler on the road stands for a human virtue or vice.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek allegoria, meaning speaking in other terms, built from allos (other) and agoreuein (to speak in the assembly), from agora (the public gathering place). So an allegory speaks about one thing while saying another.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/allegory",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/allegory",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used in literary criticism, art history and political commentary. The adjective is allegorical, and to allegorize is to read something as an allegory.",
+    "memoryHook": "Allos means other, as in allergy. An allegory says something other than what it seems to say.",
+    "practice": { "prompt": "Tell a two-sentence allegory about a project that went wrong." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/allegory",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "metaphor",
+    "pos": ["noun"],
+    "pronunciation": "MET-uh-for",
+    "topic": "literature and rhetoric",
+    "difficulty": 1,
+    "definition": "A figure of speech that describes one thing as if it were another, to reveal a likeness.",
+    "register": "Neutral; used in everyday talk and in literary study.",
+    "nuance": "A metaphor says one thing is another (time is a thief), while a simile says one thing is like another. Good metaphors make an idea easier to feel.",
+    "synonyms": [
+      { "word": "simile", "distinction": "A comparison using like or as." },
+      { "word": "analogy", "distinction": "An extended comparison to explain something." },
+      { "word": "figure of speech", "distinction": "The general category that includes metaphor." },
+      {
+        "word": "image",
+        "distinction": "A vivid picture in words, which may or may not be a metaphor."
+      }
+    ],
+    "antonyms": ["literal statement"],
+    "examples": [
+      {
+        "text": "Calling the office a zoo is a metaphor everyone understood immediately.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The poet's central metaphor of memory as a house gave each room a different grief.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek metaphora, meaning a transfer, from metapherein (to carry over), built from meta- (over, across) and pherein (to carry). A metaphor carries meaning from one thing across to another. In modern Greek the same word also means transport.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/metaphor",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/metaphor",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is metaphorical, and metaphorically is common in the phrase speaking metaphorically. A mixed metaphor combines images that clash.",
+    "memoryHook": "Pherein means to carry, a cousin of Latin ferre in transfer. A metaphor carries meaning across.",
+    "practice": { "prompt": "Describe your week with one fresh metaphor, and explain it." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/metaphor",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "irony",
+    "pos": ["noun"],
+    "pronunciation": "EYE-ruh-nee",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "The use of words or a situation to express something different from, often the opposite of, what is literally said or expected.",
+    "register": "Neutral; literary and conversational.",
+    "nuance": "Irony is not the same as coincidence or bad luck. It needs a gap between what is said or expected and what is true. Verbal irony says the opposite of what is meant; situational irony is an outcome that mocks the expectation.",
+    "synonyms": [
+      {
+        "word": "sarcasm",
+        "distinction": "Irony used to wound or mock; sharper and more personal."
+      },
+      { "word": "satire", "distinction": "Criticism of society or people through mockery." },
+      { "word": "paradox", "distinction": "A statement that seems contradictory yet may be true." },
+      { "word": "dry wit", "distinction": "Understated humor, often with an ironic tone." }
+    ],
+    "antonyms": ["sincerity", "plain speech"],
+    "examples": [
+      {
+        "text": "It was a small irony that the fire station burned down on the safest day of the year.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The film's irony lies in how the villain's cruelty is the only thing that saves the town.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek eironeia, meaning feigned ignorance or dissimulation, from eiron (a person who says less than they mean, a dissembler). The word is linked with Socrates, who famously pretended not to know in order to draw out other people's ideas.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/irony",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/irony",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often misused for mere coincidence. The adjective is ironic, and ironically is a common sentence adverb. Socratic irony names the teacher's feigned ignorance.",
+    "memoryHook": "The eiron was the one who played dumb. Irony always has someone, or something, saying less than it knows.",
+    "practice": {
+      "prompt": "Describe a real situation that was truly ironic, not merely unlucky."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/irony",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "hyperbole",
+    "pos": ["noun"],
+    "pronunciation": "hy-PER-buh-lee",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "Deliberate, obvious exaggeration used for emphasis or effect, not meant to be taken literally.",
+    "register": "Neutral; common in speech, advertising and literature.",
+    "nuance": "Hyperbole is exaggeration the listener is meant to see through: I have told you a million times. A lie aims to be believed; hyperbole does not.",
+    "synonyms": [
+      {
+        "word": "exaggeration",
+        "distinction": "The everyday word; may be accidental or deliberate."
+      },
+      { "word": "overstatement", "distinction": "Stating something as stronger than it is." },
+      { "word": "embellishment", "distinction": "Adding colorful but invented detail." },
+      { "word": "litotes", "distinction": "The opposite figure: deliberate understatement." }
+    ],
+    "antonyms": ["understatement"],
+    "examples": [
+      {
+        "text": "Saying I am starving to death after a missed snack is classic hyperbole.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The campaign relied on hyperbole, promising a revolution by Tuesday.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek hyperbole, meaning excess or a throwing beyond, built from hyper (over, beyond) and ballein (to throw). A hyperbole throws the truth past the target. Do not confuse the word with hyperbola, the geometric curve, which comes from the same Greek root.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/hyperbole",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/hyperbole",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Pronounced with four syllables, hy-PER-buh-lee. The adjective is hyperbolic. It is the usual diagnosis for overheated advertising and political speech.",
+    "memoryHook": "Hyper means over, as in hyperactive, and ballein means to throw, as in ballistic. Hyperbole throws words too far.",
+    "practice": { "prompt": "Write one sentence of playful hyperbole about the weather." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/hyperbole",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "oxymoron",
+    "pos": ["noun"],
+    "pronunciation": "ok-see-MOR-on",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "A figure of speech that joins two contradictory terms, such as bittersweet or deafening silence.",
+    "register": "Neutral; literary and everyday.",
+    "nuance": "A true oxymoron is deliberate and often reveals a truth. It differs from a contradiction that is simply a mistake, though people also call dubious phrases like jumbo shrimp oxymorons for fun.",
+    "synonyms": [
+      {
+        "word": "paradox",
+        "distinction": "A whole statement that seems self-contradictory but may hold truth."
+      },
+      { "word": "contradiction", "distinction": "Two statements that cannot both be true." },
+      {
+        "word": "antithesis",
+        "distinction": "Contrasting ideas set side by side in balanced phrases."
+      },
+      {
+        "word": "juxtaposition",
+        "distinction": "Placing two things next to each other to compare them."
+      }
+    ],
+    "antonyms": ["tautology"],
+    "examples": [
+      {
+        "text": "Working from home meant a busy silence, an oxymoron she had come to love.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Shakespeare's line about loving hate is a famous oxymoron: it makes the conflict visible in two words.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek oxymoron, meaning pointedly foolish, built from oxys (sharp, keen) and moros (dull, stupid). The word is itself an oxymoron: it joins sharp with dull.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/oxymoron",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/oxymoron",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The plural is oxymorons or, in classical form, oxymora. Typical examples are living dead, open secret and original copy.",
+    "memoryHook": "Oxys is sharp, like acid and oxygen; moros is dull, like a moron. An oxymoron is sharp dullness, and the word proves its own point.",
+    "practice": { "prompt": "Write an original oxymoron that describes a mood you know well." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/oxymoron",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "euphemism",
+    "pos": ["noun"],
+    "pronunciation": "YOO-fuh-miz-um",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "A mild or indirect word or phrase used in place of one that seems harsh, blunt or unpleasant.",
+    "register": "Neutral; used in linguistics, politics and everyday speech.",
+    "nuance": "Euphemisms soften: passed away for died, let go for fired. They can be kind, or they can be evasive, hiding a hard truth behind soft words.",
+    "synonyms": [
+      {
+        "word": "circumlocution",
+        "distinction": "Speaking in a roundabout way to avoid being direct."
+      },
+      { "word": "understatement", "distinction": "Expressing something as milder than it is." },
+      { "word": "doublespeak", "distinction": "Language designed to mislead; a critical term." },
+      { "word": "gloss", "distinction": "A smoothing-over explanation." }
+    ],
+    "antonyms": ["dysphemism", "plain speech"],
+    "examples": [
+      {
+        "text": "Between friends, resting in peace is a gentle euphemism for dead.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Corporate memos filled with euphemisms like rightsizing leave employees reading between the lines.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek euphemismos, meaning the use of favorable words, built from eu (good, well) and pheme (speech, saying, voice). The Greek idea was to say auspicious words in place of ill-omened ones.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/euphemism",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/euphemism",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is euphemistic and the verb is euphemize. The opposite device, using a harsher word on purpose, is called dysphemism.",
+    "memoryHook": "Eu means good, as in euphoria, and pheme is speech. A euphemism is good-speaking: it says it nicely.",
+    "practice": { "prompt": "Name a euphemism you dislike, and say what it hides." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/euphemism",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "soliloquy",
+    "pos": ["noun"],
+    "pronunciation": "suh-LIL-uh-kwee",
+    "topic": "literature and rhetoric",
+    "difficulty": 3,
+    "definition": "A speech in a play in which a character speaks their thoughts aloud, usually alone on stage.",
+    "register": "Literary; theatrical.",
+    "nuance": "A soliloquy lets the audience hear a character's private thoughts. It differs from a monologue, which is a long speech to others, and from an aside, which is a brief remark to the audience.",
+    "synonyms": [
+      { "word": "monologue", "distinction": "A long speech by one person, often to others." },
+      { "word": "aside", "distinction": "A short remark spoken to the audience or to oneself." },
+      { "word": "apostrophe", "distinction": "Addressing an absent person or an object directly." },
+      {
+        "word": "interior monologue",
+        "distinction": "A prose technique that shows a character's inner thoughts."
+      }
+    ],
+    "antonyms": ["dialogue"],
+    "examples": [
+      {
+        "text": "The actor delivered the famous soliloquy to an utterly silent theater.",
+        "kind": "everyday"
+      },
+      {
+        "text": "In his soliloquy the king confesses the crime that no other character will ever hear about.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Late Latin soliloquium, meaning a speaking to oneself, built from solus (alone) and loqui (to speak). The word came into English from the Latin tradition of reflective writing before it was applied to the stage.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/soliloquy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/soliloquy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used in discussions of theater and fiction. The verb is soliloquize. Casually, people may describe any rambling, solo speech as a soliloquy.",
+    "memoryHook": "Solus means alone, as in solo, and loqui means to speak, as in eloquent. A soliloquy is speaking solo.",
+    "practice": {
+      "prompt": "Write a three-sentence soliloquy for someone deciding whether to quit a job."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/soliloquy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "protagonist",
+    "pos": ["noun"],
+    "pronunciation": "proh-TAG-uh-nist",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "The main character in a story, play or film, around whom the plot centers.",
+    "register": "Neutral; literary and general.",
+    "nuance": "The protagonist is the central figure, not necessarily a hero. A protagonist can be morally flawed or even villainous; the term is about role, not virtue.",
+    "synonyms": [
+      { "word": "lead", "distinction": "A leading role, used for theater and film." },
+      { "word": "hero", "distinction": "A protagonist who is admirable or brave." },
+      { "word": "main character", "distinction": "The plain, everyday phrase." },
+      {
+        "word": "central figure",
+        "distinction": "A person at the center of any situation, not just stories."
+      }
+    ],
+    "antonyms": ["antagonist"],
+    "examples": [
+      {
+        "text": "The protagonist of the novel is a shy librarian who stumbles into a mystery.",
+        "kind": "everyday"
+      },
+      {
+        "text": "A flawed protagonist invites the reader to hope for a change they may never see.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek protagonistes, meaning the actor who plays the first part, built from protos (first) and agonistes (actor, contestant), from agon (contest). In Greek drama the protagonist was the first actor, and the word was later used for the central figure of any story.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/protagonist",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/protagonist",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Also used in real-world accounts: the protagonists of a dispute. Its pair is antagonist, the person or force opposing the protagonist.",
+    "memoryHook": "Proto- means first, and agon means contest, which also gives us agony and antagonist. The protagonist is the first contestant.",
+    "practice": {
+      "prompt": "Describe your own life this week as a story. Who is the protagonist, and what do they want?"
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/protagonist",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "epiphany",
+    "pos": ["noun"],
+    "pronunciation": "ih-PIF-uh-nee",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "A sudden moment of clear understanding or insight, often about something important.",
+    "register": "Neutral to literary; also a religious feast name when capitalized.",
+    "nuance": "An epiphany feels like a lightbulb of the soul: the sudden realization that reorganizes what you thought you knew. It is bigger than just having an idea.",
+    "synonyms": [
+      { "word": "revelation", "distinction": "A surprising piece of truth being disclosed." },
+      {
+        "word": "realization",
+        "distinction": "The plain word for coming to understand something."
+      },
+      { "word": "insight", "distinction": "A clear understanding of the nature of something." },
+      { "word": "eureka moment", "distinction": "Informal; a sudden discovery." }
+    ],
+    "antonyms": ["confusion"],
+    "examples": [
+      {
+        "text": "Walking home in the rain, she had an epiphany: she did not want the promotion.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The story ends on an epiphany so quiet that the character barely seems to notice it.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek epiphaneia, meaning appearance or manifestation, from epiphainein (to show forth), built from epi (upon) and phainein (to show). The Christian feast of Epiphany celebrates a manifestation. Writers, notably James Joyce, later borrowed the word for a sudden moment of insight.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/epiphany",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/epiphany",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in stories, memoir and talk about personal change. The adjective is epiphanic. It is often overused for ordinary ideas, so save it for moments that change your view.",
+    "memoryHook": "Phainein is to show, as in phenomenon and fantasy. An epiphany is when something finally shows itself.",
+    "practice": { "prompt": "Describe a small epiphany that changed how you do something." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/epiphany",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "eloquent",
+    "pos": ["adjective"],
+    "pronunciation": "EL-uh-kwent",
+    "topic": "literature and rhetoric",
+    "difficulty": 1,
+    "definition": "Fluent, persuasive and expressive in speech or writing.",
+    "register": "Neutral to formal; admiring.",
+    "nuance": "Eloquence is more than fluency: the words are well chosen and move the listener. An eloquent silence or gesture can also say a lot without words.",
+    "synonyms": [
+      {
+        "word": "articulate",
+        "distinction": "Clearly able to express ideas; less emotional pull."
+      },
+      {
+        "word": "fluent",
+        "distinction": "Smooth and easy in speaking, without guaranteeing impact."
+      },
+      { "word": "persuasive", "distinction": "Good at convincing, regardless of style." },
+      { "word": "expressive", "distinction": "Showing feeling or meaning vividly." }
+    ],
+    "antonyms": ["inarticulate", "tongue-tied"],
+    "examples": [
+      {
+        "text": "Her eloquent toast made the whole room smile and a few people cry.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The eloquent letters of the soldier, read aloud a century later, still stopped the audience cold.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin eloquens, the present participle of eloqui, meaning to speak out, built from e- (out, from ex) and loqui (to speak). To be eloquent is to speak out well.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/eloquent",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/eloquent",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Applies to speakers, writers, speeches and even evidence: an eloquent testimony. The noun is eloquence.",
+    "memoryHook": "Loqui is to speak, as in colloquial and loquacious. Eloquent means speaking out.",
+    "practice": { "prompt": "Find an eloquent sentence you admire and say why it works." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/eloquent",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "rhetoric",
+    "pos": ["noun"],
+    "pronunciation": "RET-er-ik",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "The art of using language effectively to persuade or move an audience; also, speech that sounds impressive but may lack substance.",
+    "register": "Formal; neutral as a field of study, often disapproving in everyday use.",
+    "nuance": "It has two faces. As a discipline, rhetoric is the study of persuasion. In news and politics, calling something mere rhetoric means it is all words and no action.",
+    "synonyms": [
+      { "word": "oratory", "distinction": "The art of public speaking." },
+      { "word": "persuasion", "distinction": "Convincing someone, by any means." },
+      { "word": "eloquence", "distinction": "Skillful, moving expression; a positive word." },
+      { "word": "bombast", "distinction": "Pompous, inflated language; clearly negative." }
+    ],
+    "antonyms": ["plain speech", "action"],
+    "examples": [
+      {
+        "text": "The candidate's rhetoric was stirring, but the plan behind it was thin.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Aristotle studied rhetoric as the art of finding the available means of persuasion in any case.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek rhetorike (techne), meaning the art of the orator, from rhetor (public speaker, orator). The ancient Greeks and Romans treated rhetoric as a core subject of education.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/rhetoric",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/rhetoric",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Heard in empty rhetoric, heated rhetoric and the rhetoric of reform. A rhetorical question is asked for effect, not for an answer.",
+    "memoryHook": "A rhetor was a public speaker. Rhetoric is the speaker's craft, and sometimes just the speaker's show.",
+    "practice": {
+      "prompt": "Pick a speech or ad you know and separate its rhetoric from its content."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/rhetoric",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "anecdote",
+    "pos": ["noun"],
+    "pronunciation": "AN-ik-doht",
+    "topic": "literature and rhetoric",
+    "difficulty": 1,
+    "definition": "A short, interesting or amusing story about a real person or event.",
+    "register": "Neutral; everyday and written.",
+    "nuance": "An anecdote is brief and personal. In arguments, anecdotal evidence means a story used as proof, which is usually weaker than systematic data.",
+    "synonyms": [
+      { "word": "story", "distinction": "The plain, general word." },
+      { "word": "tale", "distinction": "A story, often longer or more storied." },
+      { "word": "vignette", "distinction": "A short, evocative scene or sketch." },
+      { "word": "yarn", "distinction": "An informal, often embellished story." }
+    ],
+    "antonyms": ["statistic"],
+    "examples": [
+      {
+        "text": "He opened the talk with a funny anecdote about his first day on the job.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The biographer relied on an anecdote that revealed more about the man than a dozen facts.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek anekdota, meaning things not published, from an- (not) and ekdotos (published, given out), from ekdidonai (to give out). The Greek title Anekdota was used for the Byzantine historian Procopius's collection of secret stories about the court, which is how the word came to mean a short, private tale.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/anecdote",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/anecdote",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Do not confuse it with antidote. The adjective anecdotal is common in discussions of evidence, as in anecdotal evidence versus data.",
+    "memoryHook": "An-ekdota is unpublished. An anecdote started as a story told in private, not printed in the official record.",
+    "practice": { "prompt": "Tell a one-minute anecdote that makes a point about patience." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/anecdote",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "elegy",
+    "pos": ["noun"],
+    "pronunciation": "EL-uh-jee",
+    "topic": "literature and rhetoric",
+    "difficulty": 3,
+    "definition": "A poem or piece of music of mourning and reflection, usually for someone who has died.",
+    "register": "Literary and formal.",
+    "nuance": "An elegy is a lament that also looks for meaning in loss. It differs from an epitaph, which is a short inscription, and from an ode, which praises.",
+    "synonyms": [
+      { "word": "lament", "distinction": "An expression of grief, not limited to poetry." },
+      { "word": "dirge", "distinction": "A mournful song, often for a funeral." },
+      { "word": "threnody", "distinction": "A song of lamentation; very literary." },
+      { "word": "requiem", "distinction": "A musical mass for the dead." }
+    ],
+    "antonyms": ["ode", "celebration"],
+    "examples": [
+      {
+        "text": "The class read an elegy written for a poet who had died young.",
+        "kind": "everyday"
+      },
+      {
+        "text": "His last album was a quiet elegy for the neighborhood that had been torn down.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek elegeia, a poem written in elegiac couplets, from elegos, a song of lament. The origin of the Greek word elegos is uncertain and is disputed by scholars, so the deeper history of this word is not firmly known. In ancient Greece the elegiac couplet was not limited to mourning; the sense narrowed to laments over time.",
+      "confidence": "uncertain",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/elegy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/elegy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is elegiac, meaning mournful in a reflective way. A film or essay can be elegiac without being about death.",
+    "memoryHook": "Elegy and eulogy sound alike but differ: an elegy is a mournful poem, a eulogy is a speech of praise.",
+    "practice": {
+      "prompt": "Write two lines of an elegy for something that is gone, such as a place or a habit."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/elegy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "pastiche",
+    "pos": ["noun"],
+    "pronunciation": "pas-TEESH",
+    "topic": "history and arts",
+    "difficulty": 3,
+    "definition": "A work of art, music or writing that imitates the style of another artist or period, or combines pieces of several styles.",
+    "register": "Formal; arts and criticism.",
+    "nuance": "A pastiche imitates with affection or play. A parody imitates in order to mock. Pastiche can also describe a patchwork of influences without being critical.",
+    "synonyms": [
+      { "word": "homage", "distinction": "A tribute that honors another work or artist." },
+      { "word": "parody", "distinction": "Imitation that exaggerates to mock or amuse." },
+      { "word": "collage", "distinction": "Pieces from different sources assembled together." },
+      { "word": "imitation", "distinction": "The plain word for copying a style." }
+    ],
+    "antonyms": ["original work"],
+    "examples": [
+      { "text": "The film is a loving pastiche of 1950s adventure serials.", "kind": "everyday" },
+      {
+        "text": "Her house was a pastiche of eras: a Victorian staircase beneath a modernist skylight.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed from French pastiche, which comes from Italian pasticcio, meaning a pie or pastry of mixed ingredients, and so a jumble. The Italian word belongs to the same family as pasta and paste.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/pastiche",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/pastiche",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in reviews of film, music, architecture and fashion. It can be mild praise or a mild complaint, depending on whether the mix feels inventive or empty.",
+    "memoryHook": "A pastiche began as a mixed pie, which is why it is a blend of styles. It is a cousin of pasta.",
+    "practice": { "prompt": "Describe a pastiche you enjoy, and what it is made of." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/pastiche",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "verisimilitude",
+    "pos": ["noun"],
+    "pronunciation": "ver-uh-suh-MIL-ih-tood",
+    "topic": "literature and rhetoric",
+    "difficulty": 3,
+    "definition": "The quality of seeming true or real, especially in fiction, art or a story.",
+    "register": "Formal and literary; used by critics.",
+    "nuance": "Verisimilitude is about plausibility, not factual truth. A fantasy can have strong verisimilitude if its world follows convincing rules and details.",
+    "synonyms": [
+      { "word": "plausibility", "distinction": "The quality of being believable." },
+      { "word": "realism", "distinction": "A style that depicts things as they are." },
+      { "word": "authenticity", "distinction": "Being genuine; not the same as seeming true." },
+      {
+        "word": "credibility",
+        "distinction": "Worthiness of belief, often about a source or person."
+      }
+    ],
+    "antonyms": ["implausibility"],
+    "examples": [
+      {
+        "text": "The period costumes gave the film real verisimilitude, even where the plot was invented.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Dialogue with verisimilitude sounds like speech, not like a script being read aloud.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin verisimilitudo, meaning likeness to truth, built from verisimilis (probable) and ultimately from veri, the genitive of verum (truth), plus similis (like, similar). It literally means truth-likeness.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/verisimilitude",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/verisimilitude",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used for fiction, film, painting and testimony. A related adjective is verisimilar, which is rare. Say it slowly: ver-uh-suh-MIL-ih-tood.",
+    "memoryHook": "Veri is truth (as in verify) and similis is like (as in similar). Verisimilitude is being truth-like.",
+    "practice": { "prompt": "Name a story with strong verisimilitude and what made it feel real." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/verisimilitude",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "denouement",
+    "pos": ["noun"],
+    "pronunciation": "day-noo-MAHN",
+    "topic": "literature and rhetoric",
+    "difficulty": 3,
+    "definition": "The final part of a story in which the plot is resolved and the loose ends are tied up.",
+    "register": "Literary; borrowed from French and often written with accents as dénouement.",
+    "nuance": "The denouement comes after the climax. It is the unraveling of the knot: how things settle once the main conflict is over.",
+    "synonyms": [
+      { "word": "resolution", "distinction": "The plain term for the ending of a conflict." },
+      { "word": "conclusion", "distinction": "The end of anything, not only of plots." },
+      {
+        "word": "climax",
+        "distinction": "The peak of tension, which comes before the denouement."
+      },
+      { "word": "epilogue", "distinction": "A separate closing section after the main story." }
+    ],
+    "antonyms": ["exposition", "inciting incident"],
+    "examples": [
+      {
+        "text": "The long denouement after the trial showed how each character moved on.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The mystery's denouement arrives quietly, in a kitchen, with a cup of tea going cold.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed from French dénouement, meaning an untying, from dénouer (to untie), built from de- (undo) and nouer (to tie in a knot), which goes back to Latin nodus (knot). The picture is of a plot knot being unraveled.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/denouement",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/denouement",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used for novels, plays, films and, by extension, real events: the denouement of the scandal. Both denouement and dénouement are accepted spellings.",
+    "memoryHook": "Nodus is Latin for knot, like a node. A denouement is the knot coming undone.",
+    "practice": { "prompt": "Describe the denouement of a story you know, in one sentence." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/denouement",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "ennui",
+    "pos": ["noun"],
+    "pronunciation": "ahn-WEE",
+    "topic": "literature and rhetoric",
+    "difficulty": 3,
+    "definition": "A feeling of listless boredom and dissatisfaction, often with a hint of weariness about life.",
+    "register": "Literary; slightly affected in casual speech.",
+    "nuance": "Ennui is deeper than ordinary boredom. It is a heavy, existential tiredness, not just having nothing to do. It carries a faint air of elegance.",
+    "synonyms": [
+      { "word": "boredom", "distinction": "The plain word, lighter and more everyday." },
+      { "word": "listlessness", "distinction": "Lack of energy and interest." },
+      { "word": "malaise", "distinction": "A vague sense of unease or being unwell." },
+      { "word": "weariness", "distinction": "Tiredness of spirit." }
+    ],
+    "antonyms": ["enthusiasm", "zest"],
+    "examples": [
+      {
+        "text": "A rainy Sunday afternoon filled him with ennui; nothing seemed worth starting.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The novel's heroine drifts through glittering parties in a mood of pure ennui.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed from French ennui, from Old French enui, which comes from the Latin phrase in odio, meaning in hatred or hateful. It is a cousin of the English word annoy, which comes from the same source.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ennui",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ennui",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used in literature, criticism and wry modern talk about modern life. It is pronounced in the French way, ahn-WEE, and has no common adjective in English.",
+    "memoryHook": "Ennui and annoy are cousins from the same Latin root. Ennui is annoyance that settled into the bones.",
+    "practice": { "prompt": "Describe ennui in a sentence that makes the reader feel it." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ennui",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "melancholy",
+    "pos": ["noun", "adjective"],
+    "pronunciation": "MEL-un-kol-ee",
+    "topic": "literature and rhetoric",
+    "difficulty": 2,
+    "definition": "A deep, lingering sadness without an obvious cause, often tinged with reflection; as an adjective, sad in this thoughtful way.",
+    "register": "Literary to neutral.",
+    "nuance": "Melancholy is quieter and more reflective than grief. It can feel almost pleasant: a wistful mood rather than a sharp pain. Depression is a medical term; melancholy is a mood.",
+    "synonyms": [
+      { "word": "wistfulness", "distinction": "A gentle longing, often for the past." },
+      { "word": "sorrow", "distinction": "Deeper, more acute sadness tied to a loss." },
+      { "word": "gloom", "distinction": "A darker, heavier low mood." },
+      { "word": "pensiveness", "distinction": "Thoughtful, quiet reflection, often with sadness." }
+    ],
+    "antonyms": ["cheerfulness", "joy"],
+    "examples": [
+      { "text": "A melancholy song came on, and the whole car went quiet.", "kind": "everyday" },
+      {
+        "text": "There is a sweet melancholy in autumn, when the light turns gold and the days shorten.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek melankholia, meaning sadness, literally black bile, built from melas (black) and khole (bile). In ancient and medieval medicine, an excess of black bile was thought to cause a gloomy temperament.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/melancholy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/melancholy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical with mood, music, autumn, beauty and gaze. The related adjective is melancholic. Both melancholy and melancholic are accepted as adjectives.",
+    "memoryHook": "Melas is black (as in melanin) and khole is bile (as in cholera and choleric). Melancholy was literally black bile, one of the four humors.",
+    "practice": {
+      "prompt": "Describe a place or a piece of music that makes you quietly melancholy."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/melancholy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "serendipity",
+    "pos": ["noun"],
+    "pronunciation": "ser-un-DIP-ih-tee",
+    "topic": "history and arts",
+    "difficulty": 2,
+    "definition": "The happy accident of finding something valuable or delightful while looking for something else.",
+    "register": "Neutral; warm and positive.",
+    "nuance": "Serendipity is not just luck. It involves noticing and using the lucky discovery. The finder has to be wise enough to see its value.",
+    "synonyms": [
+      {
+        "word": "fortuity",
+        "distinction": "A chance event, without the sense of wisdom in using it."
+      },
+      { "word": "happy accident", "distinction": "The plain, everyday phrase." },
+      { "word": "windfall", "distinction": "An unexpected gain, usually money." },
+      { "word": "good fortune", "distinction": "Luck in general." }
+    ],
+    "antonyms": ["misfortune", "design"],
+    "examples": [
+      {
+        "text": "We met by sheer serendipity when we both ducked into the same bookshop to escape the rain.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Many discoveries in science began in serendipity, but only careful minds recognized what they had found.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Coined by the English writer Horace Walpole in a letter in the eighteenth century, based on The Three Princes of Serendip, a Persian fairy tale whose heroes kept making fortunate discoveries they were not looking for. Serendip is an old name for Sri Lanka, from Arabic.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/serendipity",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/serendipity",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is serendipitous. It is often cited as one of the most loved English words, and it is a rare word whose inventor is known.",
+    "memoryHook": "Serendip was the old name of Sri Lanka. Serendipity is the gift the three princes kept finding on their travels.",
+    "practice": {
+      "prompt": "Tell the story of a serendipitous meeting or discovery in your life."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/serendipity",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "mellifluous",
+    "pos": ["adjective"],
+    "pronunciation": "muh-LIF-loo-us",
+    "topic": "literature and rhetoric",
+    "difficulty": 3,
+    "definition": "Sweet and smooth to hear, flowing like honey; used of voices, music and words.",
+    "register": "Literary; admiring, slightly ornate.",
+    "nuance": "Mellifluous describes sound that is rich, smooth and pleasing, not just loud or clear. A mellifluous voice is a voice you could listen to for hours.",
+    "synonyms": [
+      { "word": "dulcet", "distinction": "Sweet and soothing, a little old-fashioned." },
+      { "word": "melodious", "distinction": "Pleasant and tuneful." },
+      { "word": "silvery", "distinction": "Clear and light, like a bell." },
+      { "word": "honeyed", "distinction": "Sweet, sometimes suspiciously so." }
+    ],
+    "antonyms": ["harsh", "grating"],
+    "examples": [
+      {
+        "text": "The radio host had a mellifluous voice that made the traffic report sound like poetry.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Her mellifluous phrases rolled over the audience like warm water.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Late Latin mellifluus, meaning flowing with honey, built from mel, mellis (honey) and fluere (to flow). The English word first described sweet-sounding speech by analogy with honey.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/mellifluous",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/mellifluous",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Mostly used of voices, tones and language. A related word is mellifluent. The sound of the word itself is smooth, which makes it fitting.",
+    "memoryHook": "Mel is honey (as in marmalade) and fluere is to flow (as in fluid). Mellifluous flows like honey.",
+    "practice": { "prompt": "Describe a mellifluous voice you remember, and where you heard it." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/mellifluous",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  }
+]

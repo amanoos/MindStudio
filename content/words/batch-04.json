@@ -1,0 +1,1101 @@
+[
+  {
+    "headword": "altruism",
+    "pos": ["noun"],
+    "pronunciation": "AL-troo-iz-um",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "Unselfish concern for the well-being of others, shown by acting to help them without expecting anything in return.",
+    "register": "Neutral to formal; admiring.",
+    "nuance": "Altruism is helping others at some cost to yourself. Philosophers and biologists argue over whether truly selfless acts exist or whether some hidden benefit is always present.",
+    "synonyms": [
+      { "word": "selflessness", "distinction": "The plain word for putting others first." },
+      { "word": "generosity", "distinction": "Willingness to give, often money or time." },
+      { "word": "benevolence", "distinction": "Good will toward others, a formal word." },
+      {
+        "word": "philanthropy",
+        "distinction": "Organized giving, usually of money, to improve human welfare."
+      }
+    ],
+    "antonyms": ["selfishness", "egoism"],
+    "examples": [
+      { "text": "Donating a kidney to a stranger is a rare act of altruism.", "kind": "everyday" },
+      {
+        "text": "Biologists once asked how altruism could evolve, since helping others seems to lower one's own chances.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Coined in French as altruisme by the philosopher Auguste Comte in the nineteenth century, from Italian altrui (of or to others), which comes from Latin alter (other). Comte used it as the opposite of egoism.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/altruism",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/altruism",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is altruistic. Effective altruism is a modern movement about doing as much good as possible with limited resources.",
+    "memoryHook": "Alter means other, as in alternative and alter ego. Altruism is concern for the other.",
+    "practice": {
+      "prompt": "Describe an act of altruism you saw, and what it showed you about the person."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/altruism",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "empathy",
+    "pos": ["noun"],
+    "pronunciation": "EM-puh-thee",
+    "topic": "social concepts",
+    "difficulty": 1,
+    "definition": "The ability to understand and share the feelings of another person.",
+    "register": "Neutral; psychology and everyday speech.",
+    "nuance": "Empathy is feeling with someone. Sympathy is feeling for them. Empathy often means sensing what the other person is going through, while sympathy means caring about it from a little further away.",
+    "synonyms": [
+      { "word": "compassion", "distinction": "Empathy that moves you to help." },
+      { "word": "sympathy", "distinction": "Sorrow felt for someone else's misfortune." },
+      {
+        "word": "understanding",
+        "distinction": "A grasp of how someone feels, without necessarily feeling it."
+      },
+      { "word": "rapport", "distinction": "A harmonious connection between people." }
+    ],
+    "antonyms": ["indifference", "callousness"],
+    "examples": [
+      {
+        "text": "A good nurse listens with empathy before offering any advice.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Fiction trains empathy by letting us live inside lives that are not our own.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Formed in English in the early twentieth century as a translation of the German Einfühlung, meaning feeling into. It was built from Greek empatheia (passion, state of emotion), which comes from en (in) and pathos (feeling, suffering).",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/empathy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/empathy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is empathic or empathetic, and the verb is empathize. Compare sympathy, apathy and pathos, which share the same Greek root.",
+    "memoryHook": "En is in and pathos is feeling. Empathy is feeling your way into someone else's experience.",
+    "practice": {
+      "prompt": "Describe a moment when you truly felt what another person was feeling."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/empathy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "camaraderie",
+    "pos": ["noun"],
+    "pronunciation": "kah-muh-RAH-duh-ree",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "Friendly trust and good fellowship among people who spend time together, especially in a shared effort.",
+    "register": "Neutral to formal; warm.",
+    "nuance": "Camaraderie is the easy, loyal fellowship of teammates, crew or colleagues, built by doing things together. It is more about shared experience than close personal friendship.",
+    "synonyms": [
+      { "word": "fellowship", "distinction": "Friendly association among a group." },
+      {
+        "word": "comradeship",
+        "distinction": "Companionship, often between those facing something together."
+      },
+      { "word": "esprit de corps", "distinction": "A group's shared pride and loyalty." },
+      { "word": "bonhomie", "distinction": "A cheerful, genial manner." }
+    ],
+    "antonyms": ["rivalry", "estrangement"],
+    "examples": [
+      {
+        "text": "The long night shift built a real camaraderie among the nurses.",
+        "kind": "everyday"
+      },
+      {
+        "text": "On the expedition, camaraderie mattered more than comfort: it kept everyone going.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed from French camaraderie, from camarade (companion), which comes from Spanish camarada (a roommate, a group sharing a room), from Latin camera (a chamber, a room). The word began with people who shared a room.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/camaraderie",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/camaraderie",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often used with the verbs build, share and enjoy, and with sports teams, military units and crews. It is a cousin of comrade and camera, which was once simply a room.",
+    "memoryHook": "Camara is a room: camaraderie began among people who shared a room, which is also the root of camera.",
+    "practice": {
+      "prompt": "Describe a group where you felt real camaraderie, and what created it."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/camaraderie",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "solidarity",
+    "pos": ["noun"],
+    "pronunciation": "sol-ih-DAIR-ih-tee",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "Unity and mutual support among a group, based on shared interests, goals or experience.",
+    "register": "Neutral to formal; common in politics and social movements.",
+    "nuance": "Solidarity is active, shared commitment: standing with others in a struggle. It is stronger than sympathy, because it means taking part in or supporting the cause.",
+    "synonyms": [
+      {
+        "word": "unity",
+        "distinction": "Being one or in agreement, without the sense of mutual obligation."
+      },
+      { "word": "cohesion", "distinction": "The state of holding together." },
+      { "word": "fellowship", "distinction": "Friendly association." },
+      { "word": "support", "distinction": "Help given, the plain word." }
+    ],
+    "antonyms": ["division", "isolation"],
+    "examples": [
+      {
+        "text": "Neighbors showed solidarity by bringing food to the families who lost power.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The union's strength rested on solidarity: no member would cross a line to benefit alone.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From French solidarité, from solidaire (interdependent), which comes from Latin solidus (whole, firm, solid). The idea is that people bound together become as firm as a single solid body.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/solidarity",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/solidarity",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used with express, show or stand in. The phrase in solidarity with is very common. It is linked with labor movements and international causes.",
+    "memoryHook": "It shares a root with solid. Solidarity makes a group solid, like individual stones set into one wall.",
+    "practice": { "prompt": "Describe an act of solidarity that moved you." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/solidarity",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "ostracize",
+    "pos": ["verb"],
+    "pronunciation": "OS-truh-syz",
+    "topic": "social concepts",
+    "difficulty": 3,
+    "definition": "To exclude someone from a group or society by common consent, shutting them out socially.",
+    "register": "Formal to neutral; usually describing unkind or harsh exclusion.",
+    "nuance": "To ostracize is to deliberately shun, to treat someone as if they were not there. It is a collective act, done by a group, and implies lasting exclusion.",
+    "synonyms": [
+      { "word": "shun", "distinction": "To avoid someone deliberately." },
+      { "word": "exclude", "distinction": "To keep someone out; the general word." },
+      { "word": "banish", "distinction": "To send someone away, often officially." },
+      { "word": "blackball", "distinction": "To vote against someone's admission to a group." }
+    ],
+    "antonyms": ["welcome", "include"],
+    "examples": [
+      { "text": "After the argument, the class ostracized her for weeks.", "kind": "everyday" },
+      {
+        "text": "In ancient Athens, citizens could ostracize a powerful figure by writing his name on a piece of pottery.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek ostrakizein, meaning to banish by voting with potsherds, from ostrakon (a piece of pottery, a shell, a tile). In ancient Athens citizens scratched a name on a potsherd, and if enough votes named the same person he was sent into exile for years.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/ostracize",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/ostracize",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The noun is ostracism. The word is used for social groups, workplaces, schools and communities.",
+    "memoryHook": "An ostrakon was a pottery shard, and also a shell, as in ostracod, a tiny shelled creature. The Athenians voted with shards, so a vote could ostracize you.",
+    "practice": { "prompt": "Explain why being ostracized hurts, in two sentences." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/ostracize",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "diplomacy",
+    "pos": ["noun"],
+    "pronunciation": "dih-PLOH-muh-see",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "The art of managing relations between countries; more broadly, skill in handling people tactfully to avoid or ease conflict.",
+    "register": "Formal; common in politics and everyday speech.",
+    "nuance": "Diplomacy is tact with a purpose: finding wording and compromise that let people agree without losing face. A diplomatic person is good at saying hard things gracefully.",
+    "synonyms": [
+      { "word": "tact", "distinction": "Sensitivity in dealing with others." },
+      {
+        "word": "statecraft",
+        "distinction": "The skill of running a state or conducting its affairs."
+      },
+      { "word": "negotiation", "distinction": "Bargaining to reach agreement." },
+      { "word": "finesse", "distinction": "Delicate skill in handling a situation." }
+    ],
+    "antonyms": ["bluntness", "belligerence"],
+    "examples": [
+      {
+        "text": "It took real diplomacy to get both teams to agree on one deadline.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Quiet diplomacy, conducted away from cameras, ended the standoff.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From French diplomatie, derived from diplomate and diplome, which come from Greek diploma, meaning a folded paper, from diploun (to double, to fold). Official papers that were folded became known as diplomas, and the handling of such documents between states became diplomacy.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/diplomacy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/diplomacy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is diplomatic. A diplomat is a person who practices it. It sits alongside diploma, from the same folded-paper root.",
+    "memoryHook": "Diploma and diplomacy come from the same folded paper: a diplo- thing is doubled over, like an official letter.",
+    "practice": {
+      "prompt": "Rewrite a blunt sentence of your own diplomatically, keeping the message."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/diplomacy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "meritocracy",
+    "pos": ["noun"],
+    "pronunciation": "mair-ih-TOK-ruh-see",
+    "topic": "social concepts",
+    "difficulty": 3,
+    "definition": "A system in which people advance because of their talents and achievements rather than their wealth, birth or connections.",
+    "register": "Formal; politics, business and education.",
+    "nuance": "The word names an ideal, but critics question whether any society is truly a meritocracy, since opportunity and starting points are unequal. The term itself was coined with a satirical edge.",
+    "synonyms": [
+      { "word": "merit system", "distinction": "The plain phrase for advancement by ability." },
+      { "word": "aristocracy", "distinction": "Rule by a privileged class; a contrast." },
+      { "word": "technocracy", "distinction": "Rule by technical experts." },
+      { "word": "equal opportunity", "distinction": "A related goal: fair chances for all." }
+    ],
+    "antonyms": ["nepotism", "aristocracy"],
+    "examples": [
+      {
+        "text": "The company calls itself a meritocracy, but most promotions go to friends of the boss.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The meritocracy rewards those who test well, which raises the question of who gets coached to test well.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Coined in the twentieth century, famously by the British sociologist Michael Young, in a satirical book warning about a society ruled by the talented. It combines Latin meritum (worth, deserving) with Greek -kratia (rule), as in democracy.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/meritocracy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/meritocracy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is meritocratic. Note the irony: Young coined it as a warning, and it later became a goal.",
+    "memoryHook": "Merit plus -cracy, as in democracy. A meritocracy is rule by merit.",
+    "practice": { "prompt": "Name one way your field is a meritocracy and one way it is not." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/meritocracy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "zeitgeist",
+    "pos": ["noun"],
+    "pronunciation": "ZYT-gyst",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "The general mood, ideas and tastes of a particular period in history.",
+    "register": "Neutral to formal; used in culture and media.",
+    "nuance": "The zeitgeist is the feeling in the air at a given time: what people are worried about, excited by or making jokes about. It describes a broad cultural mood, not a single trend.",
+    "synonyms": [
+      { "word": "spirit of the age", "distinction": "The plain English phrase." },
+      { "word": "mood", "distinction": "A general feeling at a time." },
+      {
+        "word": "climate",
+        "distinction": "The prevailing conditions, as in the cultural climate."
+      },
+      { "word": "trend", "distinction": "A specific direction, narrower than a zeitgeist." }
+    ],
+    "antonyms": ["timelessness"],
+    "examples": [
+      { "text": "The film captured the zeitgeist of the early 2000s.", "kind": "everyday" },
+      {
+        "text": "Great satire catches the zeitgeist and says what everyone is thinking but not yet saying.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Borrowed from German Zeitgeist, built from Zeit (time) and Geist (spirit, mind, ghost). It was used by German thinkers of the eighteenth and nineteenth centuries for the character of an age, and entered English in the nineteenth century.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/zeitgeist",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/zeitgeist",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often used with capture, reflect or tap into. In German all nouns are capitalized, but in English it is usually written in lowercase.",
+    "memoryHook": "Zeit is time, which is cousin to tide, and Geist is spirit, cousin to ghost. The zeitgeist is the ghost of the times.",
+    "practice": {
+      "prompt": "Describe the zeitgeist of this year in three words, and say what you left out."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/zeitgeist",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "nepotism",
+    "pos": ["noun"],
+    "pronunciation": "NEP-uh-tiz-um",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "The practice of giving jobs or advantages to relatives or close friends instead of to the most qualified people.",
+    "register": "Formal; usually critical.",
+    "nuance": "Nepotism is about favoring family. Favoring friends is more often called cronyism. Both undermine fairness by replacing merit with connections.",
+    "synonyms": [
+      { "word": "favoritism", "distinction": "Unfair preference, not limited to relatives." },
+      { "word": "cronyism", "distinction": "Favoring friends and associates." },
+      {
+        "word": "patronage",
+        "distinction": "Giving jobs or favors in return for political support."
+      },
+      { "word": "clientelism", "distinction": "A system of exchanging favors for loyalty." }
+    ],
+    "antonyms": ["meritocracy"],
+    "examples": [
+      {
+        "text": "People suspected nepotism when the owner's nephew was promoted over three veterans.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Nepotism has long shaped dynasties: titles, offices and estates passed to the nearest family member.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From French népotisme, from Italian nepotismo, from nepote (nephew), which comes from Latin nepos (grandson, nephew). The word began with popes and other church officials who gave powerful positions to their nephews.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/nepotism",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/nepotism",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is nepotistic. It is common in discussions of hiring, politics and family businesses.",
+    "memoryHook": "Nepos is Latin for nephew (and grandson). Nepotism began as popes favoring their nephews.",
+    "practice": { "prompt": "Describe a policy that would reduce nepotism in hiring." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/nepotism",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "bureaucracy",
+    "pos": ["noun"],
+    "pronunciation": "byoo-ROK-ruh-see",
+    "topic": "social concepts",
+    "difficulty": 2,
+    "definition": "A system of administration run by officials following strict rules and procedures; often, the red tape and delays that come with it.",
+    "register": "Neutral to critical.",
+    "nuance": "Bureaucracy is not only an insult. It is also how large organizations keep fairness and consistency by following rules. But it often suggests slowness and paperwork.",
+    "synonyms": [
+      { "word": "red tape", "distinction": "Excessive formality and paperwork, clearly negative." },
+      { "word": "administration", "distinction": "The neutral term for managing an organization." },
+      { "word": "officialdom", "distinction": "Officials as a group; mildly mocking." },
+      { "word": "paperwork", "distinction": "The forms and documents themselves." }
+    ],
+    "antonyms": ["informality", "improvisation"],
+    "examples": [
+      {
+        "text": "Getting the permit took weeks of bureaucracy and three different offices.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The sociologist argued that bureaucracy, for all its faults, protects people from arbitrary decisions.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From French bureaucratie, built from bureau (desk, office) and Greek -kratia (rule, power). Bureau first meant a coarse cloth that covered a writing desk, then the desk, and then the office where officials worked. The word means rule by the office.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/bureaucracy",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/bureaucracy",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is bureaucratic and a bureaucrat is an official. Both words usually carry a mildly negative tone.",
+    "memoryHook": "Bureau began as a desk cloth. Bureaucracy is rule from behind the desk.",
+    "practice": { "prompt": "Describe a time bureaucracy helped you, not just delayed you." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/bureaucracy",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "petrichor",
+    "pos": ["noun"],
+    "pronunciation": "PET-rih-kor",
+    "topic": "words with a story",
+    "difficulty": 3,
+    "definition": "The pleasant, earthy smell that rises from dry ground when the first rain falls.",
+    "register": "Literary and scientific; a delightful coinage.",
+    "nuance": "Petrichor is a single word for a smell everyone knows. It comes from oils released by plants and from compounds in soil that rain stirs up.",
+    "synonyms": [
+      {
+        "word": "smell of rain",
+        "distinction": "The everyday phrase; no single common word exists."
+      },
+      { "word": "earthiness", "distinction": "A general quality of smelling of soil." },
+      {
+        "word": "geosmin",
+        "distinction": "A specific chemical made by soil microbes that gives the earthy note."
+      },
+      { "word": "fragrance", "distinction": "A pleasant scent in general." }
+    ],
+    "antonyms": [],
+    "examples": [
+      {
+        "text": "After weeks without rain, the petrichor filled the street and everyone stepped outside.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Petrichor rose from the cracked fields, the smell of relief itself.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "Coined in the 1960s by two Australian scientists, Isabel Joy Bear and Richard Thomas, in a scientific paper. They built it from Greek petra (stone) and ichor, the fluid that in Greek myth flows in the veins of the gods.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/petrichor",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/petrichor",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Used in nature writing and poetry. It is a rare example of a word created by scientists for something that everyone has smelled.",
+    "memoryHook": "Petra is stone, as in petrify and Peter. Ichor is the blood of the gods. Petrichor is the stone's divine blood after rain.",
+    "practice": { "prompt": "Describe the smell of the first rain where you grew up." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/petrichor",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "halcyon",
+    "pos": ["adjective"],
+    "pronunciation": "HAL-see-un",
+    "topic": "words with a story",
+    "difficulty": 3,
+    "definition": "Peaceful and happy, especially in memories of a time that seems calmer and better than the present.",
+    "register": "Literary; often nostalgic.",
+    "nuance": "Halcyon days are a golden, tranquil period, usually past. The word often carries a hint of nostalgia, a sense that the calm may have been idealized.",
+    "synonyms": [
+      {
+        "word": "idyllic",
+        "distinction": "Perfectly peaceful and charming, like a pastoral scene."
+      },
+      { "word": "tranquil", "distinction": "Calm and undisturbed." },
+      { "word": "golden", "distinction": "Prosperous and happy, as in a golden age." },
+      { "word": "serene", "distinction": "Clear, calm and untroubled." }
+    ],
+    "antonyms": ["turbulent", "stormy"],
+    "examples": [
+      { "text": "He looked back on the halcyon summers of his childhood.", "kind": "everyday" },
+      {
+        "text": "Those halcyon years before the storm now seem almost too gentle to be true.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek halkyon, a word for the kingfisher. An ancient legend said that the bird nested on the sea in the calm days around midwinter and soothed the waves, giving rise to the phrase halcyon days for a period of peace.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/halcyon",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/halcyon",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Almost always seen in the phrase halcyon days. As a noun, halcyon also names a kingfisher bird.",
+    "memoryHook": "A calm sea and a kingfisher nesting on it: halcyon days are the peaceful days of the legendary bird.",
+    "practice": { "prompt": "Write about your own halcyon days and what made them so calm." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/halcyon",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "quixotic",
+    "pos": ["adjective"],
+    "pronunciation": "kwik-SOT-ik",
+    "topic": "words with a story",
+    "difficulty": 3,
+    "definition": "Extremely idealistic and impractical, pursuing noble but unrealistic goals.",
+    "register": "Literary and formal; affectionate or gently critical.",
+    "nuance": "Quixotic is more than optimistic: it suggests a romantic, chivalrous commitment to an ideal that the real world will not likely honor. It admires the spirit while doubting the practicality.",
+    "synonyms": [
+      { "word": "idealistic", "distinction": "Guided by ideals; neutral and common." },
+      { "word": "impractical", "distinction": "Not sensible or realistic." },
+      { "word": "romantic", "distinction": "Dreamy and idealized in outlook." },
+      { "word": "starry-eyed", "distinction": "Naively enthusiastic." }
+    ],
+    "antonyms": ["pragmatic", "realistic"],
+    "examples": [
+      {
+        "text": "Her quixotic plan to save the old cinema single-handedly charmed the whole town.",
+        "kind": "everyday"
+      },
+      {
+        "text": "It was a quixotic quest, to translate a thousand poems for readers who might never exist.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Don Quixote, the title hero of the early seventeenth-century Spanish novel by Miguel de Cervantes. Don Quixote is an aging gentleman who reads so many chivalric romances that he sets out as a knight to right wrongs, tilting at windmills he takes for giants. The English adjective was formed from his name.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/quixotic",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/quixotic",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often used for quests, campaigns, hopes and gestures. Quixotism is the noun. The phrase tilting at windmills comes from the same novel.",
+    "memoryHook": "Picture Don Quixote charging at windmills he believes are giants. A quixotic goal is one that tilts at windmills.",
+    "practice": { "prompt": "Describe a quixotic hope you admire even though it may fail." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/quixotic",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "gargantuan",
+    "pos": ["adjective"],
+    "pronunciation": "gar-GAN-choo-un",
+    "topic": "words with a story",
+    "difficulty": 2,
+    "definition": "Enormous; gigantic in size, amount or effort.",
+    "register": "Neutral to literary; vivid and often humorous.",
+    "nuance": "Gargantuan suggests not just large but comically or impressively huge, like a giant. It is often used for appetites, tasks, debts and sandwiches.",
+    "synonyms": [
+      { "word": "gigantic", "distinction": "Very large; the common word." },
+      {
+        "word": "colossal",
+        "distinction": "Enormous, like a colossus, often stressing impressiveness."
+      },
+      { "word": "monumental", "distinction": "Great in importance as well as size." },
+      { "word": "titanic", "distinction": "Of immense power, like the Titans." }
+    ],
+    "antonyms": ["tiny", "minuscule"],
+    "examples": [
+      { "text": "The pizza was gargantuan, big enough for six people.", "kind": "everyday" },
+      {
+        "text": "The team faced a gargantuan task: moving an entire library in a weekend.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Gargantua, the giant king in the sixteenth-century French satires of François Rabelais, famous for his enormous appetite. The English adjective was formed from the character's name.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/gargantuan",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/gargantuan",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common for sizes, appetites and efforts. It is often written with a capital G when referring to the character himself, as in Gargantua.",
+    "memoryHook": "Rabelais's giant Gargantua had a giant appetite. Anything gargantuan is as huge as he was.",
+    "practice": {
+      "prompt": "Describe a gargantuan task you finished, and how you got through it."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/gargantuan",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "mercurial",
+    "pos": ["adjective"],
+    "pronunciation": "mer-KYOOR-ee-ul",
+    "topic": "words with a story",
+    "difficulty": 3,
+    "definition": "Changing mood or mind quickly and unpredictably; lively and quick-witted.",
+    "register": "Literary and formal.",
+    "nuance": "A mercurial person can swing from warm to cold, or from joyful to grim, in moments. The word can be admiring, for a quick and brilliant mind, or critical, for unreliability.",
+    "synonyms": [
+      { "word": "volatile", "distinction": "Quick to change, with a hint of danger." },
+      { "word": "capricious", "distinction": "Changing without a clear reason." },
+      { "word": "temperamental", "distinction": "Moody and prone to outbursts." },
+      { "word": "fickle", "distinction": "Changeable in loyalty or affection." }
+    ],
+    "antonyms": ["steady", "even-tempered"],
+    "examples": [
+      {
+        "text": "Her mercurial moods made her a thrilling but exhausting friend.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The mercurial genius would rewrite the opening five times before breakfast.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Latin mercurialis, meaning of the god Mercury, from Mercurius (Mercury), the Roman messenger god. The planet Mercury moves quickly across the sky, and the liquid metal mercury, or quicksilver, is also named after him. Old astrology and alchemy linked people born under Mercury with a quick, changeable temperament.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/mercurial",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/mercurial",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Typical with temperament, personality, mood and talent. The noun is mercuriality, which is rare.",
+    "memoryHook": "Think of liquid mercury sliding around: it never holds one shape, just like a mercurial mood.",
+    "practice": {
+      "prompt": "Describe someone mercurial you know, and how you handle their moods."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/mercurial",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "quintessence",
+    "pos": ["noun"],
+    "pronunciation": "kwin-TES-ens",
+    "topic": "words with a story",
+    "difficulty": 3,
+    "definition": "The purest, most perfect example or essence of something.",
+    "register": "Formal and literary.",
+    "nuance": "Quintessence is the distilled core of a thing. To call something the quintessence of elegance is to say that it shows elegance in its most concentrated, perfect form.",
+    "synonyms": [
+      {
+        "word": "essence",
+        "distinction": "The basic nature of something; plainer than quintessence."
+      },
+      { "word": "epitome", "distinction": "A perfect example of a type." },
+      { "word": "embodiment", "distinction": "A person or thing that represents an idea." },
+      { "word": "paragon", "distinction": "A model of excellence." }
+    ],
+    "antonyms": ["caricature", "imitation"],
+    "examples": [
+      {
+        "text": "To many travelers, that tiny cafe is the quintessence of Paris.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Her quiet courtesy was the quintessence of old-fashioned hospitality.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Medieval Latin quinta essentia, meaning fifth essence, a translation of a Greek idea. Aristotle and later thinkers described a fifth element, beyond earth, water, air and fire, that formed the heavens. Medieval alchemists tried to extract this pure substance, and the word came to mean the purest essence of anything.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/quintessence",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/quintessence",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is quintessential. It is commonly used in the phrase the quintessential example of something.",
+    "memoryHook": "Quinta is fifth, as in quintet, and essentia is essence. Quintessence is the fifth essence, the pure one beyond the four elements.",
+    "practice": { "prompt": "What is the quintessence of a good Sunday, for you?" },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/quintessence",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "bellwether",
+    "pos": ["noun"],
+    "pronunciation": "BEL-weth-er",
+    "topic": "words with a story",
+    "difficulty": 2,
+    "definition": "Something or someone that indicates the direction a trend is likely to take; the lead of a group.",
+    "register": "Neutral to formal; common in politics and business.",
+    "nuance": "A bellwether is a leading indicator: an election district that predicts national results, or a company whose performance forecasts an industry. It points the way for others.",
+    "synonyms": [
+      {
+        "word": "indicator",
+        "distinction": "Anything that shows the state or direction of something."
+      },
+      { "word": "harbinger", "distinction": "A sign that something is coming." },
+      { "word": "trendsetter", "distinction": "A person who starts a new fashion." },
+      { "word": "barometer", "distinction": "A measure of changing conditions." }
+    ],
+    "antonyms": ["laggard"],
+    "examples": [
+      {
+        "text": "The small town has been a bellwether in every election for fifty years.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Retail sales are a bellwether for how confident people feel about the economy.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Middle English belwether, built from bell and wether, an old word for a castrated male sheep. The bellwether was the sheep that wore a bell and led the flock, so shepherds could follow the herd by sound.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/bellwether",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/bellwether",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Often used as an adjective too: a bellwether state, a bellwether stock. Do not spell it bellweather.",
+    "memoryHook": "A wether is a sheep, and the one with the bell led the flock. A bellwether leads the herd.",
+    "practice": { "prompt": "Name a bellwether in your field, and what it tells you." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/bellwether",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "nemesis",
+    "pos": ["noun"],
+    "pronunciation": "NEM-uh-sis",
+    "topic": "words with a story",
+    "difficulty": 2,
+    "definition": "A long-standing enemy or rival that is hard to defeat; a cause of someone's downfall.",
+    "register": "Literary and general; dramatic.",
+    "nuance": "A nemesis is more than an opponent: it is the one who keeps returning, or the one who seems fated to bring you down. Often it is a rival who matches you closely.",
+    "synonyms": [
+      { "word": "archenemy", "distinction": "The chief enemy." },
+      { "word": "rival", "distinction": "A competitor, not necessarily hostile." },
+      { "word": "adversary", "distinction": "An opponent in a contest or conflict." },
+      { "word": "bane", "distinction": "A cause of ruin or misery." }
+    ],
+    "antonyms": ["ally", "friend"],
+    "examples": [
+      {
+        "text": "Mathematics was always her nemesis, no matter how much she studied.",
+        "kind": "everyday"
+      },
+      {
+        "text": "The detective's nemesis was a thief so careful that he left nothing but a flower.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek Nemesis, the name of the goddess of retribution who punished arrogance and pride, from nemein (to distribute, to allot). The idea is of each person receiving what they are due.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/nemesis",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/nemesis",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The plural is nemeses. It can describe a person, a problem or a habit, and in heroic stories it is the foe that mirrors the hero.",
+    "memoryHook": "Nemein is to allot. Nemesis is the goddess who gives each person what they deserve.",
+    "practice": { "prompt": "Describe your nemesis, serious or silly, and why it always wins." },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/nemesis",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "labyrinth",
+    "pos": ["noun"],
+    "pronunciation": "LAB-uh-rinth",
+    "topic": "words with a story",
+    "difficulty": 2,
+    "definition": "A complicated network of paths or passages in which it is easy to become lost; a maze; or any very complex situation.",
+    "register": "Literary; neutral in general use.",
+    "nuance": "A maze can have many branches and dead ends, while a classical labyrinth had a single winding path to the center. In everyday use, the two words are often swapped, and labyrinth also names a complicated system or situation.",
+    "synonyms": [
+      { "word": "maze", "distinction": "A puzzle of branching paths with dead ends." },
+      { "word": "warren", "distinction": "A crowded network of narrow passages." },
+      { "word": "tangle", "distinction": "A confusing mass of things intertwined." },
+      { "word": "web", "distinction": "An intricate network, as in a web of lies." }
+    ],
+    "antonyms": ["straight line"],
+    "examples": [
+      { "text": "We got lost in the labyrinth of lanes in the old town.", "kind": "everyday" },
+      {
+        "text": "She navigated the labyrinth of rules with a patience that left the officials impressed.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Greek labyrinthos, the name of the maze built for the Minotaur in the Greek myth of Crete. The ultimate origin of the Greek word is unknown and is debated. One suggestion links it to labrys, a word for a double-headed axe associated with Minoan Crete, but this is only a conjecture.",
+      "confidence": "uncertain",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/labyrinth",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/labyrinth",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "The adjective is labyrinthine, meaning intricate and bewildering. It is used for architecture, legal systems and thoughts. The inner ear also contains a structure called the labyrinth.",
+    "memoryHook": "Picture Theseus walking a winding path with a thread. A labyrinth is the Minotaur's maze, and the word is used for anything just as confusing.",
+    "practice": {
+      "prompt": "Describe a labyrinth of forms or rules you had to find your way through."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/labyrinth",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  },
+  {
+    "headword": "juggernaut",
+    "pos": ["noun"],
+    "pronunciation": "JUG-er-nawt",
+    "topic": "words with a story",
+    "difficulty": 2,
+    "definition": "An overwhelming, unstoppable force or institution that crushes whatever is in its path.",
+    "register": "Neutral; journalistic and dramatic.",
+    "nuance": "A juggernaut is not just big but relentless: it keeps going and cannot be easily stopped. It can be used admiringly, for a dominant team, or critically, for a machine of power.",
+    "synonyms": [
+      { "word": "steamroller", "distinction": "Something that flattens opposition, informal." },
+      { "word": "behemoth", "distinction": "Something enormous, not necessarily moving." },
+      { "word": "powerhouse", "distinction": "A strong, energetic person or organization." },
+      { "word": "colossus", "distinction": "A giant presence." }
+    ],
+    "antonyms": ["underdog", "pushover"],
+    "examples": [
+      {
+        "text": "The home team rolled on like a juggernaut, winning twenty games in a row.",
+        "kind": "everyday"
+      },
+      {
+        "text": "Once the corporate juggernaut started moving, no single employee could slow it down.",
+        "kind": "rich"
+      }
+    ],
+    "etymology": {
+      "summary": "From Hindi Jagannath, meaning lord of the world, a title of the Hindu deity worshipped at Puri in eastern India, whose enormous festival chariot is pulled through the streets each year. European travelers described this huge, heavy chariot, and the figurative sense of an overwhelming, unstoppable force grew out of those descriptions.",
+      "confidence": "sourced",
+      "sources": [
+        {
+          "name": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/juggernaut",
+          "license": "Linked, not reproduced"
+        },
+        {
+          "name": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/juggernaut",
+          "license": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    "currentUsage": "Common in sports, business and politics: a political juggernaut, a media juggernaut. In British English a juggernaut can also mean a very large heavy truck.",
+    "memoryHook": "The word began as the name of a lord whose huge chariot rolls through the streets. A juggernaut is something huge that cannot be stopped.",
+    "practice": {
+      "prompt": "Describe a juggernaut you have watched grow, and what could slow it."
+    },
+    "sources": [
+      {
+        "name": "Merriam-Webster",
+        "url": "https://www.merriam-webster.com/dictionary/juggernaut",
+        "license": "Linked, not reproduced"
+      }
+    ]
+  }
+]

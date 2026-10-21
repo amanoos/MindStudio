@@ -108,14 +108,14 @@ See [plan.md](plan.md) for architecture, dependencies and risks. Sizes: S = 1-2 
 
 ## Phase 4: Content and Mind Studio
 
-- [ ] **T18 Word batch 1 (20 words: everyday precision + work/communication)** (S) — deps: T5
+- [x] **T18 Word batch 1 (20 words: everyday precision + work/communication)** (S) — deps: T5
   - Acceptance: 20 words per schema with sources; `content:lint` green; no duplicates against earlier batches.
   - Verify: `npm run content:lint && npm run db:seed`
   - Files: `content/words/batch-01.json`
-- [ ] **T19 Word batch 2 (20: literature, rhetoric, arts)** (S) — deps: T18 — same criteria — `batch-02.json`
-- [ ] **T20 Word batch 3 (20: science, history, philosophy)** (S) — deps: T19 — same criteria — `batch-03.json`
-- [ ] **T21 Word batch 4 (20: social concepts, idioms/phrases, "surprise me" delights)** (S) — deps: T20 — same criteria — `batch-04.json`
-- [ ] **T22 Word batch 5 (remainder to ~100, topic balance report)** (S) — deps: T21 — same criteria plus a topic/difficulty distribution check — `batch-05.json`
+- [x] **T19 Word batch 2 (20: literature, rhetoric, arts)** (S) — deps: T18 — same criteria — `batch-02.json`
+- [x] **T20 Word batch 3 (20: science, history, philosophy)** (S) — deps: T19 — same criteria — `batch-03.json`
+- [x] **T21 Word batch 4 (20: social concepts, idioms/phrases, "surprise me" delights)** (S) — deps: T20 — same criteria — `batch-04.json`
+- [x] **T22 Word batch 5 (remainder to ~100, topic balance report)** (S) — deps: T21 — same criteria plus a topic/difficulty distribution check — `batch-05.json`
 
 - [ ] **T23 Mind Studio shell and Brain Teaser** (M) — deps: T3, T6, T2
   - Acceptance: Studio hub; teaser flow (attempt → reveal reasoning with unfold animation → gentle shake/sparkle feedback); ~20 teasers; one suggested per day on Today.
